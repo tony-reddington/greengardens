@@ -24,7 +24,8 @@
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    {% endblock %}
+        <script src="https://kit.fontawesome.com/8d1b6cd18c.js" crossorigin="anonymous"></script>
+        {% endblock %}
 
     {% block extra_js %}
     {% endblock %}
@@ -32,7 +33,72 @@
     <title>Green Gardens {% block extra_title %} {% endblock %}</title>
   </head>
   <body>
-    <header class="container-fluid fixed-top"></header>
+    <!----------------------------- Navigation bar ----------------------------->
+      <header class="container-fluid fixed-top">
+        <div class="row">
+            <!----------------------------- Site logo ----------------------------->
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-2 text-center text-lg-left">
+                <a href="{% url 'home' %}" class="nav-link main-logo-link">
+                    <h2 class="logo-text main-dark-color my-0 capitalize">Green Gardens</h2>
+                </a>
+            </div>
+            <!----------------------------- Search bar ----------------------------->
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-2">
+                <form method="GET" action=""> <!-------------------------------------------------------------------------------------------------------------Fill in path-->
+                    <div class="input-group w-100">
+                        <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search Products">
+                        <div class="input-group-append">
+                            <button class="form-control btn btn-black border border-black rounded-0" type="submit">
+                                <span class="icon">
+                                    <i class="fas fa-search"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!----------------------------- My account access ----------------------------->
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+                <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+                    <li class="list-inline-item dropdown">
+                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="text-center">
+                                <div><i class="fas fa-user fa-lg"></i></div>
+                                <p class="my-0 main-dark-colour">My Account</p>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                            {% if request.user.is_authenticated %}
+                                {% if request.user.is_superuser %}
+                                    <a href="" class="dropdown-item main-dark-colour">Product Management</a>
+                                {% endif %}
+                                <a href="" class="dropdown-item">My Profile</a>
+                                <a href="{% url 'account_logout' %}" class="dropdown-item main-dark-colour">Logout</a>
+                            {% else %}
+                                <a href="{% url 'account_signup' %}" class="dropdown-item main-dark-colour">Register</a>
+                                <a href="{% url 'account_login' %}" class="dropdown-item main-dark-colour">Login</a>
+                            {% endif %}
+                        </div>
+                    </li>
+                    <!----------------------------- Shopping bag ----------------------------->
+                    <li class="list-inline-item">
+                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href=""><!------------------Fill in path-->
+                            <div class="text-center">
+                                <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+                                <p class="my-0">
+                                    {% if total_to_pay %}
+                                        ${{ total_to_pay|floatformat:2 }}
+                                    {% else %}
+                                        $0.00
+                                    {% endif %}
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
 
     {% if messages %}
       <div class="message-container"></div>
@@ -42,6 +108,9 @@
     {% endblock %}
 
     {% block content %}
+    {% endblock %}
+
+    {% block page_footer %}
     {% endblock %}
 
     {% block postloadjs %}

@@ -45,3 +45,29 @@
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 * [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 * [Python](https://www.python.org/)
+
+### Frameworks/Libraries and Programs used
+1.  [Balsamiq](https://balsamiq.com/)
+    - Balsamic was used to build wireframes for the website pages.
+2.  [Font Awesome](https://fontawesome.com/)
+    - Font awesome was used for the base.html header icons.
+3.  [Google fonts](https://fonts.google.com/)
+    - The Monserrat & Are You Serious fonts that i used are from Google fonts.
+4.  [Istockphoto](https://www.istockphoto.com/)
+    - Istockphoto was used for the main background website image.
+5.  [Octoparse](https://www.octoparse.com/)
+    - Octoparse was used to scrape data from Johnstown Garden Centre to create json database files.
+6.  [Befunky photo editor](https://www.befunky.com/)
+    - Befunky photo editor was used to resize images.
+7.  [Bootstrap](https://getbootstrap.com/)
+    - Bootstrap was used for the recipe cards and to make the website more responsive across different device sizes.
+8.  [Coolers](https://coolors.co/)
+    - Coolers was used to help generate a colour palette for the entire site.
+9. [Favicon](https://favicon.io/)
+    - Favicon.io was used to create the website favicon.
+10. [Bootstrap Menu](https://bootstrap-menu.com/detail-megamenu.html)
+    - Bootstrap Menu was used to help create a mega menu within the header.
+11. [Gitpod](https://gitpod.io/)
+    - Gitpod was used to write the website code.
+12. [GitHub](https://github.com/)
+    - GitHub was used to host the code and website contents.

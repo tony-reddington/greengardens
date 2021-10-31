@@ -37,65 +37,139 @@
   <body>
     <!----------------------------- Navigation bar ----------------------------->
       <header class="container-fluid fixed-top p-0">
-        <!----------------------------- Search bar ----------------------------->
-        <div class="row justify-content-sm-around justify-content-lg-end">
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4 my-auto py-1 py-lg-0">
-                <form method="GET" action=""> <!-------------------------------------------------------------------------------------------------------------Fill in path-->
-                    <div class="input-group w-100">
-                        <input class="form-control border border-white border-1 rounded-0" type="text" name="q" placeholder="Search Products">
-                        <div class="input-group-append">
-                            <button class="form-control btn btn-black border border-white border-1 rounded-0" type="submit">
-                                <span class="icon">
-                                    <i class="fas fa-search header-text-colour"></i>
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <!----------------------------- My account access ----------------------------->
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-end">
-                <ul class="list-inline list-unstyled my-0">
-                    <li class="list-inline-item dropdown">
-                        <a class="text-black nav-link" href="#" id="user-options" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <div class="text-center">
-                                <div><i class="fas fa-user fa-lg header-text-colour"></i></div>
-                                <p class="my-0 header-text-colour">My Account</p>
-                            </div>
-                        </a>
-                        <div class="dropdown-menu border-0" aria-labelledby="user-options">
-                            {% if request.user.is_authenticated %}
+          <nav class="navbar navbar-expand-lg navbar-dark">
+              <div class="container-fluid">
+                  <a class="navbar-brand" href="{% url 'home' %}">
+                      <h1 class="display-5 header-text-colour text-center navbar-brand-text">Green Gardens</h1>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="main_nav">
+                      <ul class="navbar-nav">
+                          <li class="nav-item active"> <a class="nav-link header-text-colour"
+                                  href="{% url 'home' %}">Home </a> </li>
+                          <li class="nav-item dropdown has-megamenu">
+                              <a class="nav-link dropdown-toggle header-text-colour" href="#" data-bs-toggle="dropdown">
+                                  Bulbs & Seeds </a>
+                              <div class="dropdown-menu megamenu main-dark-color" role="menu">
+                                  This is content of megamenu. <br>
+                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                  consequat.
+                              </div>
+                          </li>
+                          <li class="nav-item dropdown has-megamenu">
+                              <a class="nav-link dropdown-toggle header-text-colour" href="#" data-bs-toggle="dropdown">
+                                  Garden Care </a>
+                              <!--------------------Fill in path-->
+                              <div class="dropdown-menu megamenu main-dark-color" role="menu">
+                                  This is content of megamenu. <br>
+                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                  consequat.
+                              </div>
+                          </li>
+                          <li class="nav-item dropdown has-megamenu">
+                              <a class="nav-link dropdown-toggle header-text-colour" href="#" data-bs-toggle="dropdown">
+                                  Plants & Flowers </a>
+                              <!--------------------Fill in path-->
+                              <div class="dropdown-menu megamenu main-dark-color" role="menu">
+                                  This is content of megamenu. <br>
+                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                  consequat.
+                              </div>
+                          </li>
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle header-text-colour" href="#" data-bs-toggle="dropdown">
+                                  Pots & Containers </a>
+                              <!--------------------Fill in path-->
+                              <ul class="dropdown-menu dropdown-menu-end">
+                                  <li><a class="dropdown-item main-dark-color" href="#"> House Pots </a></li>
+                                  <!---------------------------------------------Fill in path-->
+                                  <li><a class="dropdown-item main-dark-color" href="#"> Plant & Pot stands </a></li>
+                                  <!---------------------------------------------Fill in path-->
+                                  <li><a class="dropdown-item main-dark-color" href="#"> Troughs and Balcony Pots </a>
+                                  </li>
+                                  <!---------------------------------------------Fill in path-->
+                              </ul>
+                          </li>
+                          <li class="nav-item"><a class="nav-link header-text-colour" href="#"> Blog </a></li>
+                          <!---------------------------------------------Fill in path-->
+                          <li class="nav-item"><a class="nav-link header-text-colour" href="#"> Events </a></li>
+                          <!---------------------------------------------Fill in path-->
+                      </ul>
+                  </div> <!-- navbar-collapse.// -->
+              </div> <!-- container-fluid.// -->
+          </nav>
+          <!----------------------------- Search bar ----------------------------->
+          <div class="row justify-content-sm-around justify-content-lg-end">
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 my-auto py-1 py-lg-0">
+                  <form method="GET" action="">
+                      <!-------------------------------------------------------------------------------------------------------------Fill in path-->
+                      <div class="input-group w-100">
+                          <input class="form-control border border-white border-1 rounded-0" type="text" name="q"
+                              placeholder="Search Products">
+                          <div class="input-group-append">
+                              <button class="form-control btn btn-black border border-white border-1 rounded-0"
+                                  type="submit">
+                                  <span class="icon">
+                                      <i class="fas fa-search header-text-colour"></i>
+                                  </span>
+                              </button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+              <!----------------------------- My account access ----------------------------->
+              <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-end">
+                  <ul class="list-inline list-unstyled my-0">
+                      <li class="list-inline-item dropdown">
+                          <a class="text-black nav-link" href="#" id="user-options" data-bs-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="false">
+                              <div class="text-center">
+                                  <div><i class="fas fa-user fa-lg header-text-colour"></i></div>
+                                  <p class="my-0 header-text-colour">My Account</p>
+                              </div>
+                          </a>
+                          <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                              {% if request.user.is_authenticated %}
                                 {% if request.user.is_superuser %}
                                     <a href="" class="dropdown-item">Product Management</a>
                                 {% endif %}
                                 <a href="" class="dropdown-item dropdown-toggle">My Profile</a>
                                 <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
-                            {% else %}
-                                <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
-                            {% endif %}
-                        </div>
-                    </li>
-                    <!----------------------------- Shopping bag ----------------------------->
-                    <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href=""><!------------------Fill in path-->
-                            <div class="text-center ">
-                                <div><i class="fas fa-shopping-bag fa-lg header-text-colour"></i></div>
-                                <p class="my-0 header-text-colour">
-                                    {% if grand_total %}
+                              {% else %}
+                                <a href="{% url 'account_signup' %}" class="dropdown-item main-dark-color">Register</a>
+                                <a href="{% url 'account_login' %}" class="dropdown-item main-dark-color">Login</a>
+                              {% endif %}
+                          </div>
+                      </li>
+                      <!----------------------------- Shopping bag ----------------------------->
+                      <li class="list-inline-item">
+                          <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
+                              href="">
+                              <!------------------Fill in path-->
+                              <div class="text-center ">
+                                  <div><i class="fas fa-shopping-bag fa-lg header-text-colour"></i></div>
+                                  <p class="my-0 header-text-colour">
+                                      {% if grand_total %}
                                         ${{ grand_total|floatformat:2 }}
-                                    {% else %}
+                                      {% else %}
                                         $0.00
-                                    {% endif %}
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        
-    </header>
+                                      {% endif %}
+                                  </p>
+                              </div>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </header>
 
     {% if messages %}
       <div class="message-container"></div>

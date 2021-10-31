@@ -1,0 +1,55 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url('/media/homepage-background2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 139px);
+    color: #393D3F;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-dark-color {
+    color: #393D3F !important;
+}
+ 
+.main-green-color {
+    color: #18611E !important;
+}
+
+/* Header/navbar styling */
+header {
+    background-color: #18611E;
+    border-bottom: #ffffff 1px solid;
+}
+
+.header-text-colour {
+    color: #ffffff !important;
+}
+
+..navbar .megamenu {
+    color: #18611E;
+}
+
+.navbar-brand-text {
+    font-family: 'Are You Serious', sans-serif;
+}
+
+
+/* Megamenu styling taken from www.bootstrap-menu.com */
+.navbar .megamenu{ padding: 1rem; }
+
+@media all and (min-width: 992px) {
+
+  .navbar .has-megamenu{position:static!important;}
+  .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+
+}	
+@media(max-width: 991px){
+  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+    overflow-y: auto;
+      max-height: 90vh;
+      margin-top:10px;
+  }
+}

@@ -37,3 +37,11 @@
 * to allow users to update and remove items from their shopping bag.
 * to send users confirmation emails to confirm their orders have been placed.
 * to provide a blog with gardening tips and tricks.
+
+## Technology Used
+
+### Languages used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+* [Python](https://www.python.org/)

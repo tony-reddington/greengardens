@@ -28,6 +28,12 @@ header {
     color: #ffffff !important;
 }
 
+.nav-item:hover,
+.nav-item:active,
+.nav-item:focus {
+    background-color: #C9E3AC;
+}
+
 ..navbar .megamenu {
     color: #18611E;
 }
@@ -56,6 +62,13 @@ nav .megamenu {
 .megamenu li a:focus {
     background: #18611E;
     color: #ffffff !important;
+}
+
+.main-image-text {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    background-color: rgba(24, 97, 30, .5);
 }
 
 

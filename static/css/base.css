@@ -36,6 +36,28 @@ header {
     font-family: 'Are You Serious', sans-serif;
 }
 
+nav .megamenu {
+    background-color: #C9E3AC;
+    border: #18611E 4px solid;
+}
+
+.megamenu .mega-menu-title-text {
+    color: #393D3F;
+    font-weight: bolder;
+}
+
+.megamenu li a {
+    color: #393D3F;
+    text-decoration: none;
+}
+
+.megamenu li a:hover,
+.megamenu li a:active,
+.megamenu li a:focus {
+    background: #18611E;
+    color: #ffffff !important;
+}
+
 
 /* Megamenu styling taken from www.bootstrap-menu.com */
 .navbar .megamenu{ padding: 1rem; }

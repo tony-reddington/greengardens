@@ -1,0 +1,90 @@
+[
+    {
+      "pk": 12,
+      "model": "products.category",
+      "fields": {
+        "name": "veg_bulbs",
+        "friendly_name": "Vegetable Bulbs"
+      }
+    },
+    {
+        "pk": 13,
+        "model": "products.category",
+        "fields": {
+          "name": "veg_seeds",
+          "friendly_name": "Vegetable Seeds"
+        }
+      },
+      {
+        "pk": 14,
+        "model": "products.category",
+        "fields": {
+          "name": "flower_seeds",
+          "friendly_name": "Flower Seeds"
+        }
+      },
+      {
+        "pk": 15,
+        "model": "products.category",
+        "fields": {
+          "name": "spring_flowering_bulbs",
+          "friendly_name": "Spring Flowering Bulbs"
+        }
+      },
+      {
+        "pk": 21,
+        "model": "products.category",
+        "fields": {
+          "name": "compost",
+          "friendly_name": "Compost"
+        }
+      },
+      {
+        "pk": 22,
+        "model": "products.category",
+        "fields": {
+          "name": "garden_care",
+          "friendly_name": "Garden Care"
+        }
+      },
+      {
+        "pk": 23,
+        "model": "products.category",
+        "fields": {
+          "name": "lawn_care",
+          "friendly_name": "Lawn Care"
+        }
+      },
+      {
+        "pk": 31,
+        "model": "products.category",
+        "fields": {
+          "name": "house_plants",
+          "friendly_name": "House Plants"
+        }
+      },
+      {
+        "pk": 32,
+        "model": "products.category",
+        "fields": {
+          "name": "plants_for_purpose",
+          "friendly_name": "Plants for purpose"
+        }
+      },
+      {
+        "pk": 33,
+        "model": "products.category",
+        "fields": {
+          "name": "trees_and_shrubs",
+          "friendly_name": "Trees and Shrubs"
+        }
+      },
+      {
+        "pk": 41,
+        "model": "products.category",
+        "fields": {
+          "name": "pots_and_containers",
+          "friendly_name": "Pots and Containers"
+        }
+      },
+]

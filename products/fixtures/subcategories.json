@@ -1,0 +1,282 @@
+[
+      {
+        "pk": 121,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "garlic_bulbs",
+          "friendly_name": "Garlic Bulbs"
+        }
+      },
+      {
+        "pk": 122,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "onion_bulbs",
+          "friendly_name": "Onion Bulbs"
+        }
+      },
+      {
+        "pk": 131,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "herbs",
+          "friendly_name": "Herbs"
+        }
+      },
+      {
+        "pk": 132,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "peas_and_beans",
+          "friendly_name": "Peas and Beans"
+        }
+      },
+      {
+        "pk": 141,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "wild_flower_seeds",
+          "friendly_name": "Wild Flower Seeds"
+        }
+      },
+      {
+        "pk": 151,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "allium",
+          "friendly_name": "Allium"
+        }
+      },
+      {
+        "pk": 152,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "bees_and_butterflies",
+          "friendly_name": "Bees and Butterflies"
+        }
+      },
+      {
+        "pk": 153,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "crocus",
+          "friendly_name": "Crocus"
+        }
+      },
+      {
+        "pk": 154,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "daffodil",
+          "friendly_name": "Daffodil"
+        }
+      },
+      {
+        "pk": 155,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "muscari",
+          "friendly_name": "Muscari"
+        }
+      },
+      {
+        "pk": 156,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "tulip",
+          "friendly_name": "Tulip"
+        }
+      },
+      {
+        "pk": 211,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "decorative_bark",
+          "friendly_name": "Decorative Bark"
+        }
+      },
+      {
+        "pk": 212,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "house_plant_compost",
+          "friendly_name": "House Plant Compost"
+        }
+      },
+      {
+        "pk": 213,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "potting_compost",
+          "friendly_name": "Potting Compost"
+        }
+      },
+      {
+        "pk": 221,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "plant_feed",
+          "friendly_name": "Plant Feed"
+        }
+      },
+      {
+        "pk": 222,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "slug_and_snail_control",
+          "friendly_name": "Slug and Snail control"
+        }
+      },
+      {
+        "pk": 223,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "weed_control",
+          "friendly_name": "Weed Control"
+        }
+      },
+      {
+        "pk": 231,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "lawn_feed",
+          "friendly_name": "Lawn Feed"
+        }
+      },
+      {
+        "pk": 232,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "lawn_tools",
+          "friendly_name": "Lawn Tools"
+        }
+      },
+      {
+        "pk": 311,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "cacti_and_succulents",
+          "friendly_name": "Cacti and Succulents"
+        }
+      },
+      {
+        "pk": 312,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "conservatory_plants",
+          "friendly_name": "Conservatory Plants"
+        }
+      },
+      {
+        "pk": 313,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "indoor_flowering_plants",
+          "friendly_name": "Indoor Flowering Plants"
+        }
+      },
+      {
+        "pk": 314,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "office_plants",
+          "friendly_name": "Office Plants"
+        }
+      },
+      {
+        "pk": 314,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "office_plants",
+          "friendly_name": "Office Plants"
+        }
+      },
+      {
+        "pk": 321,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "fragrant_plants",
+          "friendly_name": "Fragrant Plants"
+        }
+      },
+      {
+        "pk": 322,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "plants_for_autumn",
+          "friendly_name": "Plants for Autumn"
+        }
+      },
+      {
+        "pk": 323,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "plants_for_spring",
+          "friendly_name": "Plants for Spring"
+        }
+      },
+      {
+        "pk": 324,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "plants_for_summer",
+          "friendly_name": "Plants for Summer"
+        }
+      },
+      {
+        "pk": 325,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "plants_for_shade",
+          "friendly_name": "Plants for Shade"
+        }
+      },
+      {
+        "pk": 331,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "bamboo_plants",
+          "friendly_name": "Bamboo Plants"
+        }
+      },
+      {
+        "pk": 332,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "climbing_plants",
+          "friendly_name": "Climbing plants"
+        }
+      },
+      {
+        "pk": 333,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "trees",
+          "friendly_name": "Trees"
+        }
+      },
+      {
+        "pk": 411,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "house_pots",
+          "friendly_name": "House Pots"
+        }
+      },
+      {
+        "pk": 412,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "plant_and_pot_stands",
+          "friendly_name": "Plant and Pot Stands"
+        }
+      },
+      {
+        "pk": 414,
+        "model": "products.subcategory",
+        "fields": {
+          "name": "troughs_and_balcony_pots",
+          "friendly_name": "Troughs and Balcony Pots"
+        }
+      }
+]

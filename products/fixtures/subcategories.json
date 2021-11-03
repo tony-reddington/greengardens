@@ -4,7 +4,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "garlic_bulbs",
-          "friendly_name": "Garlic Bulbs"
+          "friendly_name": "Garlic Bulbs",
+          "category": 12
         }
       },
       {
@@ -12,7 +13,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "onion_bulbs",
-          "friendly_name": "Onion Bulbs"
+          "friendly_name": "Onion Bulbs",
+          "category": 12
         }
       },
       {
@@ -20,7 +22,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "herbs",
-          "friendly_name": "Herbs"
+          "friendly_name": "Herbs",
+          "category": 13
         }
       },
       {
@@ -28,7 +31,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "peas_and_beans",
-          "friendly_name": "Peas and Beans"
+          "friendly_name": "Peas and Beans",
+          "category": 13
         }
       },
       {
@@ -36,7 +40,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "wild_flower_seeds",
-          "friendly_name": "Wild Flower Seeds"
+          "friendly_name": "Wild Flower Seeds",
+          "category": 14
         }
       },
       {
@@ -44,7 +49,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "allium",
-          "friendly_name": "Allium"
+          "friendly_name": "Allium",
+          "category": 15
         }
       },
       {
@@ -52,7 +58,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "bees_and_butterflies",
-          "friendly_name": "Bees and Butterflies"
+          "friendly_name": "Bees and Butterflies",
+          "category": 15
         }
       },
       {
@@ -60,7 +67,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "crocus",
-          "friendly_name": "Crocus"
+          "friendly_name": "Crocus",
+          "category": 15
         }
       },
       {
@@ -68,7 +76,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "daffodil",
-          "friendly_name": "Daffodil"
+          "friendly_name": "Daffodil",
+          "category": 15
         }
       },
       {
@@ -76,7 +85,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "muscari",
-          "friendly_name": "Muscari"
+          "friendly_name": "Muscari",
+          "category": 15
         }
       },
       {
@@ -84,7 +94,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "tulip",
-          "friendly_name": "Tulip"
+          "friendly_name": "Tulip",
+          "category": 15
         }
       },
       {
@@ -92,7 +103,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "decorative_bark",
-          "friendly_name": "Decorative Bark"
+          "friendly_name": "Decorative Bark",
+          "category": 21
         }
       },
       {
@@ -100,7 +112,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "house_plant_compost",
-          "friendly_name": "House Plant Compost"
+          "friendly_name": "House Plant Compost",
+          "category": 21
         }
       },
       {
@@ -108,7 +121,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "potting_compost",
-          "friendly_name": "Potting Compost"
+          "friendly_name": "Potting Compost",
+          "category": 21
         }
       },
       {
@@ -116,7 +130,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "plant_feed",
-          "friendly_name": "Plant Feed"
+          "friendly_name": "Plant Feed",
+          "category": 21
         }
       },
       {
@@ -124,7 +139,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "slug_and_snail_control",
-          "friendly_name": "Slug and Snail control"
+          "friendly_name": "Slug and Snail control",
+          "category": 22
         }
       },
       {
@@ -132,7 +148,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "weed_control",
-          "friendly_name": "Weed Control"
+          "friendly_name": "Weed Control",
+          "category": 23
         }
       },
       {
@@ -140,7 +157,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "lawn_feed",
-          "friendly_name": "Lawn Feed"
+          "friendly_name": "Lawn Feed",
+          "category": 23
         }
       },
       {
@@ -148,7 +166,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "lawn_tools",
-          "friendly_name": "Lawn Tools"
+          "friendly_name": "Lawn Tools",
+          "category": 23
         }
       },
       {
@@ -156,7 +175,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "cacti_and_succulents",
-          "friendly_name": "Cacti and Succulents"
+          "friendly_name": "Cacti and Succulents",
+          "category": 31
         }
       },
       {
@@ -164,7 +184,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "conservatory_plants",
-          "friendly_name": "Conservatory Plants"
+          "friendly_name": "Conservatory Plants",
+          "category": 31
         }
       },
       {
@@ -172,7 +193,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "indoor_flowering_plants",
-          "friendly_name": "Indoor Flowering Plants"
+          "friendly_name": "Indoor Flowering Plants",
+          "category": 31
         }
       },
       {
@@ -180,15 +202,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "office_plants",
-          "friendly_name": "Office Plants"
-        }
-      },
-      {
-        "pk": 314,
-        "model": "products.subcategory",
-        "fields": {
-          "name": "office_plants",
-          "friendly_name": "Office Plants"
+          "friendly_name": "Office Plants",
+          "category": 31
         }
       },
       {
@@ -196,7 +211,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "fragrant_plants",
-          "friendly_name": "Fragrant Plants"
+          "friendly_name": "Fragrant Plants",
+          "category": 32
         }
       },
       {
@@ -204,7 +220,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "plants_for_autumn",
-          "friendly_name": "Plants for Autumn"
+          "friendly_name": "Plants for Autumn",
+          "category": 32
         }
       },
       {
@@ -212,7 +229,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "plants_for_spring",
-          "friendly_name": "Plants for Spring"
+          "friendly_name": "Plants for Spring",
+          "category": 32
         }
       },
       {
@@ -220,7 +238,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "plants_for_summer",
-          "friendly_name": "Plants for Summer"
+          "friendly_name": "Plants for Summer",
+          "category": 32
         }
       },
       {
@@ -228,7 +247,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "plants_for_shade",
-          "friendly_name": "Plants for Shade"
+          "friendly_name": "Plants for Shade",
+          "category": 32
         }
       },
       {
@@ -236,7 +256,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "bamboo_plants",
-          "friendly_name": "Bamboo Plants"
+          "friendly_name": "Bamboo Plants",
+          "category": 33
         }
       },
       {
@@ -244,7 +265,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "climbing_plants",
-          "friendly_name": "Climbing plants"
+          "friendly_name": "Climbing plants",
+          "category": 33
         }
       },
       {
@@ -252,7 +274,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "trees",
-          "friendly_name": "Trees"
+          "friendly_name": "Trees",
+          "category": 33
         }
       },
       {
@@ -260,7 +283,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "house_pots",
-          "friendly_name": "House Pots"
+          "friendly_name": "House Pots",
+          "category": 41
         }
       },
       {
@@ -268,7 +292,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "plant_and_pot_stands",
-          "friendly_name": "Plant and Pot Stands"
+          "friendly_name": "Plant and Pot Stands",
+          "category": 41
         }
       },
       {
@@ -276,7 +301,8 @@
         "model": "products.subcategory",
         "fields": {
           "name": "troughs_and_balcony_pots",
-          "friendly_name": "Troughs and Balcony Pots"
+          "friendly_name": "Troughs and Balcony Pots",
+          "category": 41
         }
       }
 ]

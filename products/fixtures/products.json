@@ -8,7 +8,7 @@
       "details": "Yields very large bulbs. Mild flavour, excellent for roasting or in salads.This pack contains 2 cloves.",
       "image": "garlic-01.jpg",
       "category": 12,
-      "subcategory": 121
+      "sub": 121
     }
   },
   {
@@ -21,7 +21,7 @@
       "details": "RHS Award winner. Mild flavour. Violet cloves. Soft neck. ",
       "image": "garlic-02.jpg",
       "category": 12,
-      "subcategory": 121
+      "sub": 121
     }
   },
   {
@@ -34,7 +34,7 @@
       "details": "Medium flavour. Early and high yielding. Pure white. Soft neck. ",
       "image": "garlic-03.jpg",
       "category": 12,
-      "subcategory": 121
+      "sub": 121
     }
   },
   {
@@ -47,7 +47,7 @@
       "details": "Soft neck variety. White bulb with cream coloured cloves. Stores well and is ideal for early harvestingBulbs per pack: 2",
       "image": "garlic-04.jpg",
       "category": 12,
-      "subcategory": 121
+      "sub": 121
     }
   },
   {
@@ -60,7 +60,7 @@
       "details": "Early harvesting. Dark yellow skin, stores well, fairly mild flavour.Planting Time: Autumn Onwards",
       "image": "onion-01.jpg",
       "category": 12,
-      "subcategory": 122
+      "sub": 122
     }
   },
   {
@@ -73,7 +73,7 @@
       "details": "Red overwintering onion set - Early havesting red with excellent flavour. Produces a symmetrical, semi globe shaped bulb..Planting Time: Autumn Onwards",
       "image": "onion-02.jpg",
       "category": 12,
-      "subcategory": 122
+      "sub": 122
     }
   },
   {
@@ -86,7 +86,7 @@
       "details": "Improved Japanese variety - good for early planting, harvest from late May to early June. Resistant to bolting mild tasting. They store well until spring. Plant in autumn.",
       "image": "onion-03.jpg",
       "category": 12,
-      "subcategory": 122
+      "sub": 122
     }
   },
   {
@@ -99,7 +99,7 @@
       "details": "A fantastic Italian basil with an intense flavour that produces high yields of great tasting leaves. This basil is perfect for adding to salads or cooking. The seed has been pelleted to make it easier to sow, with an average 5 seeds contained in each pellet, making them perfect to plant in pots or containers on the windowsill.",
       "image": "herb-01.jpg",
       "category": 13,
-      "sub=category": 131
+      "sub": 131
     }
   },
   {
@@ -112,7 +112,7 @@
       "details": "A must in so many Mediterranian dishes, this large-leaved variety is superb with pasta, salads and a host of chicken dishes. It thrives in a warm, sheltered spot.",
       "image": "herb-02.jpg",
       "category": 13,
-      "sub=category": 131
+      "sub": 131
     }
   },
   {
@@ -125,7 +125,7 @@
       "details": "Four basils in one packet - Genovese, small leaved lemon basil, dark leaved Opal and purple green Ararat - make this a must for lovers of Mediterranean food. All are warmly aromatic and look so attractive.",
       "image": "herb-03.jpg",
       "category": 13,
-      "sub=category": 131
+      "sub": 131
     }
   },
   {
@@ -138,7 +138,7 @@
       "details": "A must in so much Southern European cookery, the flavour complements chicken and tomato dishes, and is also great with eggs. Superb in salads too! Give it a warm, sunny sheltered spot for best results.",
       "image": "herb-04.jpg",
       "category": 13,
-      "sub=category": 131
+      "sub": 131
     }
   },
   {
@@ -151,7 +151,7 @@
       "details": "For an amazingly easy to grow herb with pretty flowers and a variety of uses, choose Borage. It germinates easily and quickly forms large flowering plants with azure blue, star-shaped flowers all summer. The bees love it. You can use the young leaves in salads; they have an interesting detailsure and taste like cucumber, or add the flowers to summer drinks and salads for a stunning colour sensation. Fabulous.",
       "image": "herb-05.jpg",
       "category": 13,
-      "sub=category": 131
+      "sub": 131
     }
   },
   {
@@ -164,7 +164,7 @@
       "details": "Sometimes called the gourmet parsley, Chervil has a sweet, subtle flavour with a hint of aniseed. It is easy to grow and can sown from January to December for growing in a herb garden or in pots and containers. Grow autumn sown seed in a cool greenhouse for continuous winter picking. Delicate and tasty.",
       "image": "herb-06.jpg",
       "category": 13,
-      "sub=category": 131
+      "sub": 131
     }
   },
   {
@@ -177,7 +177,7 @@
       "details": "Also known as Chinese chives, the flat leaves when chopped, and white flower buds, are good in salads, stir fries and with cream cheese, where they will impart a mild garlic flavour.",
       "image": "herb-07.jpg",
       "category": 13,
-      "sub=category": 131
+      "sub": 131
     }
   },
   {
@@ -190,7 +190,7 @@
       "details": "If you want a very hardy parsley then this is the one to try. Robust is a very vigorous parsley which produces high yields of tight curled leaves. Great with fish or added to sauces, soups, stews or just used to garnish a side dish.",
       "image": "herb-08.jpg",
       "category": 13,
-      "sub=category": 131
+      "sub": 131
     }
   },
   {
@@ -203,7 +203,7 @@
       "details": "For a fresh, crisp green salad mix, look no further than this delightful combination of complementary flavours. Spicy salad rocket, tasty Greek cress, mild Mizuna, crunchy Tat Soi and crisp Pak Choi make this an easy to grow and very satisfying salad combination. Serve with your favourite salad dressing. Divine.",
       "image": "herb-09.jpg",
       "category": 13,
-      "sub=category": 131
+      "sub": 131
     }
   },
   {
@@ -216,7 +216,7 @@
       "details": "A very hardy longpod variety which is unsurpassed for autumn sowing and early summer cropping. It yields well and produces beans of good quality. Freeze any surplus for future use.",
       "image": "bean-01.jpg",
       "category": 13,
-      "subcategory": 132
+      "sub": 132
     }
   },
   {
@@ -229,7 +229,7 @@
       "details": "Well suited to both spring or autumn sowings, Bunyards takes some beating for all round performance. Expect heavy crops of well filled pods and beans of delicious flavour and detailsure. Excellent fresh or frozen.",
       "image": "bean-02.jpg",
       "category": 13,
-      "subcategory": 132
+      "sub": 132
     }
   },
   {
@@ -242,7 +242,7 @@
       "details": "An early variety which produces a heavy crop of well filled pods. The attractive green beans when picked young, have a lovely flavour and freeze well for future use.",
       "image": "bean-03.jpg",
       "category": 13,
-      "subcategory": 132
+      "sub": 132
     }
   },
   {
@@ -255,7 +255,7 @@
       "details": "If you are after something special, this is the broad bean to choose. The chestnut crimson beans retain their striking colour if lightly steamed rather than boiled, and have a taste we consider to be unequalled. Try it for yourself - it's an absolute treat!",
       "image": "bean-04.jpg",
       "category": 13,
-      "subcategory": 132
+      "sub": 132
     }
   },
   {
@@ -268,7 +268,7 @@
       "details": "A blend of some of the most 'scentsational' annuals exuding wafts of rich perfume from a vibrant, colourful mix of blooms. Perfect for creating an oasis of colour and fragrance in the garden.Simply open the box, scatter the seeds where you want them to grow, cover and wait for a spectacular display!",
       "image": "wild-flower-seeds-1.jpg",
       "category": 14,
-      "subcategory": 141
+      "sub": 141
     }
   },
   {
@@ -281,7 +281,7 @@
       "details": "A beautiful flower ideal for attracting beneficial insects into the garden and easy to grow. The vivid blue flower attract bees as well as other insectivorous species and makes an ideal companion plant.",
       "image": "wild-flower-seeds-2.jpg",
       "category": 14,
-      "subcategory": 141
+      "sub": 141
     }
   },
   {
@@ -294,7 +294,7 @@
       "details": "If you love attracting bees, butterflies and finches into the garden, grow this stately plant. After flowering let the finches take the seed from the heads, then take the heads indoors for dried arrangements.",
       "image": "wild-flower-seeds-3.jpg",
       "category": 14,
-      "subcategory": 141
+      "sub": 141
     }
   },
   {
@@ -307,7 +307,7 @@
       "details": "If you want a great pollinator in the garden, then White Clover is certainly the one to grow. A great source of nectar especially for honey bees and other insects, it also adds nitrogen to your soil so is an ideal soil improver.",
       "image": "wild-flower-seeds-4.jpg",
       "category": 14,
-      "subcategory": 141
+      "sub": 141
     }
   },
   {
@@ -320,7 +320,7 @@
       "details": "Nova-Flore Honey Bee Mix is a decorative mix designed to provide food for bees while also having beautiful flowers. The mix is spring sowing and summer flowering and contains 11 different flower types.",
       "image": "wild-flower-seeds-5.jpg",
       "category": 14,
-      "subcategory": 141
+      "sub": 141
     }
   },
   {
@@ -333,7 +333,7 @@
       "details": "A delightful mixture of pink flowering annuals that will add colour and variety to borders. The wide range of varieties includes favourites such as cosmos, echium, nigella and zinnia, which have been selected to flower gradually over the summer months to give your flower displays and ever changing appearance.Just shake and sow. The easiest way to create a sunny flower border in your garden! Simply open the box, scatter the seeds where you want them to grow, cover and wait for a spectacular display!",
       "image": "wild-flower-seeds-6.jpg",
       "category": 14,
-      "subcategory": 141
+      "sub": 141
     }
   },
   {
@@ -346,7 +346,7 @@
       "details": "Alliums are versatile plants that work well in just about any planting scheme. Pair them with grasses in your cottage garden for a loose, romantic feel during summer time. There are a huge variety of alliums to choose from; ranging in colour, height and size of bloom.They prefer to be grown in the sheltered semi shaded areas of the garden in a well-drained, fertile soil.",
       "image": "allium-bulbs-1.jpg",
       "category": 15,
-      "subcategory": 151
+      "sub": 151
     }
   },
   {
@@ -359,7 +359,7 @@
       "details": "Ideal for borders & good for cut flowers. Alliums will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade. Valuable for planting in groups in borders or for naturalising (flowering for year after year). Excellent, long lasting cut flower. Plant taller varieties to the rear of borders. Flowers can be used for dried arrangements.Colour: Mixed Planting Time: August Onwards Flowering Time: May/JuneFlowering Height: 60-90cm/24-36 inches",
       "image": "allium-bulbs-2.jpg",
       "category": 15,
-      "subcategory": 151
+      "sub": 151
     }
   },
   {
@@ -372,7 +372,7 @@
       "details": "Alliums are versatile plants that work well in just about any planting scheme. Pair them with grasses in your cottage garden for a loose, romantic feel during summer time. There are a huge variety of alliums to choose from; ranging in colour, height and size of bloom. They prefer to be grown in the sheltered semi shaded areas of the garden in a well-drained, fertile soil.",
       "image": "allium-bulbs-3.jpg",
       "category": 15,
-      "subcategory": 151
+      "sub": 151
     }
   },
   {
@@ -385,7 +385,7 @@
       "details": "Alliums are versatile plants that work well in just about any planting scheme. Pair them with grasses in your cottage garden for a loose, romantic feel during summer time. There are a huge variety of alliums to choose from; ranging in colour, height and size of bloom. They prefer to be grown in the sheltered semi shaded areas of the garden in a well-drained, fertile soil.",
       "image": "allium-bulbs-4.jpg",
       "category": 15,
-      "subcategory": 151
+      "sub": 151
     }
   },
   {
@@ -398,7 +398,7 @@
       "details": "Dense purple flowers. Bee friendly.Alliums will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade.Valuable for planting in groups in borders or for naturalising (flowering for year after year). Excellent, long lasting cut flower.Plant taller varieties to the rear of borders. Flowers can be used for dried arrangements. Colour: PurplePlanting Time: August Onwards Flowering Time: May/JuneFlowering Height: 125cm/50 inches",
       "image": "allium-bulbs-5.jpg",
       "category": 15,
-      "subcategory": 151
+      "sub": 151
     }
   },
   {
@@ -411,7 +411,7 @@
       "details": "Alliums are versatile plants that work well in just about any planting scheme. Pair them with grasses in your cottage garden for a loose, romantic feel during summer time. There are a huge variety of alliums to choose from; ranging in colour, height and size of bloom. They prefer to be grown in the sheltered semi shaded areas of the garden in a well-drained, fertile soil.",
       "image": "allium-bulbs-6.jpg",
       "category": 15,
-      "subcategory": 151
+      "sub": 151
     }
   },
   {
@@ -424,7 +424,7 @@
       "details": "Allium Magic - Metallic Violet with Green Sprinkles",
       "image": "allium-bulbs-7.jpg",
       "category": 15,
-      "subcategory": 151
+      "sub": 151
     }
   },
   {
@@ -437,7 +437,7 @@
       "details": "Tall white flowers. Bee friendly.Alliums will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade.Valuable for planting in groups in borders or for naturalising (flowering for year after year). Excellent, long lasting cut flower.Plant taller varieties to the rear of borders. Flowers can be used for dried arrangements.Colour: WhitePlanting Time: August OnwardsFlowering Time: May/JuneFlowering Height: 120cm/48 inches",
       "image": "allium-bulbs-8.jpg",
       "category": 15,
-      "subcategory": 151
+      "sub": 151
     }
   },
   {
@@ -450,7 +450,7 @@
       "details": "Alliums are versatile plants that work well in just about any planting scheme. Pair them with grasses in your cottage garden for a loose, romantic feel during summer time. There are a huge variety of alliums to choose from; ranging in colour, height and size of bloom.They prefer to be grown in the sheltered semi shaded areas of the garden in a well-drained, fertile soil.",
       "image": "allium-bulbs-9.jpg",
       "category": 15,
-      "subcategory": 151
+      "sub": 151
     }
   },
   {
@@ -463,7 +463,7 @@
       "details": "Alliums are versatile plants that work well in just about any planting scheme. Pair them with grasses in your cottage garden for a loose, romantic feel during summer time. There are a huge variety of alliums to choose from; ranging in colour, height and size of bloom.They prefer to be grown in the sheltered semi shaded areas of the garden in a well-drained, fertile soil.",
       "image": "allium-bulbs-10.jpg",
       "category": 15,
-      "subcategory": 151
+      "sub": 151
     }
   },
   {
@@ -476,7 +476,7 @@
       "details": "Tall white flowers. Bee friendly.Alliums will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade.Valuable for planting in groups in borders or for naturalising (flowering for year after year). Excellent, long lasting cut flower.Plant taller varieties to the rear of borders. Flowers can be used for dried arrangements.Colour: WhitePlanting Time: August OnwardsFlowering Time: May/JuneFlowering Height: 120cm/48 inches",
       "image": "bees-and-butterflies-0.jpg",
       "category": 15,
-      "subcategory": 152
+      "sub": 152
     }
   },
   {
@@ -489,7 +489,7 @@
       "details": "Five stunning tulip varieties that are ideal for attracting Bees and Butterflies to your garden. Flowering from March to May to provide a blaze of colour to your garden.Cultivate soils to a depth of 15-20cms and plant tulips 15cms deep and 10cms apart. They look best when planted in groups of 10 or more. When planting in containers the planting depth can be reduced to 10cms and planting distance to 5cms if required. Plant in soils that are free draining and in heavier soils such as clay, add grit or well-rotted humus matter to help with drainage. In",
       "image": "bees-and-butterflies-1.jpg",
       "category": 15,
-      "subcategory": 152
+      "sub": 152
     }
   },
   {
@@ -502,7 +502,7 @@
       "details": "This stunning selection of varieties will provide an explosion of colour in your spring garden. These individually packed varieties are selected because they are ideal for attracting Bees and Butterflies to your garden.Cultivate soils to a depth of 15-20cms and plant tulips and Narcissi 15cms deep and 10cms apart. They look best when planted in groups of 10 or more. When planting in containers the planting depth can be reduced to 10cms and planting distance to 5cms if required. Plant in soils that are free draining and in heavier soils such as clay, add grit or well-rotted humus matter to help with drainage. In",
       "image": "bees-and-butterflies-2.jpg",
       "category": 15,
-      "subcategory": 152
+      "sub": 152
     }
   },
   {
@@ -515,7 +515,7 @@
       "details": "These yellow and maroon shades of tulips and narcissi are just superb. Our selection of varieties that are individually packed and ideal for attracting Bees and butterflies to your garden.Cultivate soils to a depth of 15-20cms and plant tulips and Narcissi 15cms deep and 10cms apart. They look best when planted in groups of 10 or more. When planting in containers the planting depth can be reduced to 10cms and planting distance to 5cms if required. Plant in soils that are free draining and in heavier soils such as clay, add grit or well-rotted humus matter to help with drainage. In",
       "image": "bees-and-butterflies-3.jpg",
       "category": 15,
-      "subcategory": 152
+      "sub": 152
     }
   },
   {
@@ -528,7 +528,7 @@
       "details": "Large flowers for naturalising in a variety of colours. Ideal for pollinators. Crocus will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade. Excellent for naturalising (leaving in for flowers year after year). Suitable for rockeries, between shrubs & in any kind of container. When planting, place wire netting just under the soil surface to prevent mice or squirrels eating the corms.Colour: MixedPlanting Time: August OnwardsFlowering Time: March/AprilFlowering Height: 10cm/4 inches",
       "image": "bees-and-butterflies-4.jpg",
       "category": 15,
-      "subcategory": 152
+      "sub": 152
     }
   },
   {
@@ -541,7 +541,7 @@
       "details": "These are few sights more magical in the garden than caching the golden rays of sunshine breaking through into a woodland planting of colourful, shade loving bulbs and perennials.These woodland bulbs return year after year.Planting Time: August OnwardsFlowering Time: February/MarchFlowering Height: 10cm/4 inches",
       "image": "bees-and-butterflies-5.jpg",
       "category": 15,
-      "subcategory": 152
+      "sub": 152
     }
   },
   {
@@ -554,7 +554,7 @@
       "details": "RHS Award winner. Bee friendly. Broad leaves. (Ikariae) Tall Snowdrops. Galanthus (Snowdrops) like a moisture retentive soil and preferably partial shade but will tolerate full sun. Hardy in all areas, ideal for naturalising in lawns, rockeries, borders and containers (flowers year after year). Why not plant a Winter Corner near the house along with Anemone Blanda, Chionodox (Glory of the Snow), Iris Reticulata and Eranthis Hyemalis.Colour: WhitePlanting Time: August OnwardsFlowering Time: February/MarchFlowering Height: 20cm/8 inches",
       "image": "bees-and-butterflies-6.jpg",
       "category": 15,
-      "subcategory": 152
+      "sub": 152
     }
   },
   {
@@ -567,7 +567,7 @@
       "details": "Fragrant burgundy flowers. Bedding hyacinths will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade. Suitable for beds, borders & containers. The fragrant flowers are perfect for planting near doors, windows or pathways. Hyacinths bulbs can cause a skin irritation. Please use gloves or wash hands after handling.Colour: RedPlanting Time: August OnwardsFlowering Time: March/AprilFlowering Height: 25cm/10 inches",
       "image": "bees-and-butterflies-7.jpg",
       "category": 15,
-      "subcategory": 152
+      "sub": 152
     }
   },
   {
@@ -580,7 +580,7 @@
       "details": "Perfect Combinations - Allium Large Ball Blend",
       "image": "bees-and-butterflies-8.jpg",
       "category": 15,
-      "subcategory": 152
+      "sub": 152
     }
   },
   {
@@ -593,7 +593,7 @@
       "details": "A white early flowering crocus that is ideal for attracting pollinators into the garden. Crocus will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade. Excellent for naturalising (leaving in for flowers year after year). Suitable for rockeries, between shrubs and in any kind of container. When planting, place wire netting just under the soil surface to prevent mice of squirrels eating the corms.Colour: WhitePlanting Time: July OnwardsFlowering Time: February/MarchFlowering Height: 8cm/3 inches",
       "image": "crocus-01.jpg",
       "category": 15,
-      "subcategory": 153
+      "sub": 153
     }
   },
   {
@@ -606,7 +606,7 @@
       "details": "Ideal for naturalising. Bee friendly. Crocus will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade. Excellent for naturalising (leaving in for flowers year after year). Suitable for rockeries, between shrubs and in any kind of container. When planting, place wire netting just under the soil surface to prevent mice or squirrels eating the corms.Colour: BluePlanting Time: July OnwardsFlowering Time: March/ApriFlowering Height: 10cm/4 inches",
       "image": "crocus-02.jpg",
       "category": 15,
-      "subcategory": 153
+      "sub": 153
     }
   },
   {
@@ -619,7 +619,7 @@
       "details": "RHS Award winner. Fragrant. Bee friendly. Light blue. Crocus will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade. Excellent for naturalising (leaving in for flowers year after year). Suitable for rockeries, between shrubs & in any kind of container. When planting, place wire netting just under the soil surface to prevent mice of squirrels eating the corms.Colour: BluePlanting Time: July OnwardsFlowering Time: February/MarchFlowering Height: 8cm/3 inches",
       "image": "crocus-03.jpg",
       "category": 15,
-      "subcategory": 153
+      "sub": 153
     }
   },
   {
@@ -632,7 +632,7 @@
       "details": "Outdoor fragrance. Cream flowers. Ideal for pollinators. Crocus will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade. Excellent for naturalising (leaving in for flowers year after year). Suitable for rockeries, between shrubs & in any kind of container. When planting, place wire netting just under the soil surface to prevent mice or squirrels eating the corms.Colour: CreamPlanting Time: August OnwardsFlowering Time: February/MarchFlowering Height: 8cm/3 inches",
       "image": "crocus-04.jpg",
       "category": 15,
-      "subcategory": 153
+      "sub": 153
     }
   },
   {
@@ -645,7 +645,7 @@
       "details": "Pale lilac flowers with yellow centres, Fragrant. Bee Friendly. Crocus will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade. Excellent for naturalising (leaving in for flowers year after year). Suitable for rockeries, between shrubs & in any kind of container. When planting, place wire netting just under the soil surface to prevent mice of squirrels eating the corms.Colour: LilacPlanting Time: July OnwardsFlowering Time: February/MarchFlowering Height: 8cm/3 inches",
       "image": "crocus-05.jpg",
       "category": 15,
-      "subcategory": 153
+      "sub": 153
     }
   },
   {
@@ -658,7 +658,7 @@
       "details": "Cream/yellow flowers with bronze stripes. Early flowering. Bee friendly. Crocus will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade. Excellent for naturalising (leaving in for flowers year after year). Suitable for rockeries, between shrubs & in any kind of container. When planting, place wire netting just under the soil surface to prevent mice of squirrels eating the corms.Colour: CreamPlanting Time: July OnwardsFlowering Time: February/MarchFlowering Height: 10cm/4 inches",
       "image": "crocus-06.jpg",
       "category": 15,
-      "subcategory": 153
+      "sub": 153
     }
   },
   {
@@ -671,7 +671,7 @@
       "details": "Mixed colours for naturalising. Daffodils like well-drained but moist, humus rich soil in sun or partial shade. Avoid very dry areas such as under conifers. Plant them informally in groups in beds & borders, under deciduous shrubs & trees or in lawns & outdoor containers. Allow the foliage to die naturally as early removal can cause the bulb not to flower in the following year.Colour: MixedPlanting Time: August OnwardsFlowering Time: March/AprilFlowering Height: 40cm/16 inches",
       "image": "daffodil-01.jpg",
       "category": 15,
-      "subcategory": 154
+      "sub": 154
     }
   },
   {
@@ -684,7 +684,7 @@
       "details": "Garden Container Pack - Narcissus & Muscari",
       "image": "daffodil-02.jpg",
       "category": 15,
-      "subcategory": 154
+      "sub": 154
     }
   },
   {
@@ -697,7 +697,7 @@
       "details": "Garden Container Pack - Tulip Orange & Narcissus Cream",
       "image": "daffodil-03.jpg",
       "category": 15,
-      "subcategory": 154
+      "sub": 154
     }
   },
   {
@@ -710,7 +710,7 @@
       "details": "Garden Container Pack Tulip Pink & Narcissus White",
       "image": "daffodil-04.jpg",
       "category": 15,
-      "subcategory": 154
+      "sub": 154
     }
   },
   {
@@ -723,7 +723,7 @@
       "details": "Indoor Narcissus Grand Soleil D'Or in Ceramic Pot",
       "image": "daffodil-05.jpg",
       "category": 15,
-      "subcategory": 154
+      "sub": 154
     }
   },
   {
@@ -736,7 +736,7 @@
       "details": "Indoor Narcissus Paperwhite in Ceramic Pot",
       "image": "daffodil-06.jpg",
       "category": 15,
-      "subcategory": 154
+      "sub": 154
     }
   },
   {
@@ -749,7 +749,7 @@
       "details": "Lovely Combinations - Botanical Tulip, Narcissus & Anemone",
       "image": "daffodil-07.jpg",
       "category": 15,
-      "subcategory": 154
+      "sub": 154
     }
   },
   {
@@ -762,7 +762,7 @@
       "details": "Lovely Combinations - Tulip Orange/White & Narcissus Yellow/Orange",
       "image": "daffodil-08.jpg",
       "category": 15,
-      "subcategory": 154
+      "sub": 154
     }
   },
   {
@@ -775,7 +775,7 @@
       "details": "A combination pack of Narcissi Replete & Tulip Mistress. Daffodils like well-drained but moist, humus rich soil in sun or partial shade. Avoid very dry areas such as under conifers. Plant them informally in groups in beds & borders, under deciduous shrubs & trees or in lawns & outdoor containers. Allow the foliage to die naturally as early removal can cause the bulb not to flower in the following year.Colour: MixedPlanting Time: August onwardsFlowering Time: April/MayFlowering Height: 45cm/18 inches",
       "image": "daffodil-09.jpg",
       "category": 15,
-      "subcategory": 154
+      "sub": 154
     }
   },
   {
@@ -788,7 +788,7 @@
       "details": "An attractive large cupped bi-colour with a white perianth, soft yellow corona. Daffodils like well-drained but moist, humus rich soil in sun or partial shade. Avoid very dry areas such as under conifers. Plant them informally in groups in beds & borders, under deciduous shrubs & trees or in lawns & outdoor containers. Allow the foliage to die naturally as early removal can cause the bulb not to flower in the following year.Colour: WhitePlanting Time: August OnwardsFlowering Time: AprilFlowering Height: 40cm/16 inches",
       "image": "daffodil-10.jpg",
       "category": 15,
-      "subcategory": 154
+      "sub": 154
     }
   },
   {
@@ -801,7 +801,7 @@
       "details": "The Cottage Garden has a distinct style that uses informal design, traditional materials and dese plantings. English in origin, the Cottage Garden Relies on grace and charm. These unusual bulbs will provide you with the elegance and sweetness in your spring garden.Planting Time: August OnwardsFlowering Time:Flowering Height: 15cm/6 inches",
       "image": "muscari-01.jpg",
       "category": 15,
-      "subcategory": 155
+      "sub": 155
     }
   },
   {
@@ -814,7 +814,7 @@
       "details": "Garden Container Pack - Narcissus & Muscari",
       "image": "muscari-02.jpg",
       "category": 15,
-      "subcategory": 155
+      "sub": 155
     }
   },
   {
@@ -827,7 +827,7 @@
       "details": "Muscari Armeniacum Blue Spike",
       "image": "muscari-03.jpg",
       "category": 15,
-      "subcategory": 155
+      "sub": 155
     }
   },
   {
@@ -840,7 +840,7 @@
       "details": "Muscari Armeniacum Siberian Tiger",
       "image": "muscari-04.jpg",
       "category": 15,
-      "subcategory": 155
+      "sub": 155
     }
   },
   {
@@ -853,7 +853,7 @@
       "details": "Muscari Comosum Plumosum",
       "image": "muscari-05.jpg",
       "category": 15,
-      "subcategory": 155
+      "sub": 155
     }
   },
   {
@@ -866,7 +866,7 @@
       "details": "Fragrant mixed colours. Galanthus (Snowdrops) like a moisture retentive soil & preferably partial shade but will tolerate full sun. Hardy in all areas, ideal for naturalising in lawns, rockeries, borders & containers (flowers year after year). Why not plant a Winter Corner near the house along with Anemone Blanda, Chionodoxa (Glory of the Snow), Iris reticulata & Eranthis Hyemalis.Colour: MixedPlanting Time: August OnwardsFlowering Time: March/AprilFlowering Height: 15cm/6 inches",
       "image": "muscari-06.jpg",
       "category": 15,
-      "subcategory": 155
+      "sub": 155
     }
   },
   {
@@ -879,7 +879,7 @@
       "details": "Tulips",
       "image": "tulip-01.jpg",
       "category": 15,
-      "subcategory": 156
+      "sub": 156
     }
   },
   {
@@ -892,7 +892,7 @@
       "details": "These vibrant pastel flwoers are sweetly scented and will bring resh vibrant colour to your garden. Next to garden planting these tulips perform well in pots and containers. They also make good cut flowers so can be used to brighten up any home.Before planting your bulbs cultivate soils to a depth of 15cms if possible.",
       "image": "tulip-02.jpg",
       "category": 15,
-      "subcategory": 156
+      "sub": 156
     }
   },
   {
@@ -905,7 +905,7 @@
       "details": "Garden Container Pack - Tulip Foxtrot & Chionodoxa",
       "image": "tulip-03.jpg",
       "category": 15,
-      "subcategory": 156
+      "sub": 156
     }
   },
   {
@@ -918,7 +918,7 @@
       "details": "Garden Container Pack - Tulip Orange & Narcissus Cream",
       "image": "tulip-04.jpg",
       "category": 15,
-      "subcategory": 156
+      "sub": 156
     }
   },
   {
@@ -931,7 +931,7 @@
       "details": "Garden Container Pack Tulip Pink & Narcissus White",
       "image": "tulip-05.jpg",
       "category": 15,
-      "subcategory": 156
+      "sub": 156
     }
   },
   {
@@ -944,7 +944,7 @@
       "details": "Lovely Combinations - Anemone Blue & Tulip White",
       "image": "tulip-06.jpg",
       "category": 15,
-      "subcategory": 156
+      "sub": 156
     }
   },
   {
@@ -957,7 +957,7 @@
       "details": "Westland Landscape Bark is perfect for creating low",
       "image": "decorative-bark-01.jpg",
       "category": 21,
-      "subcategory": 211
+      "sub": 211
     }
   },
   {
@@ -970,7 +970,7 @@
       "details": "Westland Bonsai Potting Mix is formulated to give the correct balance of drainage, water retention and aeration required to develop a healthy root system, which is essential for healthy bonsai growth.",
       "image": "houseplant-compost-01.jpg",
       "category": 21,
-      "subcategory": 212
+      "sub": 212
     }
   },
   {
@@ -983,7 +983,7 @@
       "details": "Westland Houseplant Potting Mix is a specially blended mix for potting or re-potting most indoor plants including cacti and bottle gardens.",
       "image": "houseplant-compost-02.jpg",
       "category": 21,
-      "subcategory": 212
+      "sub": 212
     }
   },
   {
@@ -996,7 +996,7 @@
       "details": "Westland Orchid Potting Mix is a specially blended mix of bark and Seramis clay",
       "image": "houseplant-compost-03.jpg",
       "category": 21,
-      "subcategory": 212
+      "sub": 212
     }
   },
   {
@@ -1009,7 +1009,7 @@
       "details": "Westland John Innes No.3 Mature Plant Compost nurtures and sustains for a longer plant life. Development specially to help mature plants and shrubs, with a long lasting and nutrient rich formulation.",
       "image": "potting-compost-01.jpg",
       "category": 21,
-      "subcategory": 213
+      "sub": 213
     }
   },
   {
@@ -1022,7 +1022,7 @@
       "details": "New Horizon All Veg Compost has been specially created to be the perfect compost for all tomatoes, cucumbers & chillies.Westland BIO3 is a revolutionary new compost formulation engineered to out perform all peat-based blends and starts nourishing the plant immediately. It also has an open structure and micro-nutrients for total plant health, helping to feed plants for longer.",
       "image": "potting-compost-02.jpg",
       "category": 21,
-      "subcategory": 213
+      "sub": 213
     }
   },
   {
@@ -1035,7 +1035,7 @@
       "details": "Jack's Magic All Purpose Compost",
       "image": "potting-compost-03.jpg",
       "category": 21,
-      "subcategory": 213
+      "sub": 213
     }
   },
   {
@@ -1048,7 +1048,7 @@
       "details": "Ideal for use all around the garden this premium compost contains nutrients to feed your plant for up to 5 weeks. The added John Innes formula retains and releases nutrients and water for longer, providing your plants with all they need.",
       "image": "potting-compost-04.jpg",
       "category": 21,
-      "subcategory": 213
+      "sub": 213
     }
   },
   {
@@ -1061,7 +1061,7 @@
       "details": "Westland Specialist Planting & Potting Mixes are blended to meet specialist plants growing needs whilst building plant immunity and strengthening plant resilience all at the same time.- 6 month slow release feed- Added sulphur to withstand blackspot- Aids fast establishment- Added zinc complex helps build plant resilience",
       "image": "potting-compost-05.jpg",
       "category": 21,
-      "subcategory": 213
+      "sub": 213
     }
   },
   {
@@ -1074,7 +1074,7 @@
       "details": "This Big Tom Planter is ideal for growing tomato plants. It is full of nutrients for even more tasty as well as healthy tomatoes. For the best results use with Westland Big Tom Tomato Feed to achieve up to 35% more yield.Seaweed enriched for fruit formationRich in calciumFeeds for up to 6 weeksExtra deep for more tomatoes",
       "image": "potting-compost-06.jpg",
       "category": 21,
-      "subcategory": 213
+      "sub": 213
     }
   },
   {
@@ -1087,7 +1087,7 @@
       "details": "Westland John Innes Potting-on Compost feeds and establishes for a healthier plant life. Developed specially to help all young plants and ensure healthy root and shoot development.",
       "image": "potting-compost-07.jpg",
       "category": 21,
-      "subcategory": 213
+      "sub": 213
     }
   },
   {
@@ -1100,7 +1100,7 @@
       "details": "This high-performance soil with added",
       "image": "potting-compost-08.jpg",
       "category": 21,
-      "subcategory": 213
+      "sub": 213
     }
   },
   {
@@ -1113,7 +1113,7 @@
       "details": "Baby Bio® Bonsai Food helps to provide balanced and steady growth in order for the plant to become strong. It can be used on outdoor and indoor Bonsai plants, such as Acer, Juniper, Chinese & Elm to name a few. ",
       "image": "plant-feed-01.jpg",
       "category": 22,
-      "subcategory": 221
+      "sub": 221
     }
   },
   {
@@ -1126,7 +1126,7 @@
       "details": "Baby Bio® Cactus Food is the ideal feed for your cacti and succulents, aiding healthy growth and flowering, the feed also helps to build stronger spines for your plants. It can be used on a range of plants including Mammillaria, Sempervivum, Aloe, Christmas cacti & many more.",
       "image": "plant-feed-02.jpg",
       "category": 22,
-      "subcategory": 221
+      "sub": 221
     }
   },
   {
@@ -1139,7 +1139,7 @@
       "details": "Herbs have been used by people since forever to cure diseases, create lovely fragrances and ",
       "image": "plant-feed-03.jpg",
       "category": 22,
-      "subcategory": 221
+      "sub": 221
     }
   },
   {
@@ -1152,7 +1152,7 @@
       "details": "If you want to find less excuses to put your plant's feeding off until some other day, Baby Bio",
       "image": "plant-feed-04.jpg",
       "category": 22,
-      "subcategory": 221
+      "sub": 221
     }
   },
   {
@@ -1165,7 +1165,7 @@
       "details": "Baby Bio Orchid Gift Pack",
       "image": "plant-feed-05.jpg",
       "category": 22,
-      "subcategory": 221
+      "sub": 221
     }
   },
   {
@@ -1178,7 +1178,7 @@
       "details": "Baby Bio® Houseplant Food contains the perfect balance of the 3 major nutrients required by your favourite houseplants: • Nitrogen (N) – for healthy, bright green leaves • Phosphorus (P) – for strong roots • Potassium (K) – for better blooms and fruits",
       "image": "plant-feed-06.jpg",
       "category": 22,
-      "subcategory": 221
+      "sub": 221
     }
   },
   {
@@ -1191,7 +1191,7 @@
       "details": "Big Tom super tomato food is enriched with the essential nutrients for a tastier and bigger yield of tomatoes.- Juicy more tasty tomatoes- Packed with extra strength nutrients- Seaweed enriched",
       "image": "plant-feed-07.jpg",
       "category": 22,
-      "subcategory": 221
+      "sub": 221
     }
   },
   {
@@ -1204,7 +1204,7 @@
       "details": "Bonsai have a very limited space for root growth so they need feeding regularly. Soil fertility is an issue and Bonsai Focus is richly endowed with humic acid to maintain soil fertility over time. For all species of Bonsai.",
       "image": "plant-feed-08.jpg",
       "category": 22,
-      "subcategory": 221
+      "sub": 221
     }
   },
   {
@@ -1217,7 +1217,7 @@
       "details": "New unique formula against slug & snail damageMakes 10 litres of spray ready to useSafe to use on edible and ornamental plantsEasy ready to use sprayer simply spray all foliageAbsorbed in to the leaf for longer lasting effectStrengthens and stimulates plants",
       "image": "slug-01.jpg",
       "category": 22,
-      "subcategory": 222
+      "sub": 222
     }
   },
   {
@@ -1230,7 +1230,7 @@
       "details": "Growing Success Slug Killer is a blue pellet containing a naturally occurring active ingredient, Ferric Phosphate. The pellets can be used as a bait for the control of slugs on bare soil and in all edible and non-edible plants.",
       "image": "slug-02.jpg",
       "category": 22,
-      "subcategory": 222
+      "sub": 222
     }
   },
   {
@@ -1243,7 +1243,7 @@
       "details": "A sturdy trap to be set into the ground to catch slugs and snails.- Pesticide free and suitable for organic gardening- Traps up to 50 slugs",
       "image": "slug-03.jpg",
       "category": 22,
-      "subcategory": 222
+      "sub": 222
     }
   },
   {
@@ -1256,7 +1256,7 @@
       "details": "The next generation of slug and snail control: Covers double the area (*in comparison to Sluggo 1%). Sluggo Slug & Snail Killer Ultra is a bait to reduce slug and snail numbers on bare soil around all edible and non-edible plants e.g. all flowers, fruit, herbs and vegetables outdoors and under protection.",
       "image": "slug-04.jpg",
       "category": 22,
-      "subcategory": 222
+      "sub": 222
     }
   },
   {
@@ -1269,7 +1269,7 @@
       "details": "SlugClear Ultra 3 kills a wide range of surface feeding slugs and snails. One application lasts up to 2 weeks and is suitable to grow your own crops.",
       "image": "slug-05.jpg",
       "category": 22,
-      "subcategory": 222
+      "sub": 222
     }
   },
   {
@@ -1282,7 +1282,7 @@
       "details": "Slug Gone is the natural, organic way to keep slugs and snails away from plants. Popular amongst environmentally-conscious and organic gardeners, Slug Gone is 100% natural and derived from British wool.Slug Gone is applied to the soil below the plant to create a irritating, absorbant mat that works as a natural slug repellant. It prevents slugs and snails from reaching the plant, whilst adding nutrients to the soil and locking in moisture.",
       "image": "slug-06.jpg",
       "category": 22,
-      "subcategory": 222
+      "sub": 222
     }
   },
   {
@@ -1295,7 +1295,7 @@
       "details": "Eraza Zero Slug Killer is a blue pellet containing Ferric Phosphate. Use the pellets as a bait for the control of slugs on bare ground. Also use on all edible and non-edible crops grown outdoors, in the greenhouse or under other permanent or temporary cover.- Protects plants, seedlings as well as crops- Certified for organic use- Remains effective after exposure to rain, watering and sunlight- Crops can be consumed shortly after application- Contains Ferric Phosphate",
       "image": "slug-07.jpg",
       "category": 22,
-      "subcategory": 222
+      "sub": 222
     }
   },
   {
@@ -1308,7 +1308,7 @@
       "details": "As soon as the growing period starts in spring the unwanted vegetation is back again: weeds! They take the crops water, nutrients, space and often light. This is where WeedFree Plus can help. With a unique combination of natural active ingredient it fights weeds with quick and long lasting effects.",
       "image": "weed-control-01.jpg",
       "category": 22,
-      "subcategory": 223
+      "sub": 223
     }
   },
   {
@@ -1321,7 +1321,7 @@
       "details": "- Active ingredient content 186.7 g/L pelargonic acid, 30 g/L maleic hydrazide- Long lasting, stops roots from growing- Visible results for weeds (e.g. goutweed, bishopweed, marestail ) and grasses within 1 day after treatmenthelps to control Horsetail to some extent if used very regularly- Biodegradable",
       "image": "weed-control-02.jpg",
       "category": 22,
-      "subcategory": 223
+      "sub": 223
     }
   },
   {
@@ -1334,7 +1334,7 @@
       "details": "Neudorff Weedfree Express Fast Acting Weedkiller 750mlActive ingredient content 31.02 g/L pelargonic acidComplete herbicide for weeds and grassesFast visible resultsBiodegradableApplication:Ready-to-use sprayDrench the weeds thoroughly to guarantee an optimum absorption of the active ingredientReady to use spray bottle",
       "image": "weed-control-03.jpg",
       "category": 22,
-      "subcategory": 223
+      "sub": 223
     }
   },
   {
@@ -1347,7 +1347,7 @@
       "details": "Resolva Pro is a ready to use systemic Weedkiller ideal for controlling annual and deep-rooted perennial weeds. It delivers effective and quick results even on tough weeds.",
       "image": "weed-control-04.jpg",
       "category": 22,
-      "subcategory": 223
+      "sub": 223
     }
   },
   {
@@ -1360,7 +1360,7 @@
       "details": "Resolva Pro Xtra Tough Super Concentrate is a super strength weedkiller concentrate, ideal for clearing large areas of weeds. Resolva Pro Xtra Tough Super Concentrate kills weeds and roots and controls annual and deep-rooted perennial grass and broad-leaved weeds including bracken, broad-leaved dock, common couch, cleavers.",
       "image": "weed-control-05.jpg",
       "category": 22,
-      "subcategory": 223
+      "sub": 223
     }
   },
   {
@@ -1373,7 +1373,7 @@
       "details": "Weedkillers only work on the weeds you can see and it",
       "image": "weed-control-06.jpg",
       "category": 22,
-      "subcategory": 223
+      "sub": 223
     }
   },
   {
@@ -1386,7 +1386,7 @@
       "details": "Resolva Xpress Weedkiller Ready to Use controls a range of annual and perennial broad-leaved weeds as well as grasses with visible results in just hours. Additionally, the formula does not contain glyphosate, because it is harmful to bees. Within hours, the non-selective formula kills by contact action only and breaks down naturally by organisms and microbes in the soil.",
       "image": "weed-control-07.jpg",
       "category": 22,
-      "subcategory": 223
+      "sub": 223
     }
   },
   {
@@ -1399,7 +1399,7 @@
       "details": "Resolva Xtra Clean removes green mould & algae from patios, fencing, decking and many more surfaces. Our formulation is effective and requires no scrubbing or pressure washing, so its hassle free. ",
       "image": "weed-control-08.jpg",
       "category": 22,
-      "subcategory": 223
+      "sub": 223
     }
   },
   {
@@ -1412,7 +1412,7 @@
       "details": "Aftercut All in One Autumn has been specially formulated to control moss and keep your lawn strong and healthy over the winter months.Kills moss effectivelyGreens, feeds & conditionsStronger root system to improve nutrient uptakeProduces a hard wearing lawn to withstand the winter months.",
       "image": "lawn-feed-01.jpg",
       "category": 23,
-      "subcategory": 231
+      "sub": 231
     }
   },
   {
@@ -1425,7 +1425,7 @@
       "details": "Maxicrop Moss Killer & Lawn Tonic is a 2-in-1 solution that contains a natural organic seaweed base, killing moss & offering rapid greening. With Seaweed Extract plus Ferrous sulphate & Nitrogen, this product blackens moss within hours and rapidly stimulates grass re-growth of the treated area.",
       "image": "lawn-feed-02.jpg",
       "category": 23,
-      "subcategory": 231
+      "sub": 231
     }
   },
   {
@@ -1438,7 +1438,7 @@
       "details": "Miracle-Gro EverGreen Fast Green Liquid Concentrate guarantees greens lawns in 24 hours. It is easy to apply using a watering can and is children and pet friendly",
       "image": "lawn-feed-03.jpg",
       "category": 23,
-      "subcategory": 231
+      "sub": 231
     }
   },
   {
@@ -1451,7 +1451,7 @@
       "details": "Breathe life back into your soil!Soil Renew functions in a natural way, harnessing nature to achieve a healthy soil which will in turn produce healthy plants. It contains organic plant matter and a complete ecosystem of microorganisms which create increased humus in the soil. It renews the soil through the action of naturally occurring microorganisms.",
       "image": "lawn-feed-04.jpg",
       "category": 23,
-      "subcategory": 231
+      "sub": 231
     }
   },
   {
@@ -1464,7 +1464,7 @@
       "details": "Breathe life back into your soil!Soil Renew functions in a natural way, harnessing nature to achieve a healthy soil which will in turn produce healthy plants. It contains organic plant matter and a complete ecosystem of microorganisms which create increased humus in the soil. It renews the soil through the action of naturally occurring microorganisms.",
       "image": "lawn-feed-05.jpg",
       "category": 23,
-      "subcategory": 231
+      "sub": 231
     }
   },
   {
@@ -1477,7 +1477,7 @@
       "details": "Weedol Gun Lawn Weedkiller is a pre-diluted ready-to-use selective weedkiller spray for use on lawns, for control of most common broad-leaved weeds.Kills weeds but not the grass.",
       "image": "lawn-feed-06.jpg",
       "category": 23,
-      "subcategory": 231
+      "sub": 231
     }
   },
   {
@@ -1490,7 +1490,7 @@
       "details": "Weedol Lawn Weedkiller (Liquid Concentrate) is a systemic weedkiller.Kills weeds, not your lawn!It is an easy mix concentrate liquid and kills weeds to the roots.1 litre - treats up 667m²",
       "image": "lawn-feed-07.jpg",
       "category": 23,
-      "subcategory": 231
+      "sub": 231
     }
   },
   {
@@ -1503,7 +1503,7 @@
       "details": "Suitable for use with all soluble chemicals.Adjustable width allows for spot weeding right up to lawn feeding.Cover widths from 10cm up to 50cm.Comes complete with an adapter to fit all watering cans with spouts up to 3cm in Diameter.",
       "image": "lawn-tools-01.jpg",
       "category": 23,
-      "subcategory": 232
+      "sub": 232
     }
   },
   {
@@ -1516,7 +1516,7 @@
       "details": "A crisp edge makes a world of difference to a lawn, giving the whole garden the wow factor. With our RHS-endorsed stainless steel lawn edger, those professionally neat and clean lawn edges are easy to achieve.",
       "image": "lawn-tools-02.jpg",
       "category": 23,
-      "subcategory": 232
+      "sub": 232
     }
   },
   {
@@ -1529,7 +1529,7 @@
       "details": "Ultra-lightweight long handled shears to create the crispest of lawn edges with minimal effort and strain. Hardened and tempered, high-carbon steel blades.Comfortable rubber grip handles.",
       "image": "lawn-tools-03.jpg",
       "category": 23,
-      "subcategory": 232
+      "sub": 232
     }
   },
   {
@@ -1542,7 +1542,7 @@
       "details": "This is the perfect rake for keeping your lawn in tip-top shape. The close-set, flexible round tines are superb at gathering and removing moss, thatch and debris from the lawn. The flat head-end has plenty of tines and is perfectly shaped for reaching into corners; this flexi-tined lawn rake really will help you get the job done in double-quick time.The stainless steel of this lawn rake is extremely resistant to rust, so will stay looking good for years to come. The long, lightweight handle in FSC",
       "image": "lawn-tools-04.jpg",
       "category": 23,
-      "subcategory": 232
+      "sub": 232
     }
   },
   {
@@ -1555,7 +1555,7 @@
       "details": "Ultra-lightweight long handled shears for cutting grass in places the mower can't reach - around trees, statuary or other features in the lawn.Hardened and",
       "image": "lawn-tools-05.jpg",
       "category": 23,
-      "subcategory": 232
+      "sub": 232
     }
   },
   {
@@ -1568,7 +1568,7 @@
       "details": "Features:- Adjustable water direction & range- Smooth regulation of water- Water usage for 2bar - 12 litres per hour- Nozzle cleaning tool included- Made from premium grade plastic & aluminium- UV protected",
       "image": "lawn-tools-06.jpg",
       "category": 23,
-      "subcategory": 232
+      "sub": 232
     }
   },
   {
@@ -1581,7 +1581,7 @@
       "details": "Features:- 4 spray patterns with variable water angles- Part of a modular system that can be extended with more sprinklers- Durable ground spike for use in lawns and borders- Made from premium grade plastic",
       "image": "lawn-tools-07.jpg",
       "category": 23,
-      "subcategory": 232
+      "sub": 232
     }
   },
   {
@@ -1594,7 +1594,7 @@
       "details": "Features:- Adjustable speed- Durable ground spike for use in lawns & borders- Made from premium grade plastic",
       "image": "lawn-tools-08.jpg",
       "category": 23,
-      "subcategory": 232
+      "sub": 232
     }
   },
   {
@@ -1607,7 +1607,7 @@
       "details": "The krantz aloe develops into a multiheaded plant with striking grey green leaves arranged in attractive rosettes. The leaf margins are armed with conspicuous pale teeth. The large colourful flower spikes are borne in profusion during the winter months,brightening up a winter conservatory or greenhouse . Can be grown outdoors in the summer months but needs to be indoors for winter, protected from frost. The Zulu people use the leaves of this plant, dried and pounded into a powder, as a protection against storms.",
       "image": "cacti-01.jpg",
       "category": 31,
-      "subcategory": 311
+      "sub": 311
     }
   },
   {
@@ -1620,7 +1620,7 @@
       "details": "Aloe Tiki Tahi",
       "image": "cacti-02.jpg",
       "category": 31,
-      "subcategory": 311
+      "sub": 311
     }
   },
   {
@@ -1633,7 +1633,7 @@
       "details": "Echeveria Magic",
       "image": "cacti-03.jpg",
       "category": 31,
-      "subcategory": 311
+      "sub": 311
     }
   },
   {
@@ -1646,7 +1646,7 @@
       "details": "Echeveria pul. 'Devotion'",
       "image": "cacti-04.jpg",
       "category": 31,
-      "subcategory": 311
+      "sub": 311
     }
   },
   {
@@ -1659,7 +1659,7 @@
       "details": "Rhipsalis cassutha 'Coral Breeze'",
       "image": "cacti-05.jpg",
       "category": 31,
-      "subcategory": 311
+      "sub": 311
     }
   },
   {
@@ -1672,7 +1672,7 @@
       "details": "The krantz aloe develops into a multiheaded plant with striking grey green leaves arranged in attractive rosettes. The leaf margins are armed with conspicuous pale teeth. The large colourful flower spikes are borne in profusion during the winter months,brightening up a winter conservatory or greenhouse . Can be grown outdoors in the summer months but needs to be indoors for winter, protected from frost. The Zulu people use the leaves of this plant, dried and pounded into a powder, as a protection against storms.",
       "image": "conservatory-01.jpg",
       "category": 31,
-      "subcategory": 312
+      "sub": 312
     }
   },
   {
@@ -1685,7 +1685,7 @@
       "details": "Bromeliad pineapple puts a smile on everyone's faceThere are no fewer than 2800 different Bromeliads and the pineapple is one of them. Originally the plant occurs in the nature of Central and South America.The pineapple is not edible but does provide some extra color and scent in the house.The special thing about this plant is that it releases oxygen at night instead of during the day.",
       "image": "conservatory-02.jpg",
       "category": 31,
-      "subcategory": 312
+      "sub": 312
     }
   },
   {
@@ -1698,7 +1698,7 @@
       "details": "These Mediterranean plants have very fragrant blossom and attractive fruits all year round. A wonderful plant for a cool conservatory in winter and ouitdoors on the patio in summer. Fragrant leaves, flowers and edible fruit!.",
       "image": "conservatory-03.jpg",
       "category": 31,
-      "subcategory": 312
+      "sub": 312
     }
   },
   {
@@ -1711,7 +1711,7 @@
       "details": "Dendrobium 'Berry Oda' produces upright canes that are filled with incredibly long lasting, tropical-pink, scented blooms from spring to midsummer. This exquisite half hardy perennial just requires a bright, warm windowsill indoors with a minimum temperature of 10C (30F) to see it through the coldest months. In summer, you could even pop it outdoors for a fabulous centre-piece on your patio table. Height: 35cm (14\"). Spread: 15cm (6\").",
       "image": "conservatory-04.jpg",
       "category": 31,
-      "subcategory": 312
+      "sub": 312
     }
   },
   {
@@ -1724,7 +1724,7 @@
       "details": "Echeveria Devotion has warm burgundy red with green leaves that feel velvety soft. This succulent steals the show outdoors and indoors. Devotion has a gorgeous round shape and stays compact to about 15 cm. Easy-care and requires little water. Winter hardy to -10º Celsius. Perfect in pots in the house, on balconies or terraces and in (rock)gardens.",
       "image": "conservatory-05.jpg",
       "category": 31,
-      "subcategory": 312
+      "sub": 312
     }
   },
   {
@@ -1737,7 +1737,7 @@
       "details": "Dense, wire like stems are covered with interlaced tiny small round light green leaves.",
       "image": "conservatory-06.jpg",
       "category": 31,
-      "subcategory": 312
+      "sub": 312
     }
   },
   {
@@ -1750,7 +1750,7 @@
       "details": "The false shamrock plant (oxalis triangularis) is a bulb type flowering plant which is also known as the purple shamrock or wood sorrel from the oxalis genus. The small pinkish or white colored blooms are an attractive addition to the rich purple leaves, which are the star of the show.",
       "image": "conservatory-07.jpg",
       "category": 31,
-      "subcategory": 312
+      "sub": 312
     }
   },
   {
@@ -1763,7 +1763,7 @@
       "details": "Ananas 'Champaca'Bromeliad pineapple puts a smile on everyone's faceThere are no fewer than 2800 different Bromeliads and the pineapple is one of them. Originally the plant occurs in the nature of Central and South America.The pineapple is not edible but does provide some extra color and scent in the house.The special thing about this plant is that it releases oxygen at night instead of during the day.A perfect plant for the bedroom.",
       "image": "indoor-flowering-01.jpg",
       "category": 31,
-      "subcategory": 313
+      "sub": 313
     }
   },
   {
@@ -1776,7 +1776,7 @@
       "details": "Campanula isophylla 'Atlanta'The best campanula for indoor use is C. isophylla. This has pale blue flowers and fresh green leaves. Be careful when handling the stems and leaves: they are very brittle.It is most suitable for growing in a hanging basket, or in a position where it can trail.It is fast growing and will soon conceal the sides of the container in which it is grown. It tends to trail or hang, but if you support the trailing stems with a frame or a trellis, or tie them to thin canes, you can encourage a more upright habit.",
       "image": "indoor-flowering-02.jpg",
       "category": 31,
-      "subcategory": 313
+      "sub": 313
     }
   },
   {
@@ -1789,7 +1789,7 @@
       "details": "Dendrobium 'Berry Oda'Dendrobium 'Berry Oda' produces upright canes that are filled with incredibly long lasting, tropical-pink, scented blooms from spring to midsummer. This exquisite half hardy perennial just requires a bright, warm windowsill indoors with a minimum temperature of 10C (30F) to see it through the coldest months. In summer, you could even pop it outdoors for a fabulous centre-piece on your patio table. Height: 35cm (14\"). Spread: 15cm (6\").",
       "image": "indoor-flowering-03.jpg",
       "category": 31,
-      "subcategory": 313
+      "sub": 313
     }
   },
   {
@@ -1802,7 +1802,7 @@
       "details": "Ensete vertricosa 'Maurelii'Not really Frost Hardy, but a real essential part of any exotic garden.Can be kept in a pot or tub, but for optimum growth will need an 18 inch plus tub. Alternatively plant out in well manured ground with humus and water gel granules dug in.Like all Bananas, they are gross feeders and like a constant supply of nutrients.They need full sun to be at their best, but can grow in light dappled shade.",
       "image": "indoor-flowering-04.jpg",
       "category": 31,
-      "subcategory": 313
+      "sub": 313
     }
   },
   {
@@ -1815,7 +1815,7 @@
       "details": "Gardenia # 25 cm flowering",
       "image": "indoor-flowering-05.jpg",
       "category": 31,
-      "subcategory": 313
+      "sub": 313
     }
   },
   {
@@ -1828,7 +1828,7 @@
       "details": "-The false shamrock plant (oxalis triangularis) is a bulb type flowering plant which is also known as the purple shamrock or wood sorrel from the oxalis genus.The small pinkish or white colored blooms are an attractive addition to the rich purple leaves, which are the star of the show.Keep in bright light, and cool conditions indoors.Can also be grown outdoors in the summer monthsThe plant leaves close up each evening until the next dayDecorative pot not included",
       "image": "indoor-flowering-06.jpg",
       "category": 31,
-      "subcategory": 313
+      "sub": 313
     }
   },
   {
@@ -1841,7 +1841,7 @@
       "details": "Pelargonium 'Angel Perfume'An Angel Pelargonium with the foliage of a scented leaved geranium - the best of both worlds!Showy burgundy blooms sit beautifully against a backdrop of attractive, fresh green foliage with a fabulous lemon perfume.Fill your senses with Geranium 'Angel's Perfume' - perfect for prominent patio containers where it will really be appreciated.Height and spread: 30cm (12\").",
       "image": "indoor-flowering-07.jpg",
       "category": 31,
-      "subcategory": 313
+      "sub": 313
     }
   },
   {
@@ -1854,7 +1854,7 @@
       "details": "Solanum pseudocapsicumWinter Cherry, is an evergreen shrub that grows 25 to 40 centimetres in height; it is mainly cultivated as an annual plant. The leaves are lance-shaped with a lovely dark-green hue. Once the summer arrives, the Jerusalem Cherry produces small star-shaped flowers. Its little fruits, which turn red in the autumn, are the main decorative portion of this charming plant.",
       "image": "indoor-flowering-08.jpg",
       "category": 31,
-      "subcategory": 313
+      "sub": 313
     }
   },
   {
@@ -1867,7 +1867,7 @@
       "details": "Aglaonema 'Light Pink Star'Also known as a Chinese Evergreen this houseplant is a real tough cookie and a great plant for beginners. It will tolerate any indoor living condition, but loves living in low light.Plus - it's a rather attractive houseplant with lots of lovely leafy foliage and interesting patterns. This Aglaonema light pink star has a light pink stem and a pink vein running through the middle of the leaves.",
       "image": "office-plant-01.jpg",
       "category": 31,
-      "subcategory": 314
+      "sub": 314
     }
   },
   {
@@ -1880,7 +1880,7 @@
       "details": "The krantz aloe develops into a multiheaded plant with striking grey green leaves arranged in attractive rosettes. The leaf margins are armed with conspicuous pale teeth. The large colourful flower spikes are borne in profusion during the winter months,brightening up a winter conservatory or greenhouse . Can be grown outdoors in the summer months but needs to be indoors for winter, protected from frost. The Zulu people use the leaves of this plant, dried and pounded into a powder, as a protection against storms.",
       "image": "office-plant-02.jpg",
       "category": 31,
-      "subcategory": 314
+      "sub": 314
     }
   },
   {
@@ -1893,7 +1893,7 @@
       "details": "Prized for its fabulous lightweight fronds since the Victorian era, this plant adds lovely detailsure to interior decor.Boston Ferns are among the best plants to increase air quality in your home.Keep your fern happy by misting frequently with air-temperature water. Water the plant regularly in the spring and summer. During that time, it should be fertilised once a fortnight. Keep the roots moist. In the autumn and winter, the plant will need less water and only needs to be fertilised once a month. However, the roots must still be kept moist during this period.",
       "image": "office-plant-03.jpg",
       "category": 31,
-      "subcategory": 314
+      "sub": 314
     }
   },
   {
@@ -1906,7 +1906,7 @@
       "details": "Calathea 'Whitestar'Calatheas are very attractive houseplants with highly decorative patterned leaves.Calathea Lancifolia is a beautiful variety, it has long, lance-shaped pale green leaves with dark green blotches either side of the midrib, and the leaves have beautiful burgundy red undersides and are rippled at the edges.This plant is perfect for your home or office.",
       "image": "office-plant-04.jpg",
       "category": 31,
-      "subcategory": 314
+      "sub": 314
     }
   },
   {
@@ -1919,7 +1919,7 @@
       "details": "Calathea orbifoliabeautiful houseplant highly sought after due to the exquisite beauty of its large, round leaves and its air-purifying qualities. This beautiful foliage is subtly striped with pale silver-green markings, with the undersides of the leaf also being a pale silver-green.The Calathea orbifolia is bound to add dramatic interest to your houseplant collections and is very much on trend.Decorative pot not included",
       "image": "office-plant-05.jpg",
       "category": 31,
-      "subcategory": 314
+      "sub": 314
     }
   },
   {
@@ -1932,7 +1932,7 @@
       "details": "Ceropegia woodii is a good hanging plant with long, pendulous stems and small heart-shaped leaves. Leaves are dark green and marbled with silver.String of Hearts is native to South Africa, Swaziland, and Zimbabwe. Flowers resemble small upturned vases. They are 1 inch tall and bulbous at the base.Water carefully, and be sure to let the soil become dry in between waterings. The container should have drainage holes as the roots may rot if they stay too wet.",
       "image": "office-plant-06.jpg",
       "category": 31,
-      "subcategory": 314
+      "sub": 314
     }
   },
   {
@@ -1945,7 +1945,7 @@
       "details": "Dendrobium 'Berry Oda'Dendrobium 'Berry Oda' produces upright canes that are filled with incredibly long lasting, tropical-pink, scented blooms from spring to midsummer. This exquisite half hardy perennial just requires a bright, warm windowsill indoors with a minimum temperature of 10C (30F) to see it through the coldest months. In summer, you could even pop it outdoors for a fabulous centre-piece on your patio table. Height: 35cm (14\"). Spread: 15cm (6\").",
       "image": "office-plant-07.jpg",
       "category": 31,
-      "subcategory": 314
+      "sub": 314
     }
   },
   {
@@ -1958,7 +1958,7 @@
       "details": "Janet Craig is one of the best Draceanas to use indoors, due to it's ability to grow in low light and tolerate considerable dryness.The temperature requirements for Janet Craig is a comfortable 18 degrees and the water requirements are low.Dracaenas are one of the plants used in the NASA Clean Air Study and has shown to help remove Formaldehyde from the air.",
       "image": "office-plant-08.jpg",
       "category": 31,
-      "subcategory": 314
+      "sub": 314
     }
   },
   {
@@ -1971,7 +1971,7 @@
       "details": "Chimonanthus Praecox- Winter SweetChimonanthus praecox has a common name 'Wintersweet' which gives away it's season of interest. Chimonanthus makes a vigorous shrub in the right place, an excellent specimen plant for a sunny, well-drained site.Between autumn and spring Chimonanthus praecox has small sulphur coloured flowers all along it's bare branches which give out the most wonderful perfume.",
       "image": "fragrant-plant-01.jpg",
       "category": 32,
-      "subcategory": 321
+      "sub": 321
     }
   },
   {
@@ -1984,7 +1984,7 @@
       "details": "What a beautiful plant this is to have around especially in winter.Daphne odora also called Winter Daphne or Fragrant Daphne and blooms in late winter to early spring. In most years that would be late February to early March.The flowers usually last for several weeks to a month and are so fragrant one cluster will perfume an entire room. I wish I could make these pictures scratch and sniff. One touch of the screen would produce a sweet fragrance that would rival any ladies perfume on the market. Daphne odora is a slow growing evergreen that requires a very well drained soil that will stay moist.",
       "image": "fragrant-plant-02.jpg",
       "category": 32,
-      "subcategory": 321
+      "sub": 321
     }
   },
   {
@@ -1997,7 +1997,7 @@
       "details": "Dianthus 'Sherbet'Double, cheerful cherry pink blossoms with attractive, blue green foliage.Exceptionally early, long-flowering and fragrant. This selection forms a low, grassy, blue-green cushion.Ideal for borders, along walls, in containers or as edging. Good cut flower.Dense, mounded habit. Prefers well-drained soil in full sun.height 20-30cm high and wide",
       "image": "fragrant-plant-03.jpg",
       "category": 32,
-      "subcategory": 321
+      "sub": 321
     }
   },
   {
@@ -2010,7 +2010,7 @@
       "details": "Bred specifically to support Alzheimer's research is the beautiful Dianthus 'Memories'. With a pure white bloom, 'Memories' comes from renowned Dianthus specialists Whetman Pinks in the UK. With all the characteristics we have come to expect from modern Dianthus, 'Memories' shares these and more.Long flowering blooms held on sturdy stems, dry tolerance, delightful fragrance and exceptional hardiness are the hallmark breeding traits of its cousins in the well known Whetman Pink Scent First Collection and 'Memories' certainly shares these outstanding features.Memories' was purpose bred to raise funds for Alzheimer's research with specific reference given to the strong link between scent and memory.",
       "image": "fragrant-plant-04.jpg",
       "category": 32,
-      "subcategory": 321
+      "sub": 321
     }
   },
   {
@@ -2023,7 +2023,7 @@
       "details": "Hesperis matronalis VioletSweet rocket, Hesperis matronalis, is a pretty annual, bearing white or purple flowers similar to honesty. A packet of sweet rocket seeds is likely to produce flowers varying in colour from deep rich purple, through all the paler lilac shades to white",
       "image": "fragrant-plant-05.jpg",
       "category": 32,
-      "subcategory": 321
+      "sub": 321
     }
   },
   {
@@ -2036,7 +2036,7 @@
       "details": "Fragrant mix of bedding hyacinths. Bedding hyacinths will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade. Suitable for beds, borders & containers. The fragrant flowers are perfect for planting near doors, windows or pathways. Hyacinths bulbs can cause a skin irritation. Please use gloves or wash hands after handling.Colour: MixedPlanting Time: August OnwardsFlowering Time: March/AprilFlowering Height: 25cm/10 inches",
       "image": "fragrant-plant-06.jpg",
       "category": 32,
-      "subcategory": 321
+      "sub": 321
     }
   },
   {
@@ -2049,7 +2049,7 @@
       "details": "Lemon yellow. RHS Award winner. Fragrant. Bedding hyacinths will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade. Suitable for beds, borders & containers. The fragrant flowers are perfect for planting near doors, windows or pathways. Hyacinths bulbs can cause a skin irritation. Please use gloves or wash hands after handling.Colour: YellowPlanting Time: August OnwardsFlowering Time: March/AprilFlowering Height: 25cm/10 inches",
       "image": "fragrant-plant-07.jpg",
       "category": 32,
-      "subcategory": 321
+      "sub": 321
     }
   },
   {
@@ -2062,7 +2062,7 @@
       "details": "Lemon yellow for indoor fragrance. RHS Award winner. Prepared hyacinths are specifically suited to be grown indoors. When planted before the end of September, they can flower from mid-December onwards. They can also be grown in hyacinth \"glasses\" using only water. Can be grown in almost any container, using bulb fibre. Plant up to 5 per container, leaving the neck of the bulb protruding above the surface. Water, then place in a cool, frost free spot at a maximum temperature of 9",
       "image": "fragrant-plant-08.jpg",
       "category": 32,
-      "subcategory": 321
+      "sub": 321
     }
   },
   {
@@ -2075,7 +2075,7 @@
       "details": "Acer palmatum 'Osakazuki'Forms a lovely small tree, suitable for the smallest garden.Bright green leaves in summer turn a bright orange red in autumn.Grows to 3-4m high and 2-3m wide in 10 years.Shelter from cold wind.In leaf from April to November. Stunning in large pots or in the ground",
       "image": "autumn-colour-01.jpg",
       "category": 32,
-      "subcategory": 322
+      "sub": 322
     }
   },
   {
@@ -2088,7 +2088,7 @@
       "details": "Cotoneaster dammeri is a very pretty ground hugging evergreen shrub with shiny leaves and white flowers in June followed by bright red berries in autumn/winter . Easy to grow in sun or part shade, any soil except waterlogged. This evergreen plant is one of the best groundcover plants for suppressing weeds ,Ht to 20cm, will spread over 1m in 5 years. Plant 4-6 per sq metre",
       "image": "autumn-colour-02.jpg",
       "category": 32,
-      "subcategory": 322
+      "sub": 322
     }
   },
   {
@@ -2101,7 +2101,7 @@
       "details": "Cotoneaster Coral Beauty is a care-free plant that is drought-tolerant, wind-resistant and it thrives in either moist or dry soil, its glossy foliage scrambling across bare banksaround shrubs and trees.. It's  fruits really bring in the song-birds and help to liven up those periods when the garden is no longer in bloom. The fruiting stems can also be cut and used in winter indoor flower arrangements and decoration. Evergreen groundcover. Full sun or partial shade.Fast grower 2 - 3 feet tall, up to 3-4 feet wide.",
       "image": "autumn-colour-03.jpg",
       "category": 32,
-      "subcategory": 322
+      "sub": 322
     }
   },
   {
@@ -2114,7 +2114,7 @@
       "details": "Fothergilla gardenii 'Blue Mist'This versatile shrub to 3 feet tall and widestarts the show in spring before even the leaves emerge with 1- to -2-inch long, honey-scented, white, bottlebrush flowers that bloom for several weeks. These are joined soon after by wavy-margined, leathery, blue-green leaves that, in fall, may turn many shades of yellow, orange, and red.CareProvide full sun to partial shade and slightly acidic, moist, well-drained soil. Prune only to maintain a pleasing framework.",
       "image": "autumn-colour-04.jpg",
       "category": 32,
-      "subcategory": 322
+      "sub": 322
     }
   },
   {
@@ -2127,7 +2127,7 @@
       "details": "Geranium 'Rozanne'",
       "image": "autumn-colour-05.jpg",
       "category": 32,
-      "subcategory": 322
+      "sub": 322
     }
   },
   {
@@ -2140,7 +2140,7 @@
       "details": "Tight mounds of silvery-purple leaves set forth white flowers on dark stems.Shanghai had the best foliage through the worst winter in the last 40 years at the Terra Nova test gardens. Ice, snow and rain didn't phase it!As Shanghai is a beacon to China, so Heuchera Shanghai can be an inviting beacon of metallic silver to your garden. Reblooms all summer. 25 cms x 35 cms. Prefers part shade.",
       "image": "autumn-colour-06.jpg",
       "category": 32,
-      "subcategory": 322
+      "sub": 322
     }
   },
   {
@@ -2153,7 +2153,7 @@
       "details": "Hydrangea arbor. 'Annabelle'The variety 'Annabelle' has only sterile florets, which makes the flower heads like spectacular white balls up to 30cm (12in) across. Plants are very hardy .Regular pruning keeps the naturally open plants dense and compact. The Royal Horticultural Society has given it its prestigious Award of Garden Merit (AGM).Grows 1-1.2 m high and wide",
       "image": "autumn-colour-07.jpg",
       "category": 32,
-      "subcategory": 322
+      "sub": 322
     }
   },
   {
@@ -2166,7 +2166,7 @@
       "details": "Ilex aquifoliium 'Ingramii'Holly provides dense cover and good nesting opportunities for birds, and may be used by hedgehogs and small mammals for hibernation. This variety is popular as an ornamental shrub as it has an alternative foliage colour. A great hardy variety and an unusual choice that is well worth a try this year. Mature height is 150cm after 10 years. Wonderful in a pot",
       "image": "autumn-colour-08.jpg",
       "category": 32,
-      "subcategory": 322
+      "sub": 322
     }
   },
   {
@@ -2179,7 +2179,7 @@
       "details": "Camellia japonica 'Bonomiana'This evergreen shrub is a wonderful sight from midwinter to early spring, when its branches are laden with an abundance of formal, double blooms to 10cm across. Each one is a unique blend of blush, white and rich pink, and they are offset beautifully by the lustrous green foliage. A great addition to a partially shaded border, it also makes a handsome addition to a larger pot.Grows to 2m high",
       "image": "spring-colour-01.jpg",
       "category": 32,
-      "subcategory": 323
+      "sub": 323
     }
   },
   {
@@ -2192,7 +2192,7 @@
       "details": "Camellia reticulata 'Black Lace'A wonderful Camellia for those who want to add a splash of colour. The bright red flowers stand out brilliantly against the dark green glossy foliage.'Black Lace' may provide you with much needed winter colour as early as late January in some years with flowering continuing for several weeks well into spring.As the bloom intensifies in early spring they are just spectacular.As a small shrub this Camellia is perfectly suited to planting in a container to bring some colour to a terrace or patio and will do best in ericaceous soil in either partial shade or sun.Grows to 150-175cm high",
       "image": "spring-colour-02.jpg",
       "category": 32,
-      "subcategory": 323
+      "sub": 323
     }
   },
   {
@@ -2205,7 +2205,7 @@
       "details": "This is a favourite low maintenance shrub. Thanks to its bright yellow foliage, this choisya cultivar really stands out in the garden.It does not flower as profusely as C. ternata, but it usually produces a show of fragrant white flowers in early summer and sometimes again in autumn.When crushed, the leaves have a distinctive smell, which reminds many gardeners of basil.Grows in sun or light shade to 1- 1.5 m high and wide.",
       "image": "spring-colour-03.jpg",
       "category": 32,
-      "subcategory": 323
+      "sub": 323
     }
   },
   {
@@ -2218,7 +2218,7 @@
       "details": "Convolvulus cneorum 'Snow Angel'An unusual shrubby member of a genus that comprises mostly climbers and scramblers.It is a native of Mediterranean limestone hills, and enjoys a hot sunny position in a rock garden, where fertility is fairly low and drainage efficient.The evergreen foliage is covered in silky silver-grey hairs, and the flowers start as pink buds which open into 2.5cm (1in) trumpets, with blush white petals marked with a central pink stripe from May to NovemberAn attractive plant that benefits from annual pruning to maintain bushy growth down to the ground.The Royal Horticultural Society has given it its prestigious Award of Garden Merit (AGM).Grows to height and spread of 60cm (2ft)",
       "image": "spring-colour-04.jpg",
       "category": 32,
-      "subcategory": 323
+      "sub": 323
     }
   },
   {
@@ -2231,7 +2231,7 @@
       "details": "RHS Award winner. Fragrant. Bee friendly. Light blue. Crocus will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade. Excellent for naturalising (leaving in for flowers year after year). Suitable for rockeries, between shrubs & in any kind of container. When planting, place wire netting just under the soil surface to prevent mice of squirrels eating the corms.Colour: BluePlanting Time: July OnwardsFlowering Time: February/MarchFlowering Height: 8cm/3 inches",
       "image": "spring-colour-05.jpg",
       "category": 32,
-      "subcategory": 323
+      "sub": 323
     }
   },
   {
@@ -2244,7 +2244,7 @@
       "details": "Cream/yellow flowers with bronze stripes. Early flowering. Bee friendly. Crocus will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade. Excellent for naturalising (leaving in for flowers year after year). Suitable for rockeries, between shrubs & in any kind of container. When planting, place wire netting just under the soil surface to prevent mice of squirrels eating the corms.Colour: CreamPlanting Time: July OnwardsFlowering Time: February/MarchFlowering Height: 10cm/4 inches",
       "image": "spring-colour-05.jpg",
       "category": 32,
-      "subcategory": 323
+      "sub": 323
     }
   },
   {
@@ -2257,7 +2257,7 @@
       "details": "Golden yellow flowers. RHS Award winner. Bee friendly. Crocus will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade. Excellent for naturalising (leaving in for flowers year after year). Suitable for rockeries, between shrubs & in any kind of container. When planting, place wire netting just under the soil surface to prevent mice of squirrels eating the corms.Colour: YellowPlanting Time: July OnwardsFlowering Time: February/MarchFlowering Height: 8cm/3 inches",
       "image": "spring-colour-07.jpg",
       "category": 32,
-      "subcategory": 323
+      "sub": 323
     }
   },
   {
@@ -2270,7 +2270,7 @@
       "details": "Large flowers for naturalising in a variety of colours. Ideal for pollinators. Crocus will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade. Excellent for naturalising (leaving in for flowers year after year). Suitable for rockeries, between shrubs & in any kind of container. When planting, place wire netting just under the soil surface to prevent mice or squirrels eating the corms.Colour: MixedPlanting Time: August OnwardsFlowering Time: March/AprilFlowering Height: 10cm/4 inches",
       "image": "spring-colour-08.jpg",
       "category": 32,
-      "subcategory": 323
+      "sub": 323
     }
   },
   {
@@ -2283,7 +2283,7 @@
       "details": "Agapanthus Poppin PurpleAmazing burgundy-purple flowers of a colour and intensity quite unlike another purple Agapanthus. Long flowering period due to re- blooming.It grows about 60 cm tall and 45 cm wide. Place Poppin’ Purple in the (full) sun in a well-drained soil. It is a great plant for perennial borders, for in pot on patio or balcony or for in mixed containers.",
       "image": "summer-colour-01.jpg",
       "category": 32,
-      "subcategory": 324
+      "sub": 324
     }
   },
   {
@@ -2296,7 +2296,7 @@
       "details": "Ideal for borders & good for cut flowers. Alliums will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade. Valuable for planting in groups in borders or for naturalising (flowering for year after year). Excellent, long lasting cut flower. Plant taller varieties to the rear of borders. Flowers can be used for dried arrangements.Colour: MixedPlanting Time: August OnwardsFlowering Time: May/JuneFlowering Height: 60-90cm/24-36 inches",
       "image": "summer-colour-02.jpg",
       "category": 32,
-      "subcategory": 324
+      "sub": 324
     }
   },
   {
@@ -2309,7 +2309,7 @@
       "details": "Dense purple flowers. Bee friendly.Alliums will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade.Valuable for planting in groups in borders or for naturalising (flowering for year after year). Excellent, long lasting cut flower.Plant taller varieties to the rear of borders. Flowers can be used for dried arrangements.Colour: PurplePlanting Time: August OnwardsFlowering Time: May/JuneFlowering Height: 125cm/50 inches",
       "image": "summer-colour-03.jpg",
       "category": 32,
-      "subcategory": 324
+      "sub": 324
     }
   },
   {
@@ -2322,7 +2322,7 @@
       "details": "Tall white flowers. Bee friendly.Alliums will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade.Valuable for planting in groups in borders or for naturalising (flowering for year after year). Excellent, long lasting cut flower.Plant taller varieties to the rear of borders. Flowers can be used for dried arrangements.Colour: WhitePlanting Time: August OnwardsFlowering Time: May/JuneFlowering Height: 120cm/48 inches",
       "image": "summer-colour-04.jpg",
       "category": 32,
-      "subcategory": 324
+      "sub": 324
     }
   },
   {
@@ -2335,7 +2335,7 @@
       "details": "Drumstick shaped flowers. Ideal for pollinators.Alliums will grow in a wide range of soils provided there is good drainage. They like sunshine but the flowers will last longer in partial shade.Valuable for planting in groups in borders or for naturalising (flowering for year after year). Excellent, long lasting cut flower.Plant taller varieties to the rear of borders. Flowers can be used for dried arrangements.Colour: RedPlanting Time: August OnwardsFlowering Time: JuneFlowering Height: 50cm/20 inches",
       "image": "summer-colour-05.jpg",
       "category": 32,
-      "subcategory": 324
+      "sub": 324
     }
   },
   {
@@ -2348,7 +2348,7 @@
       "details": "Campanula portenschlagiana Ambella White produces masses of starry, bell-shaped, pure white flowers so dense you can barely see the foliage from spring until autumn. The mounds of evergreen foliage and copious flower are sturdy and compact but trail nicely for use in hanging baskets, containers, or as a groundcover. Shear hard to refresh clumps if they become leggy.height 4 inches - 10cm",
       "image": "summer-colour-06.jpg",
       "category": 32,
-      "subcategory": 324
+      "sub": 324
     }
   },
   {
@@ -2361,7 +2361,7 @@
       "details": "Convolvulus cneorum 'Snow Angel'An unusual shrubby member of a genus that comprises mostly climbers and scramblers.It is a native of Mediterranean limestone hills, and enjoys a hot sunny position in a rock garden, where fertility is fairly low and drainage efficient.The evergreen foliage is covered in silky silver-grey hairs, and the flowers start as pink buds which open into 2.5cm (1in) trumpets, with blush white petals marked with a central pink stripe from May to NovemberAn attractive plant that benefits from annual pruning to maintain bushy growth down to the ground.The Royal Horticultural Society has given it its prestigious Award of Garden Merit (AGM).Grows to height and spread of 60cm (2ft)",
       "image": "summer-colour-07.jpg",
       "category": 32,
-      "subcategory": 324
+      "sub": 324
     }
   },
   {
@@ -2374,7 +2374,7 @@
       "details": "Dianthus 'Sherbet'Double, cheerful cherry pink blossoms with attractive, blue green foliage.Exceptionally early, long-flowering and fragrant. This selection forms a low, grassy, blue-green cushion.Ideal for borders, along walls, in containers or as edging. Good cut flower.Dense, mounded habit. Prefers well-drained soil in full sun.height 20-30cm high and wide",
       "image": "summer-colour-08.jpg",
       "category": 32,
-      "subcategory": 324
+      "sub": 324
     }
   },
   {
@@ -2387,7 +2387,7 @@
       "details": "Acer palmatum 'Osakazuki'Forms a lovely small tree, suitable for the smallest garden.Bright green leaves in summer turn a bright orange red in autumn.Grows to 3-4m high and 2-3m wide in 10 years.Shelter from cold wind.In leaf from April to November. Stunning in large pots or in the ground",
       "image": "shade-01.jpg",
       "category": 32,
-      "subcategory": 326
+      "sub": 326
     }
   },
   {
@@ -2400,7 +2400,7 @@
       "details": "White Splendour. White flowers. RHS Award winner. Anemone will grow in a wide range of soils provided there is good drainage. They like sunshine or partial shade & good supply of humus such as leaf mould or compost. Excellent for naturalising in borders, containers, rockeries, wild gardens & woodland. Soak the corms in water for 3 hours before planting as this helps them to establish. De Caen & St Brigid grow well with Ranunculus.Colour: WhitePlanting Time: August OnwardsFlowering Time: March/AprilFlowering Height: 15cm/6 inches",
       "image": "shade-02.jpg",
       "category": 32,
-      "subcategory": 326
+      "sub": 326
     }
   },
   {
@@ -2413,7 +2413,7 @@
       "details": "Aucuba japonica 'Rozannie'Aucuba Japonica Rozannie is a lovely, small, dense evergreen shrub. It has lance shaped, dark green, glossy leaves. During the winter months it benefits from having attractive bright red fruits.Size: 1mtr (3ft) height Spread: 1mtr (3ft)Loves Shade to partial shade",
       "image": "shade-03.jpg",
       "category": 32,
-      "subcategory": 326
+      "sub": 326
     }
   },
   {
@@ -2426,7 +2426,7 @@
       "details": "Buxus sempervirens 40cm ballA pair of these tightly rounded box spheres are excellent for flanking a set of steps, doorways or a path. They're perfect for planting in a large, well-drained, terracotta pot in a partially shady site, where the glossy, dark-green leaves provide all year foliage interest and structure.Easy to keep, just water well once a week all year round - (don't rely on rain as not enough gets into the pot)Trim as needed to maintain shape.",
       "image": "shade-04.jpg",
       "category": 32,
-      "subcategory": 326
+      "sub": 326
     }
   },
   {
@@ -2439,7 +2439,7 @@
       "details": "Buxus sempervirens 60-70cm pyramidThe number one choice for pots at the front door! A pair of these tightly clipped pyramids are excellent for flanking a set of steps, doorways or a path. They're perfect for planting in a large, well-drained, terracotta pot in a partially shady site, where the glossy, dark-green leaves provide all year foliage interest and structure. Easy to keep, just water well once a week all year round - (don't rely on rain as not enough gets into the pot) Trim as needed to maintain shape",
       "image": "shade-05.jpg",
       "category": 32,
-      "subcategory": 326
+      "sub": 326
     }
   },
   {
@@ -2452,7 +2452,7 @@
       "details": "Camellia japonica 'Bonomiana'This evergreen shrub is a wonderful sight from midwinter to early spring, when its branches are laden with an abundance of formal, double blooms to 10cm across. Each one is a unique blend of blush, white and rich pink, and they are offset beautifully by the lustrous green foliage. A great addition to a partially shaded border, it also makes a handsome addition to a larger pot.Grows to 2m high",
       "image": "shade-06.jpg",
       "category": 32,
-      "subcategory": 326
+      "sub": 326
     }
   },
   {
@@ -2465,7 +2465,7 @@
       "details": "Camellia reticulata 'Black Lace'A wonderful Camellia for those who want to add a splash of colour. The bright red flowers stand out brilliantly against the dark green glossy foliage.'Black Lace' may provide you with much needed winter colour as early as late January in some years with flowering continuing for several weeks well into spring.As the bloom intensifies in early spring they are just spectacular.As a small shrub this Camellia is perfectly suited to planting in a container to bring some colour to a terrace or patio and will do best in ericaceous soil in either partial shade or sun.Grows to 150-175cm high",
       "image": "shade-07.jpg",
       "category": 32,
-      "subcategory": 326
+      "sub": 326
     }
   },
   {
@@ -2478,7 +2478,7 @@
       "details": "Fargesia Angustissima - BambooA delicate and tall bamboo with narrow leaves.It will grow up to 5-6 metres with lovely arching culms.New culms emerge coloured purple with a white powdery bloom.Although this is a fairly recent introduction to Europe from the United States it is hardy down to -15C.Young plants should be grown in a sheltered position until established.",
       "image": "bamboo-01.jpg",
       "category": 33,
-      "subcategory": 331
+      "sub": 331
     }
   },
   {
@@ -2491,7 +2491,7 @@
       "details": "Phyllostachys AureaVery hardy evergreen screening plant, growing up to 5 m high. Clump forming, non spreading, this bamboo is suitable for garden planting or growing in a large container. Bamboos needs lots of water all year round, so be prepared to water even in winter if the weather is dry. If planting in a pot, consider adding a timer to your garden hoze so it is automatically watered.Evergreen screening plant.Decorative pot not supplied",
       "image": "bamboo-02.jpg",
       "category": 33,
-      "subcategory": 331
+      "sub": 331
     }
   },
   {
@@ -2504,7 +2504,7 @@
       "details": "Semiarundinaria fastuosa viridis",
       "image": "bamboo-03.jpg",
       "category": 33,
-      "subcategory": 331
+      "sub": 331
     }
   },
   {
@@ -2517,7 +2517,7 @@
       "details": "Actinidia kolomikta is an elegant twining vine to be grown on a trellis or scrambling through a large shrub or small tree.Its new growth emerges bronze then turns to its characteristic tricolored variegation. The outer portion of each leaf is white and the leaf tip is flushed with pink at the tip. Its June flowers are insignificant in appearance but fragrant.",
       "image": "climbing-plant-01.jpg",
       "category": 33,
-      "subcategory": 332
+      "sub": 332
     }
   },
   {
@@ -2530,7 +2530,7 @@
       "details": "Campsis 'Madame Galen'Spectacular, trumpet-shaped, salmon-red flowers from August to September and dark green leaves. This vigorous orange-red climber looks great trained over a sunny wall or fence. Until the plant has fully established, the shoots need to be trained and tied to a trellis or framework of horizontal wires.Needs full sun",
       "image": "climbing-plant-02.jpg",
       "category": 33,
-      "subcategory": 332
+      "sub": 332
     }
   },
   {
@@ -2543,7 +2543,7 @@
       "details": "Japanese QuinceStunning spring flowering shrub , ideal for a low wall in sun or shade.Very easy to grow. Flowers February to May followed by large yellow fruits in autumn.Grows to 3-6ft (1-2m)",
       "image": "climbing-plant-03.jpg",
       "category": 33,
-      "subcategory": 332
+      "sub": 332
     }
   },
   {
@@ -2556,7 +2556,7 @@
       "details": "Chaenomeles NivalisThis beautiful white flowering Japanese quince is a deciduous shrub with a spreading habit. Elegant white, cup-shaped flowers with prominent creamy anthers are borne both in clusters and singly from March to May. In autumn, bright yellow fruits are p roduced which is ideal if you're interested in making quince jelly. ",
       "image": "climbing-plant-04.jpg",
       "category": 33,
-      "subcategory": 332
+      "sub": 332
     }
   },
   {
@@ -2569,7 +2569,7 @@
       "details": "Betula Pendula 'Purpurea'Beautiful glossy deep burgundy red leaf color and cinnamon to white exfoliating bark puts this Birch tree in a class of it's own.The desirable leaf colour holds very well through out the summer.in Autumn it is a festival of colors ranging from bright red, orange,yellow and purple.Truly a spectacular all season tree.Height 4m, spread 3m in 10 years",
       "image": "tree-01.jpg",
       "category": 33,
-      "subcategory": 333
+      "sub": 333
     }
   },
   {
@@ -2582,7 +2582,7 @@
       "details": "Small weeping tree suitable for even very small gardens. Very gracefull whispy trailing branches are covered with small green leaves in summer that turm golden yellow in autumn.Grows only 3m -4m high and 3m wide in 10 years.",
       "image": "tree-02.jpg",
       "category": 33,
-      "subcategory": 333
+      "sub": 333
     }
   },
   {
@@ -2595,7 +2595,7 @@
       "details": "Betula jacquemontiiA good new selection with a gleaming white trunk from an early age. This form is upright, graceful and light in form. Good for small spaces. Dazzling snow white bark is the main feature of this tree. A spotlight under the tree really shows up the colour on dark winter evenings! Provides screening and shelter.Grows to a height of 4m and a spread of 2m in 10 years.",
       "image": "tree-03.jpg",
       "category": 33,
-      "subcategory": 333
+      "sub": 333
     }
   },
   {
@@ -2608,7 +2608,7 @@
       "details": "Buxus sempervirens 60-70cm pyramidThe number one choice for pots at the front door! A pair of these tightly clipped pyramids are excellent for flanking a set of steps, doorways or a path. They're perfect for planting in a large, well-drained, terracotta pot in a partially shady site, where the glossy, dark-green leaves provide all year foliage interest and structure. Easy to keep, just water well once a week all year round - (don't rely on rain as not enough gets into the pot) Trim as needed to maintain shape",
       "image": "tree-04.jpg",
       "category": 33,
-      "subcategory": 333
+      "sub": 333
     }
   },
   {
@@ -2621,7 +2621,7 @@
       "details": "A really neat tree, ideal for narrow areas or especially suited to street planting.The side branches grow upwards and so do not encroach on the street or footpaths.Grows to a height of 7m , but only 1- 1.5m wide.May be trimmed if required.Green leaves in summer, turn to a lovely golden colour in autumn. ",
       "image": "tree-05.jpg",
       "category": 33,
-      "subcategory": 333
+      "sub": 333
     }
   },
   {
@@ -2634,7 +2634,7 @@
       "details": "Cornus Controversa Variegata - Wedding Cake TreeThis small tree has wonderful tiered branches like the layers on a wedding cake.The leaves are creamy white and green.It is best in a sheltered garden in sun or shade.Spectacular planted in a corner with dark evergreen background planting.Grows 4m high x 2m wide",
       "image": "tree-06.jpg",
       "category": 33,
-      "subcategory": 333
+      "sub": 333
     }
   },
   {
@@ -2647,7 +2647,7 @@
       "details": "A lovely small evergreen tree suitable for even the smallest garden.White flowers in April change into red berries in August, lasting until November - January depending on weatherGrows to a height of 2-3m high and 1 m wide in 10 years.",
       "image": "tree-07.jpg",
       "category": 33,
-      "subcategory": 333
+      "sub": 333
     }
   },
   {
@@ -2660,7 +2660,7 @@
       "details": "Our Clear Pots are ideal for growing orchids and other flowers that benefit from extra light and air to their roots. This design has lower side vents which helps encourage quicker growth. The clear saucer guards against any spillage.",
       "image": "houseplant-pot-01.jpg",
       "category": 41,
-      "subcategory": 411
+      "sub": 411
     }
   },
   {
@@ -2673,7 +2673,7 @@
       "details": "Our Clear Pots are ideal for growing orchids and other flowers that benefit from extra light and air to their roots. This design has lower side vents which helps encourage quicker growth. The clear saucer guards against any spillage.",
       "image": "houseplant-pot-02.jpg",
       "category": 41,
-      "subcategory": 411
+      "sub": 411
     }
   },
   {
@@ -2686,7 +2686,7 @@
       "details": "Our Clear Pots are ideal for growing orchids and other flowers that benefit from extra light and air to their roots. This design has lower side vents which helps encourage quicker growth. The clear saucer guards against any spillage.",
       "image": "houseplant-pot-03.jpg",
       "category": 41,
-      "subcategory": 411
+      "sub": 411
     }
   },
   {
@@ -2699,7 +2699,7 @@
       "details": "Heavy duty pot stand with decorative circular design.- Strong and sturdy design- Double rim gives extra support- Quality castors make the stand easy to manoeuvre",
       "image": "stand-01.jpg",
       "category": 41,
-      "subcategory": 412
+      "sub": 412
     }
   },
   {
@@ -2712,7 +2712,7 @@
       "details": "Heavy duty pot stand with decorative circular design.- Strong and sturdy design- Double rim gives extra support- Quality castors make the stand easy to manoeuvre",
       "image": "stand-01.jpg",
       "category": 41,
-      "subcategory": 412
+      "sub": 412
     }
   },
   {
@@ -2725,7 +2725,7 @@
       "details": "The VegTrug Modern Plant Stand 3 Shelf is suitable for both indoor and outdoor use and can be used in many locations throughout the home and garden to give a modern and minimalistic look. Offering the perfect home outside to pot plant displays and various other items such as gardening tools, watering cans and ornaments. Whilst inside, the shelves look great styled with house plants, books, trinkets and household items.",
       "image": "stand-01.jpg",
       "category": 41,
-      "subcategory": 412
+      "sub": 412
     }
   },
   {
@@ -2738,7 +2738,7 @@
       "details": "The elho algarve collection: a highly successful, extensive range of cylindrical outdoor planters. Enhance the ambience in your garden, patio or on your balcony. Algarve combines elegance with a professional finish.This oblong elho planter with a flower-pattern makes a beautiful match for elegant plants.",
       "image": "balcony-planter-01.jpg",
       "category": 41,
-      "subcategory": 414
+      "sub": 414
     }
   },
   {
@@ -2751,7 +2751,7 @@
       "details": "Is it a planter? Is it a rack? Or a practical saucer? This balcony planter by elho is all-in-1. Moreover, it is an easy way to make your balcony pleasantly green in a matter of seconds. Speaking of practical: did you notice that it has an opening at the side for watering? A practical solution for you, from elho! It comes as a complete set.",
       "image": "balcony-planter-02.jpg",
       "category": 41,
-      "subcategory": 414
+      "sub": 414
     }
   },
   {
@@ -2764,7 +2764,7 @@
       "details": "Is it a planter? Is it a rack? Or a practical saucer? This balcony planter by elho is all-in-1. Moreover, it is an easy way to make your balcony pleasantly green in a matter of seconds. Speaking of practical: did you notice that it has an opening at the side for watering? A practical solution for you, from elho! It comes as a complete set. The only thing you have to do is select your prettiest plants.- Made from recycled plastic.",
       "image": "balcony-planter-03.jpg",
       "category": 41,
-      "subcategory": 414
+      "sub": 414
     }
   },
   {
@@ -2777,7 +2777,7 @@
       "details": "Is it a planter? Is it a rack? Or a practical saucer? This balcony planter by elho is all-in-1. Moreover, it is an easy way to make your balcony pleasantly green in a matter of seconds. Speaking of practical: did you notice that it has an opening at the side for watering? A practical solution for you, from elho! It comes as a complete set. The only thing you have to do is select your prettiest plants.- Made from recycled plastic.",
       "image": "balcony-planter-04.jpg",
       "category": 41,
-      "subcategory": 414
+      "sub": 414
     }
   },
   {
@@ -2790,7 +2790,7 @@
       "details": "Are you planning a new look for your balcony? The balcony planter by elho allows you to do so in style. Attach the clips to the bottom for support and stability and your balcony will look great from the inside and the outside. With its 13-litre capacity it provides plenty of space for lots of beautiful plants.",
       "image": "balcony-planter-05.jpg",
       "category": 41,
-      "subcategory": 414
+      "sub": 414
     }
   }
 ]

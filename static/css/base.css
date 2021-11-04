@@ -88,3 +88,29 @@ nav .megamenu {
       margin-top:10px;
   }
 }
+
+/* Products page styling */
+.image-overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #ffffff;
+    z-index: -1;
+}
+
+.page-header-container {
+    padding-top: 150px;
+}
+
+.card {
+    border-radius: 10px;
+    border: #18611E 1px solid;
+    overflow: hidden;
+}
+
+.card-sub-text {
+    font-size: .8rem;
+    text-decoration: none;
+}

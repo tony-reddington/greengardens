@@ -114,3 +114,9 @@ nav .megamenu {
     font-size: .8rem;
     text-decoration: none;
 }
+
+@media (max-width: 992px) {
+    .product-header-text {
+        padding-top: 20px;
+    }
+}

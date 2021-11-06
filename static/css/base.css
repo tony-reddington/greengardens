@@ -18,6 +18,10 @@ body {
     color: #18611E !important;
 }
 
+.main-white {
+    color: #ffffff;
+}
+
 /* Header/navbar styling */
 header {
     background-color: #18611E;
@@ -119,4 +123,15 @@ nav .megamenu {
     .product-header-text {
         padding-top: 20px;
     }
+}
+
+.button-style {
+    border: #393D3F 2px solid;
+    background-color: #FFB81F;
+    color: #ffffff;
+}
+
+.icon {
+    position: relative;
+    top: 1px;
 }

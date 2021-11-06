@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container page-header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="image-overlay"></div>
+    <div class="container mb-2 mt-5">
+        <div class="row">
+            <h2 class="mb-4 main-dark-color text-center">Your Shopping Bag</h2>
+        </div>
+        <div class="row">
+            <div class="col">
+                {% if bag_items %}
+                    <div class="table-responsive"></div>
+                {% else %}
+                    <p class="fw-bold mb-5 main-dark-color fs-4">There's nothing in your bag.</p>
+                {% endif %}
+                <a href="#" onClick="history.go(-1)" class="btn btn-lg button-style">
+                    <span class="icon">
+                        <i class="fas fa-chevron-circle-left main-dark-color fs-5"></i>
+                    </span>
+                    <span class="text-uppercase main-dark-color fs-6 fw-bold">Continue Shopping</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

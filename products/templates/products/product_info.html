@@ -28,7 +28,7 @@
                     <a href="#" class="col-6 card-sub-text main-dark-color fs-6"><i class="fas fa-tag main-green-color"></i>  {{ product.sub.friendly_name }}</a>
                 </div>
                 <p class="fs-5 main-dark-color py-2">{{ product.details }}</p>
-                <form action="" method="POST">
+                <form action="{% url 'add_product_to_bag' product.id %}" method="POST">
                     {% csrf_token %}
                     <div class="row">
                         <div class="col-12">

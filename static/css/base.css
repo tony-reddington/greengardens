@@ -137,5 +137,15 @@ nav .megamenu {
 
 .icon {
     position: relative;
-    top: 1px;
+    top: 1.5px;
+}
+
+.add-to-bag-button {
+    background-color: #18611E;
+    color: #ffffff;
+    border: #18611E 2px solid;
+}
+
+.info-button {
+    font-size: .9rem;
 }

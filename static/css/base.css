@@ -22,6 +22,10 @@ body {
     color: #ffffff;
 }
 
+.yellow-background {
+    background-color: #FFB81F !important;
+}
+
 /* Header/navbar styling */
 header {
     background-color: #18611E;
@@ -121,7 +125,7 @@ nav .megamenu {
 
 @media (max-width: 992px) {
     .product-header-text {
-        padding-top: 20px;
+        padding-top: 50px;
     }
 }
 

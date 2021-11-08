@@ -302,12 +302,12 @@
                               href="{% url 'view_bag' %}">
                               <!------------------Fill in path-->
                               <div class="text-center ">
-                                  <div><i class="fas fa-shopping-bag fa-lg header-text-colour"></i></div>
+                                  <div><i class="fas fa-shopping-basket fa-lg header-text-colour"></i></div>
                                   <p class="my-0 header-text-colour">
                                       {% if grand_total %}
-                                        ${{ grand_total|floatformat:2 }}
+                                        €{{ grand_total|floatformat:2 }}
                                       {% else %}
-                                        $0.00
+                                        €0.00
                                       {% endif %}
                                   </p>
                               </div>

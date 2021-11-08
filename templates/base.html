@@ -296,11 +296,9 @@
                               {% endif %}
                           </div>
                       </li>
-                      <!----------------------------- Shopping bag ----------------------------->
+                      <!----------------------------- Shopping bag taken from boutique ado project and edited ----------------------------->
                       <li class="list-inline-item">
-                          <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
-                              href="{% url 'view_bag' %}">
-                              <!------------------Fill in path-->
+                          <a class="{% if grand_total %}fw-bold{% endif %} nav-link" href="{% url 'view_bag' %}">
                               <div class="text-center ">
                                   <div><i class="fas fa-shopping-basket fa-lg header-text-colour"></i></div>
                                   <p class="my-0 header-text-colour">

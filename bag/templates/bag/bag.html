@@ -18,7 +18,7 @@
     <div class="row">
         <div class="col">
             {% if bag_items %}
-            <div class="table-responsive d-none d-md-block">
+            <div class="table-responsive">
                 <table class="table table-borderless table-sm">
                     <thead class="main-dark-color">
                         <tr class="main-dark-color text-decoration-underline">
@@ -38,30 +38,54 @@
                             <h5 class="fw-bold fs-5 mb-0">{{ item.product.name }}</p>
                         </td>
                         <td class="text-left py-4">
-                            <h5 class="fs-5 fw-bold">{{ item.product.price }}</p>
+                            <h5 class="fs-5 fw-bold">€ {{ item.product.price }}</p>
                         </td>
                         <td class="">
-
                         </td>
                         <td class="">
-
                         </td>
                     </tr>
                     {% endfor %}
+                    <tr>
+                        <td class="pt-3 basket-totals" colspan="5">
+                            <p class="fw-bold fs-5 mb-1">Sub-Total: € {{ total|floatformat:2 }}</p>
+                            <p class="fw-bold fs-5 mb-2">Delivery: € {{ delivery|floatformat:2 }}</p>
+                            <p class="fw-bolder fs-4 mb-2">Total to pay: € {{ grand_total|floatformat:2 }}</p>
+                            {% if spend_for_free_delivery > 0 %}
+                            <p class="text-danger">To qualify for free delivery, spend a further <strong>€{{ spend_for_free_delivery }}</strong>.</p>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" class="basket-checkout-buttons">
+                            <a href="#" onClick="history.go(-1)" class="btn btn-lg button-style">
+                                <span class="icon">
+                                    <i class="fas fa-chevron-circle-left main-dark-color fs-5"></i>
+                                </span>
+                                <span class="text-uppercase main-dark-color fs-6 fw-bold">Continue Shopping</span>
+                            </a>
+                            <a href="#" class="btn btn-lg checkout-button">
+                                <span class="text-uppercase fs-6">Secure Checkout</span>
+                                <span class="icon">
+                                    <i class="fas fa-lock fs-5"></i>
+                                </span>
+                            </a>
+                        </td>
+                    </tr>
                 </table>
             </div>
         </div>
         {% else %}
             <p class="fw-bold mb-5 main-dark-color fs-4">There's nothing in your bag.</p>
+            <a href="#" onClick="history.go(-1)" class="btn btn-lg button-style">
+                <span class="icon">
+                    <i class="fas fa-chevron-circle-left main-dark-color fs-5"></i>
+                </span>
+                <span class="text-uppercase main-dark-color fs-6 fw-bold">Continue Shopping</span>
+            </a>
         {% endif %}
     </div>
 </div>
 </div>
-<!-- <a href="#" onClick="history.go(-1)" class="btn btn-lg button-style">
-    <span class="icon">
-        <i class="fas fa-chevron-circle-left main-dark-color fs-5"></i>
-    </span>
-    <span class="text-uppercase main-dark-color fs-6 fw-bold">Continue Shopping</span>
-</a> -->
 
 {% endblock %}

@@ -22,6 +22,8 @@ def bag_products(request):
 
     if total < settings.QUALIFY_FOR_FREE_DELIVERY:
         delivery = total * Decimal(settings.STANDARD_DELIVERY_PERCENT / 100)
+        if delivery < 5 and delivery > 0:
+            delivery = 5
         spend_for_free_delivery = settings.QUALIFY_FOR_FREE_DELIVERY - total
     else:
         delivery = 0

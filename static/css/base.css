@@ -149,3 +149,19 @@ nav .megamenu {
 .info-button {
     font-size: .9rem;
 }
+
+.basket-totals {
+    text-align: right;
+    width: 100%;
+}
+
+.checkout-button {
+    background-color: #18611E;
+    color: #ffffff;
+    border: #393D3F 2px solid;
+}
+
+.basket-checkout-buttons {
+    text-align: right;
+    width: 100%;
+}

@@ -41,23 +41,18 @@
                             <h5 class="fs-5 fw-bold">€ {{ item.product.price }}</p>
                         </td>
                         <td>
-                            <form class="form" method="POST" action="">
+                            <form class="form" method="POST" action="{% url 'update_bag_quantity' item.item_id %}">
                                 {% csrf_token %}
-                                <div class="row">
-                                    <div class="col pt-4">
-                                        <div class="form-group col-6">
-                                            <div class="input-group">
-                                                <input class="form-control main-dark-color" type="number" name="quantity" value="{{ item.quantity }}"
-                                                    min="1" max="10" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
-                                            </div>
-                                        </div>
+                                    <div class="col-11">
+                                        <input class="form-control main-dark-color mt-4 quantity-input" type="number" name="quantity" value="{{ item.quantity }}"
+                                            min="1" max="10" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
                                     </div>
-                                <div>
+                                    <div class="col-11">
+                                        <input type="submit" class="update-quantity-button mt-2" value="Update"></input>
+                                        <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                                        <input type="button" class="float-end mt-2 delete-button" onclick="location.href='{% url 'delete_bag_product' item.item_id %}';" value="Delete">
+                                    </div>
                             </form>
-                            <div class="col-6">
-                                <a class="text-info" id="update-link">Update</a>
-                                <a class="text-danger float-end" id="remove-link">Remove</a>
-                            </div>
                         </td>
                         <td class="">
                             

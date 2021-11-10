@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect, get_object_or_404, reverse, HttpR
 
 from products.models import Product
 
+import sweetify
+
 
 def view_bag(request):
     """ View to return bag contents """
@@ -18,6 +20,8 @@ def add_product_to_bag(request, item_id):
         user_bag[item_id] += quantity
     else:
         user_bag[item_id] = quantity
+    sweetify.success(request, 'Done!',
+                     text='Product added to your basket', icon='success')
 
     request.session['bag'] = user_bag
     return redirect(redirect_url)
@@ -33,6 +37,8 @@ def update_bag_quantity(request, item_id):
         user_bag[item_id] = quantity
     else:
         user_bag.pop(item_id)
+    sweetify.success(request, 'Updated',
+                     text='The quantity has been updated', icon='success')
 
     request.session['bag'] = user_bag
     return redirect(reverse('view_bag'))
@@ -44,6 +50,8 @@ def delete_bag_product(request, item_id):
     get_object_or_404(Product, pk=item_id)
     user_bag = request.session.get('bag', {})
     user_bag.pop(item_id)
+    sweetify.success(request, 'Removed',
+                     text='The product has been removed', icon='info')
 
     request.session['bag'] = user_bag
     return redirect(reverse('view_bag'))

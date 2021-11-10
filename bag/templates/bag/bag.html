@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load subtotal_calc_tool %}
 
 {% block page_header %}
     <div class="container page-header-container">
@@ -54,8 +55,8 @@
                                     </div>
                             </form>
                         </td>
-                        <td class="">
-                            
+                        <td class="text-left py-4">
+                            <h5 class="fs-5 fw-bold">€{{ item.product.price | subtotal_calc:item.quantity }}</h5>
                         </td>
                     </tr>
                     {% endfor %}

@@ -29,7 +29,6 @@ body {
 /* Header/navbar styling */
 header {
     background-color: #18611E;
-    border-bottom: #ffffff 1px solid;
 }
 
 .header-text-colour {
@@ -39,19 +38,16 @@ header {
 .nav-item:hover,
 .nav-item:active,
 .nav-item:focus {
-    background-color: #C9E3AC;
-}
-
-..navbar .megamenu {
-    color: #18611E;
+    text-decoration: underline;  
 }
 
 .navbar-brand-text {
     font-family: 'Are You Serious', sans-serif;
+    margin-left: 20px;
 }
 
 nav .megamenu {
-    background-color: #C9E3AC;
+    background-color: #ffffff;
     border: #18611E 4px solid;
 }
 

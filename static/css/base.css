@@ -129,6 +129,14 @@ nav .megamenu {
     border: #393D3F 2px solid;
     background-color: #FFB81F;
     color: #ffffff;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.button-style:hover,
+.button-style:active,
+.button-style:focus {
+    box-shadow: none;
+    border: none;  
 }
 
 .icon {

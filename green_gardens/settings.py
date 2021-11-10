@@ -45,7 +45,8 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'home',
     'products',
-    'bag'
+    'bag',
+    'sweetify'
 ]
 
 MIDDLEWARE = [
@@ -170,3 +171,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 QUALIFY_FOR_FREE_DELIVERY = 30
 STANDARD_DELIVERY_PERCENT = 10
+
+# Sweetify alert spec
+SWEETIFY_SWEETALERT_LIBRARY = 'sweetalert2'

@@ -147,11 +147,25 @@ nav .megamenu {
 .add-to-bag-button {
     background-color: #18611E;
     color: #ffffff;
-    border: #18611E 2px solid;
+    border: #393D3F 2px solid;
+    box-shadow: 5px 10px 8px #888888;
+    height: 2.6rem;
+}
+
+.add-to-bag-button:hover,
+.add-to-bag-button:active,
+.add-to-bag-button:focus {
+    box-shadow: none;
+    border: none;
+    color: #ffffff;
 }
 
 .info-button {
     font-size: .9rem;
+}
+
+#info-continue-button {
+    height: 2.6rem;
 }
 
 .basket-totals {

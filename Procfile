@@ -1,0 +1,1 @@
+web: gunicorn green_gardens.wsgi:application

@@ -214,6 +214,7 @@ nav .megamenu {
     border-radius: 5px;
     box-shadow: 5px 10px 8px #888888;
     color: #18611E;
+    width: 5rem;
 }
 
 .delete-button {
@@ -222,6 +223,7 @@ nav .megamenu {
     border-radius: 5px;
     box-shadow: 5px 10px 8px #888888;
     color: red;
+    width: 5rem;
 }
 
 .update-quantity-button:hover,

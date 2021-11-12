@@ -27,6 +27,12 @@ class Order(models.Model):
         """ Generate a random order number """
         return uuid.uuid4().hex.upper()
 
+    def save(self, *args, **kwargs):
+        """ If an order number has not been created, this function will check and create an order number """
+        if not self.order_number:
+            self.order_number = self._order_number_generation()
+        super().save(*args, **kwargs)
+
 
 class OrderLineItem(models.Model):
     order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems')

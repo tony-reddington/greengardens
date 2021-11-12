@@ -188,6 +188,15 @@ nav .megamenu {
     background-color: #18611E;
     color: #ffffff;
     border: #393D3F 2px solid;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.checkout-button:hover,
+.checkout-button:active,
+.checkout-button:focus {
+    box-shadow: none;
+    color: white;
+    border: none;
 }
 
 .basket-checkout-buttons {

@@ -1,3 +1,5 @@
+/* Styling for site overall ----------------------------------------------------------------*/
+
 html {
     height: 100%;
 }
@@ -26,7 +28,7 @@ body {
     background-color: #FFB81F !important;
 }
 
-/* Header/navbar styling */
+/* Header/navbar styling ----------------------------------------------------------------*/
 header {
     background-color: #18611E;
 }
@@ -76,24 +78,26 @@ nav .megamenu {
 }
 
 
-/* Megamenu styling taken from www.bootstrap-menu.com */
+/* Megamenu styling taken from www.bootstrap-menu.com*/
 .navbar .megamenu{ padding: 1rem; }
+
+/* Header/navbar media queries ----------------------------------------------------------------*/
 
 @media all and (min-width: 992px) {
 
-  .navbar .has-megamenu{position:static!important;}
-  .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
-
-}	
-@media(max-width: 991px){
-  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
-    overflow-y: auto;
-      max-height: 90vh;
-      margin-top:10px;
+    .navbar .has-megamenu{position:static!important;}
+    .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+  
+  }	
+  @media(max-width: 991px){
+    .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+      overflow-y: auto;
+        max-height: 90vh;
+        margin-top:10px;
+    }
   }
-}
 
-/* Products page styling */
+/* Products page styling --------------------------------------------------------------*/
 .image-overlay {
     height: 100%;
     width: 100%;
@@ -117,12 +121,6 @@ nav .megamenu {
 .card-sub-text {
     font-size: .8rem;
     text-decoration: none;
-}
-
-@media (max-width: 992px) {
-    .product-header-text {
-        padding-top: 50px;
-    }
 }
 
 .button-style {
@@ -158,6 +156,19 @@ nav .megamenu {
     box-shadow: none;
     border: none;
     color: #ffffff;
+}
+
+/* Products page media queries --------------------------------------------------------------*/
+
+@media (max-width: 992px) {
+    .product-header-text {
+        padding-top: 50px;
+    }
+}
+
+/* Bag.html page styling --------------------------------------------------------------*/
+.basket-header-text {
+    margin-top: 60px;
 }
 
 .info-button {
@@ -218,4 +229,12 @@ nav .megamenu {
     box-shadow: none;
     background-color: #393D3F;
     color: white;
+}
+
+/* bag.html page media queries ----------------------------------------------*/
+
+@media (max-width: 992px) {
+    .basket-header-text {
+        margin-top: 100px;
+    }
 }

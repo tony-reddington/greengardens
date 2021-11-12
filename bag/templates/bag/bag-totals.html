@@ -1,0 +1,7 @@
+<p class="fw-bold fs-5 mb-1">Sub-Total: € {{ total|floatformat:2 }}</p>
+<p class="fw-bold fs-5 mb-2">Delivery: € {{ delivery|floatformat:2 }}</p>
+<p class="fw-bolder fs-4 mb-2">Total to pay: € {{ grand_total|floatformat:2 }}</p>
+{% if spend_for_free_delivery > 0 %}
+<p class="text-danger">To qualify for free delivery, spend a further <strong>€{{ spend_for_free_delivery }}</strong>.
+</p>
+{% endif %}

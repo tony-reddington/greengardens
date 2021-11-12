@@ -23,6 +23,10 @@ class Order(models.Model):
     delivery_cost = models.DecimalField(max_digits=5, decimal_places=2, null=False, default=0)
     grand_total = models.DecimalField(max_digits=10, decimal_places=2, null=False, default=0)
 
+    def _order_number_generation(self):
+        """ Generate a random order number """
+        return uuid.uuid4().hex.upper()
+
 
 class OrderLineItem(models.Model):
     order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems')

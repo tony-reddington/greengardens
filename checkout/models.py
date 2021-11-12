@@ -27,6 +27,18 @@ class Order(models.Model):
         """ Generate a random order number """
         return uuid.uuid4().hex.upper()
 
+    def total_update(self):
+        """ Updates the grand total each time a line item is added and accounts for delivery cost """
+        self.total_order = self.lineitems.aggregate(Sum('line_item_total'))['line_item_total__sum']
+        if self.total_order < settings.QUALIFY_FOR_FREE_DELIVERY:
+            self.delivery_cost = self.total_order * settings.STANDARD_DELIVERY_PERCENT / 100
+            if self.delivery_cost < 5 and self.delivery_cost > 0:
+                self.delivery_cost = 5
+        else:
+            self.delivery_cost = 0
+        self.grand_total = self.total_order + self.delivery_cost
+        self.save()
+
     def save(self, *args, **kwargs):
         """ If an order number has not been created, this function will check and create an order number """
         if not self.order_number:

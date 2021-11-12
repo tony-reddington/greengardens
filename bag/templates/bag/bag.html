@@ -33,25 +33,23 @@
                     {% for item in bag_items %}
                     <tr>
                         <td class="py-4">
-                            <img src="{{ item.product.image.url }}" alt="{{ item.product.name }}" class="img-fluid">
+                            {% include "bag/product-image.html" %}
                         </td>
                         <td class="text-left py-4">
-                            <h5 class="fw-bold fs-5 mb-0">{{ item.product.name }}</p>
+                            {% include "bag/product-name.html" %}
                         </td>
                         <td class="text-left py-4">
-                            <h5 class="fs-5 fw-bold">€ {{ item.product.price }}</p>
+                            {% include "bag/product-price.html" %}
                         </td>
                         <td>
                             <form class="form" method="POST" action="{% url 'update_bag_quantity' item.item_id %}">
                                 {% csrf_token %}
                                     <div class="col-11">
-                                        <input class="form-control main-dark-color mt-4 quantity-input" type="number" name="quantity" value="{{ item.quantity }}"
-                                            min="1" max="10" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
+                                        {% include "bag/quantity-input.html" %}
                                     </div>
                                     <div class="col-11">
-                                        <input type="submit" class="update-quantity-button mt-2" value="Update"></input>
-                                        <input type="hidden" name="redirect_url" value="{{ request.path }}">
-                                        <input type="button" class="float-end mt-2 delete-button" onclick="location.href='{% url 'delete_bag_product' item.item_id %}';" value="Delete">
+                                        {% include "bag/update-button.html" %}
+                                        {% include "bag/delete-button.html" %}
                                     </div>
                             </form>
                         </td>
@@ -62,28 +60,12 @@
                     {% endfor %}
                     <tr>
                         <td class="pt-3 basket-totals" colspan="5">
-                            <p class="fw-bold fs-5 mb-1">Sub-Total: € {{ total|floatformat:2 }}</p>
-                            <p class="fw-bold fs-5 mb-2">Delivery: € {{ delivery|floatformat:2 }}</p>
-                            <p class="fw-bolder fs-4 mb-2">Total to pay: € {{ grand_total|floatformat:2 }}</p>
-                            {% if spend_for_free_delivery > 0 %}
-                            <p class="text-danger">To qualify for free delivery, spend a further <strong>€{{ spend_for_free_delivery }}</strong>.</p>
-                            {% endif %}
+                            {% include "bag/bag-totals.html" %}
                         </td>
                     </tr>
                     <tr>
                         <td colspan="5" class="basket-checkout-buttons">
-                            <a href="#" onClick="history.go(-1)" class="btn btn-lg button-style">
-                                <span class="icon">
-                                    <i class="fas fa-chevron-circle-left main-dark-color fs-5"></i>
-                                </span>
-                                <span class="text-uppercase main-dark-color fs-6 fw-bold">Continue Shopping</span>
-                            </a>
-                            <a href="#" class="btn btn-lg checkout-button">
-                                <span class="text-uppercase fs-6">Secure Checkout</span>
-                                <span class="icon">
-                                    <i class="fas fa-lock fs-5"></i>
-                                </span>
-                            </a>
+                            {% include "bag/continue-secure-checkout-buttons.html" %}
                         </td>
                     </tr>
                 </table>

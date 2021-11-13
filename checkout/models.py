@@ -17,7 +17,7 @@ class Order(models.Model):
     city_or_town = models.CharField(max_length=50, null=False, blank=False)
     county_or_state = models.CharField(max_length=50, null=True, blank=True)
     postcode_or_zip = models.CharField(max_length=15, null=True, blank=True)
-    country = CountryField(max_length=50, null=False, blank=False)
+    country = models.CharField(max_length=50, null=False, blank=False)
     date_of_order = models.DateTimeField(auto_now_add=True)
     total_order = models.DecimalField(max_digits=10, decimal_places=2, null=False, default=0)
     delivery_cost = models.DecimalField(max_digits=5, decimal_places=2, null=False, default=0)
@@ -49,5 +49,13 @@ class Order(models.Model):
 class OrderLineItem(models.Model):
     order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems')
     product = models.ForeignKey(Product, null=False, blank=False, on_delete=models.CASCADE)
-    quantity = models.IntegerField(null=False, blank-False, default=0)
+    quantity = models.IntegerField(null=False, blank=False, default=0)
     line_item_total = models.DecimalField(max_digits=6, decimal_places=2, null=False, blank=False, editable=False)
+
+    def save(self, *args, **kwargs):
+        """ Overides the save method, setting the line_item_total and updating the order total """
+        self.line_item_total = self.product.price * self.quantity
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return f'SKU {self.product.sku} on order {self.order.order_number}'

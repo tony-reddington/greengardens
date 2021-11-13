@@ -45,6 +45,9 @@ class Order(models.Model):
             self.order_number = self._order_number_generation()
         super().save(*args, **kwargs)
 
+    def __str__(self):
+        return self.order_number
+
 
 class OrderLineItem(models.Model):
     order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems')

@@ -17,3 +17,5 @@ class OrderAdmin(admin.ModelAdmin):
                     'total_order', 'delivery_cost', 'grand_total',)
 
     ordering = ('-date_of_order',)
+
+admin.site.register(Order, OrderAdmin)

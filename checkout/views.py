@@ -18,4 +18,4 @@ def checkout(request):
         'order_form': order_form
     }
 
-    return redirect(request, template, context)
+    return render(request, template, context)

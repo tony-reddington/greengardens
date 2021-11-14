@@ -51,7 +51,7 @@
                         <p class="fs-6 fw-bold main-dark-color pt-3">Payment:</p>
                     </div>
 
-                    <div class="col-12 px-0">
+                    <div class="col-12 px-0 my-2">
                         <!-- Will display Stripe card element -->
                         <div id="card-element"></div>
                     </div>
@@ -60,7 +60,7 @@
                         <!-- Will display Stripe errors -->
                         <div id="card-errors"></div>
                     </div>
-                        
+
                     <p class="text-danger my-1">Your card will be charged <strong>€{{ grand_total|floatformat:2 }}</strong></p>
  
                     <div class="float-end">
@@ -83,4 +83,11 @@
     </div>
 </div>
 
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    {{ stripe_public_key|json_script:"id_stripe_public_key" }}
+    {{ client_secret|json_script:"id_client_secret" }}
+    <script src="{% static 'checkout/js/stripe_elements.js' %}" ></script>
 {% endblock %}

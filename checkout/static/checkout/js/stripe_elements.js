@@ -28,3 +28,17 @@ let card = elements.create('card', {
   });
 
 card.mount('#card-element');
+
+// Handles card element validation errors
+card.addEventListener('change', function (event) {
+    let errorLine = document.getElementById('card-errors');
+    if (event.error) {
+        let html = 
+        `<span>
+        <p class="text-danger fw-bolder">${event.error.message}</p>
+        </span>`;
+        $(errorLine).html(html);
+    } else {
+        errorLine.textContent = '';
+    }
+});

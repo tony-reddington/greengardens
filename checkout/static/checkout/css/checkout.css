@@ -1,0 +1,11 @@
+/* Additonal style for account and basket icons due to format errors since adding bootstrap 4 link ----------------------------------------------*/
+
+ul.list-inline.list-unstyled.my-0 {
+    float: right;
+}
+
+@media (max-width: 992px) {
+    ul.list-inline.list-unstyled.my-0 {
+        float: none;
+    }
+}

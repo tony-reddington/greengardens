@@ -3,6 +3,7 @@
 
 {% block extra_css %}
     <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 {% endblock %}
 
 {% block page_header %}
@@ -19,9 +20,23 @@
         <div class="row basket-header-text">
             <h2 class="mb-4 main-dark-color text-center fw-bold">Checkout</h2>
         </div>
-        <div class="row">
-            <div class="col">
-                <p>Please fill in the form to continue checkout.</p>
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-8 col-md-6">
+                <p class="fs-5 main-green-color">Please fill in the form to continue checkout.</p>
+                <form action="{% url 'checkout' %}" method="POST" id="payment-form">
+                    {% csrf_token %}
+                    <p class="fs-6 fw-bold main-dark-color">Contact Information:</p>
+                    {{ order_form.full_name | as_crispy_field }}
+                    {{ order_form.email_address | as_crispy_field }}
+                    {{ order_form.telephone_number | as_crispy_field }}
+                    <p class="fs-6 fw-bold main-dark-color">Delivery Information:</p>
+                    {{ order_form.address_line1 | as_crispy_field }}
+                    {{ order_form.address_line2 | as_crispy_field }}
+                    {{ order_form.city_or_town | as_crispy_field }}
+                    {{ order_form.county_or_state | as_crispy_field }}
+                    {{ order_form.postcode_or_zip | as_crispy_field }}
+                    {{ order_form.country | as_crispy_field }}
+                </form>
             </div>
         </div>
     </div>

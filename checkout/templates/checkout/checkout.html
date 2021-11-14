@@ -36,6 +36,30 @@
                     {{ order_form.county_or_state | as_crispy_field }}
                     {{ order_form.postcode_or_zip | as_crispy_field }}
                     {{ order_form.country | as_crispy_field }}
+                    <div class="form-check form-check-inline">
+                        {% if user.is_authenticated %}
+                            <input type="checkbox" class="form-check-input" id="save-personal-info" name="save-info" checked>
+                            <label class="form-check-label main-dark-color fs-6" for="save-personal-info">Save this info to your profile</label>
+                        {% else %}
+                            <label class="form-check-label main-dark-color fs-6" for="save-personal-info">To save this delivery information,
+                                <a href="{% url 'account_signup' %}"> Create a new account</a> or
+                                <a href="{% url 'account_login' %}">login</a> to save this info.
+                            </label>
+                        {% endif %}
+                    </div>
+                    <div class="col-12 px-0">
+                        <p class="fs-6 fw-bold main-dark-color pt-3">Payment:</p>
+                    </div>
+
+                    <div class="col-12 px-0">
+                        <!-- Will display Stripe card element -->
+                        <div id="card-element"></div>
+                    </div>
+
+                    <div class="col-12 px-0">
+                        <!-- Will display Stripe errors -->
+                        <div id="card-errors"></div>
+                    </div>
                 </form>
             </div>
         </div>

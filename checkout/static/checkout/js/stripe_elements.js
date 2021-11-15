@@ -1,6 +1,6 @@
-let public_key_for_stripe = $('#id_stripe_public_key').text().slice(1, -1);
-let client_secret = $('#id_client_secret').text().slice(1, -1);
-let stripe = Stripe(public_key_for_stripe);
+let stripePublicKey = $('#id_stripe_public_key').text().slice(1, -1);
+let clientSecret = $('#id_client_secret').text().slice(1, -1);
+let stripe = Stripe(stripePublicKey);
 let elements = stripe.elements();
 
 
@@ -41,4 +41,35 @@ card.addEventListener('change', function (event) {
     } else {
         errorLine.textContent = '';
     }
+});
+
+
+// Will handle the form submit
+
+let form = document.getElementById('payment-form');
+
+form.addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    card.update({'disabled': true});
+    $('#submit-button').attr('disabled', true);
+    stripe.confirmCardPayment(clientSecret, {
+        payment_method: {
+            card: card,
+        }
+    }).then(function (result) {
+        if (result.error) {
+            let errorLine = document.getElementById('card-errors');
+            let html = 
+                `<span>
+                <p class="text-danger fw-bolder">${result.error.message}</p>
+                </span>`;
+            $(errorLine).html(html);
+            card.update({'disabled': false});
+            $('#submit-button').attr('disabled', false);
+        } else {
+            if (result.paymentIntent.status === 'succeeded') {
+                form.submit()
+            }
+        }
+    });
 });

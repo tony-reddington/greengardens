@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
+{% endblock %}
+
+{% block page_header %}
+    <div class="container page-header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<div class="image-overlay"></div>
+    <div class="container mb-2 mt-2">
+        <div class="row basket-header-text">
+            <h2 class="mb-4 main-dark-color text-center fw-bold">My Profile</h2>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

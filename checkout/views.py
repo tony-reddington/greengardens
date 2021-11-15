@@ -47,7 +47,7 @@ def checkout(request):
                     order.delete()
                     return redirect(reverse('view_bag'))
             request.session['save_info'] = 'save-info' in request.POST
-            return redirect(reverse('view_bag', args=[order.order_number]))
+            return redirect(reverse('checkout_success', args=[order.order_number]))
         else:
             sweetify.error(request, title='Sorry',
                            text='There was error while submitting your form',
@@ -80,3 +80,22 @@ def checkout(request):
         }
 
         return render(request, template, context)
+
+
+def checkout_success(request, order_number):
+    """ View to handle successful checkouts """
+    save_info = request.session.get('save_info')
+    order = get_object_or_404(Order, order_number=order_number)
+    sweetify.success(request, 'Order Successful',
+                     text="A confirmation email will be sent to your email address ",
+                     icon='success', timer=3000, timerProgressBar='true')
+
+    if 'bag' in request.session:
+        del request.session['bag']
+
+    template = 'checkout/checkout_success.html'
+    context = {
+        'order': order,
+    }
+
+    return render(request, template, context)

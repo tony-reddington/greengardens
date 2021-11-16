@@ -23,7 +23,7 @@ class ProfileForm(forms.ModelForm):
             'default_country': 'Country',
         }
 
-        self.fields['default_telephone_number'].widget.attrs['autofocus'] = True
+        self.fields['default_address_line1'].widget.attrs['autofocus'] = True
         for field in self.fields:
             if self.fields[field].required:
                 placeholder = f'{placeholders[field]} *'

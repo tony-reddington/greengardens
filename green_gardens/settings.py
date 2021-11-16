@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
+    'blog',
 
     # addtional apps
     'sweetify',

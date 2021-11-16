@@ -8,6 +8,8 @@ from bag.contexts import bag_products
 from .models import Order, OrderLineItem
 from products.models import Product
 from .forms import OrderForm
+from profiles.forms import ProfileForm
+from profiles.models import UserProfile
 
 
 def checkout(request):
@@ -70,7 +72,24 @@ def checkout(request):
             currency=settings.STRIPE_CURRENCY,
         )
 
-        order_form = OrderForm()
+        if request.user.is_authenticated:
+            try:
+                profile = UserProfile.objects.get(user=request.user)
+                order_form = OrderForm(initial={
+                    'full_name': profile.user.get_full_name(),
+                    'email_address': profile.user.email,
+                    'telephone_number': profile.default_telephone_number,
+                    'address_line1': profile.default_address_line1,
+                    'address_line2': profile.default_address_line2,
+                    'city_or_town': profile.default_city_or_town,
+                    'county_or_state': profile.default_county_or_state,
+                    'postcode_or_zip': profile.default_postcode_or_zip,
+                    'country': profile.default_country,
+                })
+            except UserProfile.DoesNotExist:
+                order_form = OrderForm()
+        else:
+            order_form = OrderForm()
 
         template = 'checkout/checkout.html'
         context = {
@@ -86,6 +105,28 @@ def checkout_success(request, order_number):
     """ View to handle successful checkouts """
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
+
+    if request.user.is_authenticated:
+        profile = UserProfile.objects.get(user=request.user)
+        # This attaches the users profile to the order
+        order.user_profile = profile
+        order.save()
+
+        # This saves the users info
+        if save_info:
+            profile_data = {
+                'default_telephone_number': order.telephone_number,
+                'default_address_line1': order.address_line1,
+                'default_address_line2': order.address_line2,
+                'default_city_or_town': order.city_or_town,
+                'default_county_or_state': order.county_or_state,
+                'default_postcode_or_zip': order.postcode_or_zip,
+                'default_country': order.country,
+            }
+            user_profile_form = ProfileForm(profile_data, instance=profile)
+            if user_profile_form.is_valid():
+                user_profile_form.save()
+
     sweetify.success(request, 'Order Successful',
                      text="A confirmation email will be sent to your email address ",
                      icon='success', timer=3000, timerProgressBar='true')

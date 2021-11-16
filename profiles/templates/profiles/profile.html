@@ -21,7 +21,7 @@
                 <h2 class="mb-4 main-dark-color text-center fw-bold">My Profile</h2>
             </div>
             <div class="row">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 offset-lg-3">
                     <p class="main-dark-color fs-6">Your delivery info:</p>
                     <form action="{% url 'profile' %}" method="POST" id="profile-form-update">
                         {% csrf_token %}
@@ -30,10 +30,6 @@
                             <span class="text-uppercase fs-6 pr-1">Update</span>
                         </button>
                     </form>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <p class="main-dark-color fs-6">Order History:</p>
-                    
                 </div>
             </div>
         </div>

@@ -18,10 +18,9 @@ def profile(request):
                      icon='success')
 
     form = ProfileForm(instance=profile)
-    user_orders = profile.orders.all()
     template = 'profiles/profile.html'
     context = {
         'form': form,
-        'user_orders': user_orders,
+        'profile': profile,
     }
     return render(request, template, context)

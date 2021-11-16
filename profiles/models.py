@@ -15,7 +15,7 @@ class UserProfile(models.Model):
     default_city_or_town = models.CharField(max_length=50, null=True, blank=True)
     default_county_or_state = models.CharField(max_length=50, null=True, blank=True)
     default_postcode_or_zip = models.CharField(max_length=15, null=True, blank=True)
-    default_country = CountryField(blank_label='Country*', null=True, blank=True)
+    default_country = CountryField(blank_label='Country', null=True, blank=True)
 
     def __str__(self):
         return self.user.username
@@ -27,4 +27,3 @@ def create_or_update_profile(sender, instance, created, **kwargs):
         UserProfile.objects.create(user=instance)
     # For existing user this will just save their profile
     instance.userprofile.save()
-

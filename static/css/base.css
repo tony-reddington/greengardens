@@ -97,6 +97,11 @@ nav .megamenu {
     }
   }
 
+  /* Search bar styling --------------------------------------------------------------*/
+input[name='q']::placeholder {
+    color: #393D3F;
+}
+
 /* Products page styling --------------------------------------------------------------*/
 .image-overlay {
     height: 100%;
@@ -248,4 +253,62 @@ nav .megamenu {
     .basket-header-text {
         margin-top: 100px;
     }
+}
+
+/* Allauth formatting ----------------------------------------------*/
+
+.allauth-form-content-inner h2 {
+    color: #393D3F;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.allauth-form-content-inner p {
+    margin-top: 1,5rem;
+    color: #393D3F;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.allauth-form-content-inner input {
+    border-color: #393D3F;
+    border-radius: 0;
+}
+
+.allauth-form-content-inner label:not([for='id_remember']) {
+    display: none;
+}
+
+.allauth-form-content-inner input::placeholder {
+    color: #393D3F;
+}
+
+.allauth-form-content-inner .form-check {
+    margin-left: 5px;
+}
+
+.allauth-form-content-inner button,
+.allauth-form-content-inner input[type='submit'] {
+	display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #18611E;
+    border: 1px solid #393D3F;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 2px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.allauth-form-content-inner button:hover,
+.allauth-form-content-inner input[type='submit']:hover {
+    box-shadow: none;
+    background-color: #393D3F;
 }

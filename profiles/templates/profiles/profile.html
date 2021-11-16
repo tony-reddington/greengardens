@@ -3,6 +3,7 @@
 
 {% block extra_css %}
     <link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 {% endblock %}
 
 {% block page_header %}
@@ -14,12 +15,29 @@
 {% endblock %}
 
 {% block content %}
-<div class="image-overlay"></div>
-    <div class="container mb-2 mt-2">
-        <div class="row basket-header-text">
-            <h2 class="mb-4 main-dark-color text-center fw-bold">My Profile</h2>
+    <div class="image-overlay"></div>
+        <div class="container mb-2 mt-2">
+            <div class="row basket-header-text">
+                <h2 class="mb-4 main-dark-color text-center fw-bold">My Profile</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <p class="main-dark-color fs-6">Your delivery info:</p>
+                    <form action="{% url 'profile' %}" method="POST" id="profile-form-update">
+                        {% csrf_token %}
+                        {{ form|crispy }}
+                        <button class="btn btn-lg checkout-button my-2 float-end">
+                            <span class="text-uppercase fs-6 pr-1">Update</span>
+                        </button>
+                    </form>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <p class="main-dark-color fs-6">Order History:</p>
+                    
+                </div>
+            </div>
         </div>
     </div>
-</div>
+
 
 {% endblock %}

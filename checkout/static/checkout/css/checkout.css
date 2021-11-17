@@ -41,3 +41,9 @@ ul.list-inline.list-unstyled.my-0 {
 .stripe-style-input::placeholder {
     color: #393D3F;
 }
+
+/* Search bar styling need due to adding bootstrap 4 link----------------------------------------------*/
+
+.input-group-append .form-control {
+  background-color: #18611E !important;
+}

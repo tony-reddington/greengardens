@@ -2,66 +2,70 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container page-header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
+<div class="container page-header-container">
+  <div class="row">
+    <div class="col"></div>
+  </div>
+</div>
 {% endblock %}
 
 
 {% block content %}
 <div class="image-overlay"></div>
 <div class="container-fluid text-center">
-    <div class="row">
-        <div class="col text-center mt-5 product-header-text">
-            <h2 class="main-dark-color">Products</h2>
-        </div>
+  <div class="row">
+    <div class="col text-center mt-5 product-header-text">
+      <h2 class="main-dark-color">Products</h2>
     </div>
-    <div class="row">
-        <div class="container col-10 offset-1">
-            <div class="row mt-1 mb-2"></div>
-            <div class="row">
-                {% for product in products %}
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                        <div class="card h-100 pt-2">
-                            <a href="{% url 'product_info' product.id %}"><img src="{{ product.image.url }}" class="card-img-top img-fluid"
-                                    alt="{{ product.name }}"></a>
-                            <div class="card-body product-card-body pb-0 px-0">
-                                <h6 class="card-title main-dark-color">{{ product.name }}</h6>
-                            </div>
-                            <div class="card-footer bg-white border-0">
-                                <p class="fs-5 fw-bold main-dark-color mb-1">€ {{ product.price }}</p>
-                                <div class="row mb-2 mt-2">
-                                    <a href="{% url 'products' %}?category={{ product.category.name }}" class="col-6 card-sub-text main-dark-color px-0"><i class="fas fa-tag main-green-color"> </i>  {{ product.category.friendly_name }}</a>
-                                    <a href="{% url 'products' %}?sub={{ product.sub.name }}" class="col-6 card-sub-text main-dark-color px-0"><i class="fas fa-tag main-green-color"></i>  {{ product.sub.friendly_name }}</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {% if forloop.counter|divisibleby:1 %}
-                        <div class="col-12 d-sm-none">
-                            <hr class="bg-white">
-                        </div>
-                    {% endif %}                        
-                    {% if forloop.counter|divisibleby:2 %}
-                        <div class="col-12 d-none d-sm-block d-md-block d-lg-none">
-                            <hr class="bg-white">
-                        </div>
-                    {% endif %}
-                    {% if forloop.counter|divisibleby:3 %}
-                        <div class="col-12 d-none d-lg-block d-xl-none">
-                            <hr class="bg-white">
-                        </div>
-                    {% endif %}
-                    {% if forloop.counter|divisibleby:4 %}
-                        <div class="col-12 d-none d-xl-block">
-                            <hr class="bg-white">
-                        </div>
-                    {% endif %}
-                {% endfor %}
+  </div>
+  <div class="row">
+    <div class="container col-10 offset-1">
+      <div class="row mt-1 mb-2"></div>
+      <div class="row">
+        {% for product in products %}
+          <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+            <div class="card h-100 pt-2">
+              <a href="{% url 'product_info' product.id %}"><img src="{{ product.image.url }}"
+                  class="card-img-top img-fluid" alt="{{ product.name }}"></a>
+              <div class="card-body product-card-body pb-0 px-0">
+                <h6 class="card-title main-dark-color">{{ product.name }}</h6>
+              </div>
+              <div class="card-footer bg-white border-0">
+                <p class="fs-5 fw-bold main-dark-color mb-1">€ {{ product.price }}</p>
+                <div class="row mb-2 mt-2">
+                  <a href="{% url 'products' %}?category={{ product.category.name }}"
+                    class="col-6 card-sub-text main-dark-color px-0"><i class="fas fa-tag main-green-color"> </i>
+                    {{ product.category.friendly_name }}</a>
+                  <a href="{% url 'products' %}?sub={{ product.sub.name }}"
+                    class="col-6 card-sub-text main-dark-color px-0"><i class="fas fa-tag main-green-color"></i>
+                    {{ product.sub.friendly_name }}</a>
+                </div>
+              </div>
             </div>
-        </div>
+          </div>
+          {% if forloop.counter|divisibleby:1 %}
+            <div class="col-12 d-sm-none">
+              <hr class="bg-white">
+            </div>
+          {% endif %}
+          {% if forloop.counter|divisibleby:2 %}
+            <div class="col-12 d-none d-sm-block d-md-block d-lg-none">
+              <hr class="bg-white">
+            </div>
+          {% endif %}
+          {% if forloop.counter|divisibleby:3 %}
+            <div class="col-12 d-none d-lg-block d-xl-none">
+              <hr class="bg-white">
+            </div>
+          {% endif %}
+          {% if forloop.counter|divisibleby:4 %}
+            <div class="col-12 d-none d-xl-block">
+              <hr class="bg-white">
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
+  </div>
 </div>
 {% endblock %}

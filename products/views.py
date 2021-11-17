@@ -21,15 +21,15 @@ def all_products(request):
         if 'sub' in request.GET:
             sub_categories = request.GET['sub'].split(',')
             products = products.filter(sub__name__in=sub_categories)
-            sub_categories = Subcategory.objects.filter(name__in=sub_categories)
-
+            sub_categories = Subcategory.objects.filter(
+                name__in=sub_categories)
 
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
                 messages.error(request, 'No search criteria has been entered.')
                 return redirect(reverse('products'))
-            
+
             queries = Q(name__icontains=query) | Q(details__icontains=query)
             products = products.filter(queries)
 

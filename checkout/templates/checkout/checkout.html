@@ -2,85 +2,84 @@
 {% load static %}
 
 {% block extra_css %}
-    <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 {% endblock %}
 
 {% block page_header %}
-    <div class="container page-header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+  <div class="container page-header-container">
+    <div class="row">
+      <div class="col"></div>
     </div>
+  </div>
 {% endblock %}
 
 {% block content %}
 <div class="image-overlay"></div>
-    <div class="container mb-2 mt-2">
-        <div class="row basket-header-text">
-            <h2 class="mb-4 main-dark-color text-center fw-bold">Checkout</h2>
+<div class="container mb-2 mt-2">
+  <div class="row basket-header-text">
+    <h2 class="mb-4 main-dark-color text-center fw-bold">Checkout</h2>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-8 col-md-6">
+      <p class="fs-5 main-green-color">Please fill in the form to continue checkout.</p>
+      <form action="{% url 'checkout' %}" method="POST" id="payment-form">
+        {% csrf_token %}
+        <p class="fs-6 fw-bold main-dark-color">Contact Information:</p>
+        {{ order_form.full_name | as_crispy_field }}
+        {{ order_form.email_address | as_crispy_field }}
+        {{ order_form.telephone_number | as_crispy_field }}
+        <p class="fs-6 fw-bold main-dark-color">Delivery Information:</p>
+        {{ order_form.address_line1 | as_crispy_field }}
+        {{ order_form.address_line2 | as_crispy_field }}
+        {{ order_form.city_or_town | as_crispy_field }}
+        {{ order_form.county_or_state | as_crispy_field }}
+        {{ order_form.postcode_or_zip | as_crispy_field }}
+        {{ order_form.country | as_crispy_field }}
+        <div class="form-check form-check-inline">
+          {% if user.is_authenticated %}
+          <input type="checkbox" class="form-check-input" id="save-personal-info" name="save-info" checked>
+          <label class="form-check-label main-dark-color fs-6" for="save-personal-info">Save this info to your
+            profile</label>
+          {% else %}
+          <label class="form-check-label main-dark-color fs-6" for="save-personal-info">To save this delivery
+            information,
+            <a href="{% url 'account_signup' %}"> Create a new account</a> or
+            <a href="{% url 'account_login' %}">login</a> to save this info.
+          </label>
+          {% endif %}
         </div>
-        <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-8 col-md-6">
-                <p class="fs-5 main-green-color">Please fill in the form to continue checkout.</p>
-                <form action="{% url 'checkout' %}" method="POST" id="payment-form">
-                    {% csrf_token %}
-                    <p class="fs-6 fw-bold main-dark-color">Contact Information:</p>
-                    {{ order_form.full_name | as_crispy_field }}
-                    {{ order_form.email_address | as_crispy_field }}
-                    {{ order_form.telephone_number | as_crispy_field }}
-                    <p class="fs-6 fw-bold main-dark-color">Delivery Information:</p>
-                    {{ order_form.address_line1 | as_crispy_field }}
-                    {{ order_form.address_line2 | as_crispy_field }}
-                    {{ order_form.city_or_town | as_crispy_field }}
-                    {{ order_form.county_or_state | as_crispy_field }}
-                    {{ order_form.postcode_or_zip | as_crispy_field }}
-                    {{ order_form.country | as_crispy_field }}
-                    <div class="form-check form-check-inline">
-                        {% if user.is_authenticated %}
-                            <input type="checkbox" class="form-check-input" id="save-personal-info" name="save-info" checked>
-                            <label class="form-check-label main-dark-color fs-6" for="save-personal-info">Save this info to your profile</label>
-                        {% else %}
-                            <label class="form-check-label main-dark-color fs-6" for="save-personal-info">To save this delivery information,
-                                <a href="{% url 'account_signup' %}"> Create a new account</a> or
-                                <a href="{% url 'account_login' %}">login</a> to save this info.
-                            </label>
-                        {% endif %}
-                    </div>
-                    <div class="col-12 px-0">
-                        <p class="fs-6 fw-bold main-dark-color pt-3">Payment:</p>
-                    </div>
-
-                    <div class="col-12 px-0 my-2">
-                        <!-- Will display Stripe card element -->
-                        <div id="card-element"></div>
-                    </div>
-
-                    <div class="col-12 px-0">
-                        <!-- Will display Stripe errors -->
-                        <div id="card-errors"></div>
-                    </div>
-
-                    <p class="text-danger my-1">Your card will be charged <strong>€{{ grand_total|floatformat:2 }}</strong></p>
- 
-                    <div class="float-end">
-                        <a href="#" onClick="history.go(-1)" class="btn btn-lg button-style my-2">
-                            <span class="icon">
-                                <i class="fas fa-chevron-circle-left main-dark-color fs-5"></i>
-                            </span>
-                            <span class="text-uppercase main-dark-color fs-6 fw-bold">Continue Shopping</span>
-                        </a>
-                        <button id="submit-button" class="btn btn-lg checkout-button my-2">
-                            <span class="text-uppercase fs-6 pr-1">Complete order</span>
-                            <span class="icon">
-                                <i class="fas fa-lock fs-5"></i>
-                            </span>
-                        </button>
-                    </div>
-                </form>
-            </div>
+        <div class="col-12 px-0">
+          <p class="fs-6 fw-bold main-dark-color pt-3">Payment:</p>
         </div>
+        <div class="col-12 px-0 my-2">
+          <!-- Will display Stripe card element -->
+          <div id="card-element"></div>
+        </div>
+        <div class="col-12 px-0">
+          <!-- Will display Stripe errors -->
+          <div id="card-errors"></div>
+        </div>
+        <p class="text-danger my-1">Your card will be charged <strong>€{{ grand_total|floatformat:2 }}</strong>
+        </p>
+        <div class="float-end">
+          <a href="#" onClick="history.go(-1)" class="btn btn-lg button-style my-2">
+            <span class="icon">
+              <i class="fas fa-chevron-circle-left main-dark-color fs-5"></i>
+            </span>
+            <span class="text-uppercase main-dark-color fs-6 fw-bold">Continue Shopping</span>
+          </a>
+          <button id="submit-button" class="btn btn-lg checkout-button my-2">
+            <span class="text-uppercase fs-6 pr-1">Complete order</span>
+            <span class="icon">
+              <i class="fas fa-lock fs-5"></i>
+            </span>
+          </button>
+        </div>
+      </form>
     </div>
+  </div>
 </div>
 
 {% endblock %}

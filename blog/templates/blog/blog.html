@@ -2,51 +2,53 @@
 {% load static %}
 
 {% block extra_css %}
-    <link rel="stylesheet" href="{% static 'blog/css/blog.css' %}">
+  <link rel="stylesheet" href="{% static 'blog/css/blog.css' %}">
 {% endblock %}
 
 {% block page_header %}
-    <div class="container page-header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+  <div class="container page-header-container">
+    <div class="row">
+      <div class="col"></div>
     </div>
+  </div>
 {% endblock %}
 
 {% block content %}
 <div class="image-overlay"></div>
 <div class="container mb-2 mt-2">
-    <div class="row basket-header-text">
-        <hr>
-        <h2 class="mb-4 main-dark-color text-center fw-bold fw-upper">Welcome to the Green Gardens Blog</h2>
-        <hr>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-10 col-md-8">
-            {% for post in all_posts %}
-            <div class="blog-post-div">
-                <div class="text-center">
-                    <h2 class="main-green-color text-center my-3">{{ post.title }}</h2>
-                    <hr class="main-yellow-color">
-                    <p class="main-dark-color fw-6">{{ post.body|linebreaks }}</p>
-                </div>
-                <div class="d-flex justify-content-start justify-content-sm-around">
-                    <p class="main-green-color text-left text-start fs-6"><small><span class="fw-bold">Authored by: </span>{{ post.author }}</small></p>
-                    <p class="main-green-color text-right text-end fs-6"><small><span class="fw-bold">Posted: </span>{{ post.publish_date }}</small></p>
-                </div>
-            </div>
-            {% endfor %}
+  <div class="row basket-header-text">
+    <hr>
+    <h2 class="mb-4 main-dark-color text-center fw-bold fw-upper">Welcome to the Green Gardens Blog</h2>
+    <hr>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-10 col-md-8">
+      <!-- Iterates through blog posts added and displays them on the blog page -->
+      {% for post in all_posts %}
+        <div class="blog-post-div">
+          <div class="text-center">
+            <h2 class="main-green-color text-center my-3">{{ post.title }}</h2>
+            <hr class="main-yellow-color">
+            <p class="main-dark-color fw-6">{{ post.body|linebreaks }}</p>
+          </div>
+          <div class="d-flex justify-content-start justify-content-sm-around">
+            <p class="main-green-color text-left text-start fs-6"><small><span class="fw-bold">Authored by:
+                </span>{{ post.author }}</small></p>
+            <p class="main-green-color text-right text-end fs-6"><small><span class="fw-bold">Posted:
+                </span>{{ post.publish_date }}</small></p>
+          </div>
         </div>
-        <div class="float-start col-10 col-md-8">
-            <a href="{% url 'home' %}" class="btn btn-lg button-style my-2">
-                <span class="icon">
-                    <i class="fas fa-chevron-circle-left main-dark-color fs-5"></i>
-                </span>
-                <span class="text-uppercase main-dark-color fs-6 fw-bold">Continue Shopping</span>
-            </a>
-        </div>
+      {% endfor %}
     </div>
-</div>
+    <div class="float-start col-10 col-md-8">
+      <a href="{% url 'home' %}" class="btn btn-lg button-style my-2">
+        <span class="icon">
+          <i class="fas fa-chevron-circle-left main-dark-color fs-5"></i>
+        </span>
+        <span class="text-uppercase main-dark-color fs-6 fw-bold">Continue Shopping</span>
+      </a>
+    </div>
+  </div>
 </div>
 
 {% endblock %}

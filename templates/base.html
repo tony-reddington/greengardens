@@ -241,15 +241,24 @@
                                         </div>
                                     </div>
                           </li>
-                          <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle header-text-colour" href="#" data-bs-toggle="dropdown">
-                                  Pots & Containers </a>
-                              <ul class="dropdown-menu dropdown-menu-end">
-                                  <li><a class="dropdown-item main-dark-color" href="{% url 'products' %}?sub=house_pots"> House Pots </a></li>
-                                  <li><a class="dropdown-item main-dark-color" href="{% url 'products' %}?sub=plant_and_pot_stands"> Plant & Pot stands </a></li>
-                                  <li><a class="dropdown-item main-dark-color" href="{% url 'products' %}?sub=troughs_and_balcony_pots"> Troughs and Balcony Pots </a></li>
-                              </ul>
-                          </li>
+                          <li class="nav-item dropdown has-megamenu">
+                            <a class="nav-link dropdown-toggle header-text-colour" href="#" data-bs-toggle="dropdown"
+                            id="plant-and-flowers-dropdown-menu" aria-haspopup="true" aria-expanded="false">
+                            Pots & Containers</a>
+                                <div class="dropdown-menu megamenu main-dark-color" role="menu">
+                                    <div class="row g-3">
+                                        <div class="col-12 col-md-4 mega-menu-column">
+                                            <div>
+                                                <ul class="list-unstyled">
+                                                    <li><a class="dropdown-item main-dark-color" href="{% url 'products' %}?sub=house_pots"> House Pots </a></li>
+                                                    <li><a class="dropdown-item main-dark-color" href="{% url 'products' %}?sub=plant_and_pot_stands"> Plant & Pot stands </a></li>
+                                                    <li><a class="dropdown-item main-dark-color" href="{% url 'products' %}?sub=troughs_and_balcony_pots"> Troughs and Balcony Pots </a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
                           <li class="nav-item"><a class="nav-link header-text-colour" href="{% url 'posts' %}"> Blog </a></li><!---------------------------------------------Fill in path-->
                       </ul>
                   </div>

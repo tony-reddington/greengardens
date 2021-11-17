@@ -2,36 +2,36 @@
 {% load static %}
 
 {% block extra_css %}
-    <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
+<link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
 {% endblock %}
 
 {% block page_header %}
-    <div class="container page-header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
+<div class="container page-header-container">
+  <div class="row">
+    <div class="col"></div>
+  </div>
+</div>
 {% endblock %}
 
 {% block content %}
 <div class="image-overlay"></div>
 <div class="container mb-2 mt-2">
-    <div class="row basket-header-text">
-        <h2 class="mb-4 main-dark-color text-center fw-bold fw-upper">OOooooops...... 404 Error</h2>
+  <div class="row basket-header-text">
+    <h2 class="mb-4 main-dark-color text-center fw-bold fw-upper">OOooooops...... 404 Error</h2>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-8 col-md-6">
+      <p class="main-dark-color fs-6 text-center"><strong>We can't find the page your trying to access.</strong></p>
+      <div class="col-4 offset-4 text-center">
+        <a href="{% url 'home' %}" class="btn btn-lg button-style my-2">
+          <span class="icon">
+            <i class="fas fa-chevron-circle-left main-dark-color fs-5"></i>
+          </span>
+          <span class="text-uppercase main-dark-color fs-6 fw-bold">Return Home</span>
+        </a>
+      </div>
     </div>
-    <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-8 col-md-6">
-            <p class="main-dark-color fs-6 text-center"><strong>We can't find the page your trying to access.</strong></p>
-            <div class="col-4 offset-4 text-center">
-                <a href="{% url 'home' %}" class="btn btn-lg button-style my-2">
-                    <span class="icon">
-                        <i class="fas fa-chevron-circle-left main-dark-color fs-5"></i>
-                    </span>
-                    <span class="text-uppercase main-dark-color fs-6 fw-bold">Return Home</span>
-                </a>
-            </div>
-        </div>
-    </div>
+  </div>
 </div>
 </div>
 

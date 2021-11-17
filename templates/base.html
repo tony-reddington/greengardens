@@ -2,387 +2,400 @@
 
 <!doctype html>
 <html lang="en">
-  <head>
 
-    {% block meta %}
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    {% endblock %}
+<head>
 
-    {% block extra_meta %}
-    {% endblock %}
+  {% block meta %}
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  {% endblock %}
 
-    {% block corecss %}
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Montserrat&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="{% static 'css/base.css' %}">
-    {% endblock %}
+  {% block extra_meta %}
+  {% endblock %}
 
-    {% block extra_css %}
-    {% endblock %}
+  {% block corecss %}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/base.css' %}">
+  {% endblock %}
 
-    {% block corejs %}
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/8d1b6cd18c.js" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/10.6.1/sweetalert2.all.js"></script>
-        <script src="https://js.stripe.com/v3/"></script>
-    {% endblock %}
+  {% block extra_css %}
+  {% endblock %}
 
-    {% block extra_js %}
-    {% endblock %}
+  {% block corejs %}
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/8d1b6cd18c.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/10.6.1/sweetalert2.all.js"></script>
+  <script src="https://js.stripe.com/v3/"></script>
+  {% endblock %}
 
-    <title>Green Gardens {% block extra_title %} {% endblock %}</title>
-  </head>
-  <body>
-    <!----------------------------- Navigation bar ----------------------------->
-      <header class="container-fluid fixed-top p-0">
-          <nav class="navbar navbar-expand-lg navbar-dark">
-              <div class="container-fluid">
-                  <a class="navbar-brand" href="{% url 'home' %}">
-                      <h1 class="display-5 header-text-colour text-center navbar-brand-text">Green Gardens</h1>
-                  </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
-                      <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse justify-content-end" id="main_nav">
-                      <ul class="navbar-nav">
-                          <li class="nav-item active"> <a class="nav-link header-text-colour"
-                                  href="{% url 'home' %}">Home </a> </li>
-                          <li class="nav-item dropdown has-megamenu">
-                              <a class="nav-link dropdown-toggle header-text-colour" href="#" data-bs-toggle="dropdown"
-                                  id="bulbs-dropdown-menu" aria-haspopup="true" aria-expanded="false">
-                                  Bulbs & Seeds </a>
-                              <div class="dropdown-menu megamenu main-dark-color" role="menu">
-                                  <div class="row g-3">
-                                        <div class="col-12 col-md-3 mega-menu-column">
-                                            <div>
-                                                <h6 class="mega-menu-title-text">Veg Bulbs</h6>
-                                                <ul class="list-unstyled">
-                                                    <li>
-                                                        <a href="{% url 'products' %}?sub=garlic_bulbs">Garlic</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="{% url 'products' %}?sub=onion_bulbs">Onions</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-md-3 mega-menu-column">
-                                            <div>
-                                                <h6 class="mega-menu-title-text">Veg Seeds</h6>
-                                                <ul class="list-unstyled">
-                                                    <li>
-                                                        <a class="text-decoration-none" href="{% url 'products' %}?sub=herbs">Herbs</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="{% url 'products' %}?sub=peas_and_beans">Peas and Beans</a> 
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-md-3 mega-menu-column">
-                                            <div>
-                                                <h6 class="mega-menu-title-text">Flower Seeds</h6>
-                                                <ul class="list-unstyled">
-                                                    <li>
-                                                        <a href="{% url 'products' %}?sub=wild_flower_seeds">Wild Flower Seeds</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-md-3 mega-menu-column">
-                                            <div>
-                                                <h6 class="mega-menu-title-text">Spring Flowering Bulbs</h6>
-                                                <ul class="list-unstyled">
-                                                    <li>
-                                                        <a href="{% url 'products' %}?sub=allium">Allium</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="{% url 'products' %}?sub=bees_and_butterflies">Bees and Butterflies</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="{% url 'products' %}?sub=crocus">Crocus</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="{% url 'products' %}?sub=daffodil">Daffodil</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="{% url 'products' %}?sub=muscari">Muscari</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="{% url 'products' %}?sub=tulip">Tulip</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </li>
-                          <li class="nav-item dropdown has-megamenu">
-                              <a class="nav-link dropdown-toggle header-text-colour" href="#" data-bs-toggle="dropdown"
-                                id="garden-care-dropdown-menu" aria-haspopup="true" aria-expanded="false">
-                                  Garden Care </a>
-                                <div class="dropdown-menu megamenu main-dark-color" role="menu">
-                                    <div class="row g-3">
-                                          <div class="col-12 col-md-4 mega-menu-column">
-                                              <div>
-                                                  <h6 class="mega-menu-title-text">Compost</h6>
-                                                  <ul class="list-unstyled">
-                                                      <li>
-                                                          <a href="{% url 'products' %}?sub=decorative_bark">Decorative Bark</a>
-                                                      </li>
-                                                      <li>
-                                                          <a href="{% url 'products' %}?sub=house_plant_compost">Houseplant Compost</a>
-                                                      </li>
-                                                      <li>
-                                                        <a href="{% url 'products' %}?sub=potting_compost">Potting Compost</a>
-                                                    </li>
-                                                  </ul>
-                                              </div>
-                                          </div>
-                                          <div class="col-12 col-md-4 mega-menu-column">
-                                              <div>
-                                                  <h6 class="mega-menu-title-text">Garden Care</h6>
-                                                  <ul class="list-unstyled">
-                                                      <li>
-                                                          <a href="{% url 'products' %}?sub=plant_feed">Plant Feed</a>
-                                                      </li>
-                                                      <li>
-                                                          <a href="{% url 'products' %}?sub=slug_and_snail_control">Slug & Snail Feed</a> 
-                                                      </li>
-                                                      <li>
-                                                        <a href="{% url 'products' %}?sub=weed_control">Weed Control</a>
-                                                    </li>
-                                                  </ul>
-                                              </div>
-                                          </div>
-                                          <div class="col-12 col-md-4 mega-menu-column">
-                                              <div>
-                                                  <h6 class="mega-menu-title-text">Lawn Care</h6>
-                                                  <ul class="list-unstyled">
-                                                      <li>
-                                                          <a href="{% url 'products' %}?sub=lawn_feed">Lawn Feed</a>
-                                                      </li>
-                                                      <li>
-                                                        <a href="{% url 'products' %}?sub=lawn_tools">Lawn Tools</a>
-                                                    </li>
-                                                  </ul>
-                                              </div>
-                                          </div>
-                                    </div>
-                                </div>
-                          </li>
-                          <li class="nav-item dropdown has-megamenu">
-                                <a class="nav-link dropdown-toggle header-text-colour" href="#" data-bs-toggle="dropdown"
-                                id="plant-and-flowers-dropdown-menu" aria-haspopup="true" aria-expanded="false">
-                                    Plants & Flowers </a>
-                                    <div class="dropdown-menu megamenu main-dark-color" role="menu">
-                                        <div class="row g-3">
-                                            <div class="col-12 col-md-4 mega-menu-column">
-                                                <div>
-                                                    <h6 class="mega-menu-title-text">House plants</h6>
-                                                    <ul class="list-unstyled">
-                                                        <li>
-                                                            <a href="{% url 'products' %}?sub=cacti_and_succulents">Cacti & Succulents</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="{% url 'products' %}?sub=conservatory_plants">Conservatory Plants</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="{% url 'products' %}?sub=indoor_flowering_plants">Indoor Flowering Plants</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="{% url 'products' %}?sub=office_plants">Office Plants</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-4 mega-menu-column">
-                                                <div>
-                                                    <h6 class="mega-menu-title-text">Plants for Purpose</h6>
-                                                    <ul class="list-unstyled">
-                                                        <li>
-                                                            <a href="{% url 'products' %}?sub=fragrant_plants">Fragrant Plants</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="{% url 'products' %}?sub=plants_for_autumn">Plants for Autumn</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="{% url 'products' %}?sub=plants_for_spring">Plants for Spring</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="{% url 'products' %}?sub=plants_for_summer">Plants for Summer</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="{% url 'products' %}?sub=plants_for_shade">Plants for Shade</a>  
-                                                        </li>
-                                                  </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-4 mega-menu-column">
-                                                <div>
-                                                    <h6 class="mega-menu-title-text">Trees & Shrubs</h6>
-                                                    <ul class="list-unstyled">
-                                                        <li>
-                                                            <a href="{% url 'products' %}?sub=bamboo_plants">Bamboo Plants</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="{% url 'products' %}?sub=climbing_plants">Climbing Plants</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="{% url 'products' %}?sub=trees">Trees</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                          </li>
-                          <li class="nav-item dropdown has-megamenu">
-                            <a class="nav-link dropdown-toggle header-text-colour" href="#" data-bs-toggle="dropdown"
-                            id="plant-and-flowers-dropdown-menu" aria-haspopup="true" aria-expanded="false">
-                            Pots & Containers</a>
-                                <div class="dropdown-menu megamenu main-dark-color" role="menu">
-                                    <div class="row g-3">
-                                        <div class="col-12 col-md-4 mega-menu-column">
-                                            <div>
-                                                <ul class="list-unstyled">
-                                                    <li><a class="dropdown-item main-dark-color" href="{% url 'products' %}?sub=house_pots"> House Pots </a></li>
-                                                    <li><a class="dropdown-item main-dark-color" href="{% url 'products' %}?sub=plant_and_pot_stands"> Plant & Pot stands </a></li>
-                                                    <li><a class="dropdown-item main-dark-color" href="{% url 'products' %}?sub=troughs_and_balcony_pots"> Troughs and Balcony Pots </a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                          <li class="nav-item"><a class="nav-link header-text-colour" href="{% url 'posts' %}"> Blog </a></li>
-                          <!----------------------------- My account access ----------------------------->
-                            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
-                                <ul class="list-inline list-unstyled my-0 float-lg-end">
-                                    <li class="list-inline-item dropdown">
-                                        <a class="text-black nav-link" href="#" id="user-options" data-bs-toggle="dropdown"
-                                            aria-haspopup="true" aria-expanded="false">
-                                            <div class="text-center">
-                                                <div><i class="fas fa-user fa-lg header-text-colour"></i></div>
-                                                <p class="my-0 header-text-colour">My Account</p>
-                                            </div>
-                                        </a>
-                                        <div class="dropdown-menu border-0" aria-labelledby="user-options">
-                                            {% if request.user.is_authenticated %}
-                                            <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-                                            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
-                                            {% else %}
-                                            <a href="{% url 'account_signup' %}" class="dropdown-item main-dark-color">Register</a>
-                                            <a href="{% url 'account_login' %}" class="dropdown-item main-dark-color">Login</a>
-                                            {% endif %}
-                                        </div>
-                                    </li>
-                                    <!----------------------------- Shopping bag taken from boutique ado project and edited ----------------------------->
-                                    <li class="list-inline-item">
-                                        <a class="{% if grand_total %}fw-bold{% endif %} nav-link" href="{% url 'view_bag' %}">
-                                            <div class="text-center ">
-                                                <div><i class="fas fa-shopping-basket fa-lg header-text-colour"></i></div>
-                                                <p class="my-0 header-text-colour">
-                                                    {% if grand_total %}
-                                                    €{{ grand_total|floatformat:2 }}
-                                                    {% else %}
-                                                    €0.00
-                                                    {% endif %}
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+  {% block extra_js %}
+  {% endblock %}
+
+  <title>Green Gardens {% block extra_title %} {% endblock %}</title>
+</head>
+
+<body>
+  <!----------------------------- Navigation bar ----------------------------->
+  <header class="container-fluid fixed-top p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="{% url 'home' %}">
+          <h1 class="display-5 header-text-colour text-center navbar-brand-text">Green Gardens</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="main_nav">
+          <ul class="navbar-nav">
+            <li class="nav-item active"> <a class="nav-link header-text-colour" href="{% url 'home' %}">Home </a> </li>
+            <li class="nav-item dropdown has-megamenu">
+              <a class="nav-link dropdown-toggle header-text-colour" href="#" data-bs-toggle="dropdown"
+                id="bulbs-dropdown-menu" aria-haspopup="true" aria-expanded="false">
+                Bulbs & Seeds </a>
+              <div class="dropdown-menu megamenu main-dark-color" role="menu">
+                <div class="row g-3">
+                  <div class="col-12 col-md-3 mega-menu-column">
+                    <div>
+                      <h6 class="mega-menu-title-text">Veg Bulbs</h6>
+                      <ul class="list-unstyled">
+                        <li>
+                          <a href="{% url 'products' %}?sub=garlic_bulbs">Garlic</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=onion_bulbs">Onions</a>
+                        </li>
                       </ul>
+                    </div>
                   </div>
+                  <div class="col-12 col-md-3 mega-menu-column">
+                    <div>
+                      <h6 class="mega-menu-title-text">Veg Seeds</h6>
+                      <ul class="list-unstyled">
+                        <li>
+                          <a class="text-decoration-none" href="{% url 'products' %}?sub=herbs">Herbs</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=peas_and_beans">Peas and Beans</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-3 mega-menu-column">
+                    <div>
+                      <h6 class="mega-menu-title-text">Flower Seeds</h6>
+                      <ul class="list-unstyled">
+                        <li>
+                          <a href="{% url 'products' %}?sub=wild_flower_seeds">Wild Flower Seeds</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-3 mega-menu-column">
+                    <div>
+                      <h6 class="mega-menu-title-text">Spring Flowering Bulbs</h6>
+                      <ul class="list-unstyled">
+                        <li>
+                          <a href="{% url 'products' %}?sub=allium">Allium</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=bees_and_butterflies">Bees and Butterflies</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=crocus">Crocus</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=daffodil">Daffodil</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=muscari">Muscari</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=tulip">Tulip</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
-          </nav>
-          <!----------------------------- Search bar ----------------------------->
-          <div class="row justify-content-sm-around justify-content-lg-end">
-              <div class="col-12 col-sm-8 col-md-6 col-lg-4 my-auto py-1 py-lg-0">
-                  <form method="GET" action="{% url 'products' %}">
-                      <div class="input-group w-100">
-                          <input class="form-control border border-white border-1 rounded-0" type="text" name="q"
-                              placeholder="Search Products" required>
-                          <div class="input-group-append">
-                              <button class="form-control btn btn-black border border-white border-1 rounded-0"
-                                  type="submit">
-                                  <span class="icon">
-                                      <i class="fas fa-search main-white"></i>
-                                  </span>
-                              </button>
-                          </div>
-                      </div>
-                  </form>
+            </li>
+            <li class="nav-item dropdown has-megamenu">
+              <a class="nav-link dropdown-toggle header-text-colour" href="#" data-bs-toggle="dropdown"
+                id="garden-care-dropdown-menu" aria-haspopup="true" aria-expanded="false">
+                Garden Care </a>
+              <div class="dropdown-menu megamenu main-dark-color" role="menu">
+                <div class="row g-3">
+                  <div class="col-12 col-md-4 mega-menu-column">
+                    <div>
+                      <h6 class="mega-menu-title-text">Compost</h6>
+                      <ul class="list-unstyled">
+                        <li>
+                          <a href="{% url 'products' %}?sub=decorative_bark">Decorative Bark</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=house_plant_compost">Houseplant Compost</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=potting_compost">Potting Compost</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4 mega-menu-column">
+                    <div>
+                      <h6 class="mega-menu-title-text">Garden Care</h6>
+                      <ul class="list-unstyled">
+                        <li>
+                          <a href="{% url 'products' %}?sub=plant_feed">Plant Feed</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=slug_and_snail_control">Slug & Snail Feed</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=weed_control">Weed Control</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4 mega-menu-column">
+                    <div>
+                      <h6 class="mega-menu-title-text">Lawn Care</h6>
+                      <ul class="list-unstyled">
+                        <li>
+                          <a href="{% url 'products' %}?sub=lawn_feed">Lawn Feed</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=lawn_tools">Lawn Tools</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <!----------------------------- My account access ----------------------------->
-              <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center d-none d-lg-block">
-                  <ul class="list-inline list-unstyled my-0 float-lg-end">
-                      <li class="list-inline-item dropdown">
-                          <a class="text-black nav-link" href="#" id="user-options" data-bs-toggle="dropdown"
-                              aria-haspopup="true" aria-expanded="false">
-                              <div class="text-center">
-                                  <div><i class="fas fa-user fa-lg header-text-colour"></i></div>
-                                  <p class="my-0 header-text-colour">My Account</p>
-                              </div>
-                          </a>
-                          <div class="dropdown-menu border-0" aria-labelledby="user-options">
-                              {% if request.user.is_authenticated %}
-                                <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
-                              {% else %}
-                                <a href="{% url 'account_signup' %}" class="dropdown-item main-dark-color">Register</a>
-                                <a href="{% url 'account_login' %}" class="dropdown-item main-dark-color">Login</a>
-                              {% endif %}
-                          </div>
-                      </li>
-                      <!----------------------------- Shopping bag taken from boutique ado project and edited ----------------------------->
-                      <li class="list-inline-item">
-                          <a class="{% if grand_total %}fw-bold{% endif %} nav-link" href="{% url 'view_bag' %}">
-                              <div class="text-center ">
-                                  <div><i class="fas fa-shopping-basket fa-lg header-text-colour"></i></div>
-                                  <p class="my-0 header-text-colour">
-                                      {% if grand_total %}
-                                        €{{ grand_total|floatformat:2 }}
-                                      {% else %}
-                                        €0.00
-                                      {% endif %}
-                                  </p>
-                              </div>
-                          </a>
-                      </li>
-                  </ul>
+            </li>
+            <li class="nav-item dropdown has-megamenu">
+              <a class="nav-link dropdown-toggle header-text-colour" href="#" data-bs-toggle="dropdown"
+                id="plant-and-flowers-dropdown-menu" aria-haspopup="true" aria-expanded="false">
+                Plants & Flowers </a>
+              <div class="dropdown-menu megamenu main-dark-color" role="menu">
+                <div class="row g-3">
+                  <div class="col-12 col-md-4 mega-menu-column">
+                    <div>
+                      <h6 class="mega-menu-title-text">House plants</h6>
+                      <ul class="list-unstyled">
+                        <li>
+                          <a href="{% url 'products' %}?sub=cacti_and_succulents">Cacti & Succulents</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=conservatory_plants">Conservatory Plants</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=indoor_flowering_plants">Indoor Flowering Plants</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=office_plants">Office Plants</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4 mega-menu-column">
+                    <div>
+                      <h6 class="mega-menu-title-text">Plants for Purpose</h6>
+                      <ul class="list-unstyled">
+                        <li>
+                          <a href="{% url 'products' %}?sub=fragrant_plants">Fragrant Plants</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=plants_for_autumn">Plants for Autumn</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=plants_for_spring">Plants for Spring</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=plants_for_summer">Plants for Summer</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=plants_for_shade">Plants for Shade</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4 mega-menu-column">
+                    <div>
+                      <h6 class="mega-menu-title-text">Trees & Shrubs</h6>
+                      <ul class="list-unstyled">
+                        <li>
+                          <a href="{% url 'products' %}?sub=bamboo_plants">Bamboo Plants</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=climbing_plants">Climbing Plants</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'products' %}?sub=trees">Trees</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </li>
+            <li class="nav-item dropdown has-megamenu">
+              <a class="nav-link dropdown-toggle header-text-colour" href="#" data-bs-toggle="dropdown"
+                id="plant-and-flowers-dropdown-menu" aria-haspopup="true" aria-expanded="false">
+                Pots & Containers</a>
+              <div class="dropdown-menu megamenu main-dark-color" role="menu">
+                <div class="row g-3">
+                  <div class="col-12 col-md-4 mega-menu-column">
+                    <div>
+                      <ul class="list-unstyled">
+                        <li><a class="dropdown-item main-dark-color" href="{% url 'products' %}?sub=house_pots"> House
+                            Pots </a></li>
+                        <li><a class="dropdown-item main-dark-color"
+                            href="{% url 'products' %}?sub=plant_and_pot_stands"> Plant & Pot stands </a></li>
+                        <li><a class="dropdown-item main-dark-color"
+                            href="{% url 'products' %}?sub=troughs_and_balcony_pots"> Troughs and Balcony Pots </a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item"><a class="nav-link header-text-colour" href="{% url 'posts' %}"> Blog </a></li>
+            <!----------------------------- My account access ----------------------------->
+            <div
+              class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
+              <ul class="list-inline list-unstyled my-0 float-lg-end">
+                <li class="list-inline-item dropdown">
+                  <a class="text-black nav-link" href="#" id="user-options" data-bs-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <div class="text-center">
+                      <div><i class="fas fa-user fa-lg header-text-colour"></i></div>
+                      <p class="my-0 header-text-colour">My Account</p>
+                    </div>
+                  </a>
+                  <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                    {% if request.user.is_authenticated %}
+                    <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
+                    <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                    {% else %}
+                    <a href="{% url 'account_signup' %}" class="dropdown-item main-dark-color">Register</a>
+                    <a href="{% url 'account_login' %}" class="dropdown-item main-dark-color">Login</a>
+                    {% endif %}
+                  </div>
+                </li>
+                <!----------------------------- Shopping bag taken from boutique ado project and edited ----------------------------->
+                <li class="list-inline-item">
+                  <a class="{% if grand_total %}fw-bold{% endif %} nav-link" href="{% url 'view_bag' %}">
+                    <div class="text-center ">
+                      <div><i class="fas fa-shopping-basket fa-lg header-text-colour"></i></div>
+                      <p class="my-0 header-text-colour">
+                        {% if grand_total %}
+                          €{{ grand_total|floatformat:2 }}
+                        {% else %}
+                          €0.00
+                        {% endif %}
+                      </p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </div>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    <!----------------------------- Search bar ----------------------------->
+    <div class="row justify-content-sm-around justify-content-lg-end">
+      <div class="col-12 col-sm-8 col-md-6 col-lg-4 my-auto py-1 py-lg-0">
+        <form method="GET" action="{% url 'products' %}">
+          <div class="input-group w-100">
+            <input class="form-control border border-white border-1 rounded-0" type="text" name="q"
+              placeholder="Search Products" required>
+            <div class="input-group-append">
+              <button class="form-control btn btn-black border border-white border-1 rounded-0" type="submit">
+                <span class="icon">
+                  <i class="fas fa-search main-white"></i>
+                </span>
+              </button>
+            </div>
           </div>
-          <div class="text-center delivery-header-line">
-              <p class="main-dark-color fs-6 fw-bold text-uppercase yellow-background mb-0 py-1 text-nowrap">Free delivery on orders over € {{ qualify_for_free_delivery }}</p>
-          </div>
-      </header>
+        </form>
+      </div>
+      <!----------------------------- My account access ----------------------------->
+      <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center d-none d-lg-block">
+        <ul class="list-inline list-unstyled my-0 float-lg-end">
+          <li class="list-inline-item dropdown">
+            <a class="text-black nav-link" href="#" id="user-options" data-bs-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              <div class="text-center">
+                <div><i class="fas fa-user fa-lg header-text-colour"></i></div>
+                <p class="my-0 header-text-colour">My Account</p>
+              </div>
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="user-options">
+              {% if request.user.is_authenticated %}
+                <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
+                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+              {% else %}
+                <a href="{% url 'account_signup' %}" class="dropdown-item main-dark-color">Register</a>
+                <a href="{% url 'account_login' %}" class="dropdown-item main-dark-color">Login</a>
+              {% endif %}
+            </div>
+          </li>
+          <!----------------------------- Shopping bag taken from boutique ado project and edited ----------------------------->
+          <li class="list-inline-item">
+            <a class="{% if grand_total %}fw-bold{% endif %} nav-link" href="{% url 'view_bag' %}">
+              <div class="text-center ">
+                <div><i class="fas fa-shopping-basket fa-lg header-text-colour"></i></div>
+                <p class="my-0 header-text-colour">
+                  {% if grand_total %}
+                    €{{ grand_total|floatformat:2 }}
+                  {% else %}
+                    €0.00
+                  {% endif %}
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center delivery-header-line">
+      <p class="main-dark-color fs-6 fw-bold text-uppercase yellow-background mb-0 py-1 text-nowrap">Free delivery on
+        orders over € {{ qualify_for_free_delivery }}</p>
+    </div>
+  </header>
 
-    {% if messages %}
-      <div class="message-container"></div>
-    {% endif %}
+  {% if messages %}
+  <div class="message-container"></div>
+  {% endif %}
 
-    {% block page_header %}
-    {% endblock %}
+  {% block page_header %}
+  {% endblock %}
 
-    {% block content %}
-    {% endblock %}
+  {% block content %}
+  {% endblock %}
 
-    {% block page_footer %}
-    {% endblock %}
+  {% block page_footer %}
+  {% endblock %}
 
-    {% block postloadjs %}
-    {% endblock %}
+  {% block postloadjs %}
+  {% endblock %}
 
-    {% load sweetify %}
-    {% sweetify %}
+  {% load sweetify %}
+  {% sweetify %}
 
-  </body>
+</body>
+
 </html>

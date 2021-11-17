@@ -1,4 +1,5 @@
-from django.shortcuts import render, redirect, get_object_or_404, reverse, HttpResponse
+from django.shortcuts import (
+    render, redirect, get_object_or_404, reverse, HttpResponse)
 
 from products.models import Product
 
@@ -9,8 +10,9 @@ def view_bag(request):
     """ View to return bag contents """
     return render(request, 'bag/bag.html')
 
+
 def add_product_to_bag(request, item_id):
-    """ Add a quantity of selected product to the bag """
+    """ Adds a quantity of a selected product to the bag """
 
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
@@ -28,7 +30,7 @@ def add_product_to_bag(request, item_id):
 
 
 def update_bag_quantity(request, item_id):
-    """ Update product quantity in bag """
+    """ Updates product quantity in bag """
 
     get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))

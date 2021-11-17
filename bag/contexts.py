@@ -3,8 +3,12 @@ from django.conf import settings
 from django.shortcuts import get_object_or_404
 from products.models import Product
 
-def bag_products(request):
 
+def bag_products(request):
+    """
+    Gets the bag items, calculates the total multiplies by the quantity.
+    It then calculates the delivery cost and return the grand total
+    """
     bag_items = []
     total = 0
     product_count = 0
@@ -28,7 +32,6 @@ def bag_products(request):
     else:
         delivery = 0
         spend_for_free_delivery = 0
-
 
     grand_total = delivery + total
 

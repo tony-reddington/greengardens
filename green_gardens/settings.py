@@ -110,7 +110,7 @@ ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 # User must supply an email
 ACCOUNT_EMAIL_REQUIRED = True
 # User must verify email from their email account
-ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+ACCOUNT_EMAIL_VERIFICATION = 'none'
 # Requires user to enter email twice to confirm the email is correct
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
 # Username must be at least 6 x characters long

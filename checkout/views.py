@@ -128,7 +128,7 @@ def checkout_success(request, order_number):
                 user_profile_form.save()
 
     sweetify.success(request, 'Order Successful',
-                     text="A confirmation email will be sent to your email address ",
+                     text="We hope to see you again soon!",
                      icon='success', timer=3000, timerProgressBar='true')
 
     if 'bag' in request.session:

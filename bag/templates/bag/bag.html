@@ -36,6 +36,8 @@
                 {% include "bag/product-price.html" %}
               </div>
             </div>
+            <form class="form" method="POST" action="{% url 'update_bag_quantity' item.item_id %}">
+              {% csrf_token %}
             <div class="row">
               <div class="col-12 pt-1 mt-0">
                 {% include "bag/quantity-input.html" %}
@@ -50,6 +52,7 @@
               </div>
             </div>
             <hr class="mt-5">
+            </form>
           </div>
         {% endfor %}
           <div class="d-block d-md-none">

@@ -50,22 +50,24 @@
               </div>
             </div>
             <hr class="mt-5">
+          </div>
         {% endfor %}
-          <div class="row">
-            <div class="col-12 mt-1 basket-totals">
-              {% include "bag/bag-totals.html" %}
+          <div class="d-block d-md-none">
+            <div class="row">
+              <div class="col-12 mt-1 basket-totals">
+                {% include "bag/bag-totals.html" %}
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-12 mt-2 basket-checkout-buttons">
-              {% include "bag/continue-button.html" %}
+            <div class="row">
+              <div class="col-12 mt-2 basket-checkout-buttons">
+                {% include "bag/continue-button.html" %}
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-12 mt-2 mb-3 basket-checkout-buttons">
-              {% include "bag/secure-checkout-button.html" %}
+            <div class="row">
+              <div class="col-12 mt-2 mb-3 basket-checkout-buttons">
+                {% include "bag/secure-checkout-button.html" %}
+              </div>
             </div>
-          </div>
           </div>
           <div class="table-responsive d-none d-md-block">
             <table class="table table-borderless table-sm">
@@ -106,17 +108,19 @@
                   </td>
                 </tr>
               {% endfor %}
-              <tr>
-                <td class="pt-3 basket-totals" colspan="5">
-                  {% include "bag/bag-totals.html" %}
-                </td>
-              </tr>
-              <tr>
-                <td colspan="5" class="basket-checkout-buttons">
-                  {% include "bag/continue-button.html" %}
-                  {% include "bag/secure-checkout-button.html" %}
-                </td>
-              </tr>
+              <div class="d-none d-md-block">
+                <tr>
+                  <td class="pt-3 basket-totals" colspan="5">
+                    {% include "bag/bag-totals.html" %}
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="5" class="basket-checkout-buttons">
+                    {% include "bag/continue-button.html" %}
+                    {% include "bag/secure-checkout-button.html" %}
+                  </td>
+                </tr>
+              </div>
             </table>
           </div>
       {% else %}

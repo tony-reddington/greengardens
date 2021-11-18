@@ -64,11 +64,11 @@
         <p class="text-danger my-1">Your card will be charged <strong>€{{ grand_total|floatformat:2 }}</strong>
         </p>
         <div class="float-end">
-          <a href="#" onClick="history.go(-1)" class="btn btn-lg button-style my-2">
+          <a href="{% url 'view_bag' %}" class="btn btn-lg button-style my-2">
             <span class="icon">
               <i class="fas fa-chevron-circle-left main-dark-color fs-5"></i>
             </span>
-            <span class="text-uppercase main-dark-color fs-6 fw-bold">Continue Shopping</span>
+            <span class="text-uppercase main-dark-color fs-6 fw-bold">Back to bag</span>
           </a>
           <button id="submit-button" class="btn btn-lg checkout-button my-2">
             <span class="text-uppercase fs-6 pr-1">Complete order</span>

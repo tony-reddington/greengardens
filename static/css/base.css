@@ -249,6 +249,13 @@ input[name='q']::placeholder {
 
 /* bag.html page media queries ----------------------------------------------*/
 
+@media (max-width: 576px) {
+    .delete-button, .update-quantity-button {
+        width: 7rem;
+        height: 2.5rem;
+    }
+}
+
 @media (max-width: 992px) {
     .basket-header-text {
         margin-top: 100px;

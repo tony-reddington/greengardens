@@ -65,9 +65,33 @@
  * The basket icon links to the bag/basket page with text beneath calculating the sum as each time an item is added to the bag.
  * A banner displays to users that delivery is free on orders over €30 across all pages.
  * #### Home page
-   * The Home page is made up of a brand logo, navigation bar, search bar, account button and basket displaying the sum of the items added. 
-   * A delivery display banner appears displaying the minimum spend for free delivery
    * A background image takes up the screen below the banner with inspirational text.
+ * #### Login page
+ * The Login page uses allauth to verify that the user exists by adding the users name/email and password
+ * #### Profile page
+ * The profile page allows users to store their personal details for speedy checkout or update if required.
+ * The stored personal information carries to the checkout page where all they're left to do is enter their name.
+ * #### Register page
+ * The Register page uses allauth and requires that users enter their email and password twice for verification and also enter a username.
+ * #### Products page
+ * The products page display each product in cards displaying the product name, image, price with category and sub-category tags.
+ * The category/sub-category tags bring the user to all the products the the same either category or sub-category depending on the users need.
+ * Clicking on the product image brings the user to the product-info page
+ * #### Product-info page
+ * The product-info page displays a larger product image with name, price, category/subcategory tags and information about the selected product.
+ * An input field with the default value of 1 can be updated depending on the users requirement.
+ * Two buttons appear on the page with the 'Continue shopping' button sending the user back to a page displaying all products and an 'Add to basket' button that adds the selected quantity of product to the basket.
+ * The product quantity multiplied by the price adds to the current value of the basket and displays below the basket icon in the header.
+ * The page is fully responsive and the layout changes on smaller screens.
+ * #### Bag/basket page
+ * The bag/basket page displays each product image, name, price, quantity within an input depending on the users selection and a subtotal which is based on the quantity multiplied by the price.
+ * The user has the ability to update or delete each product in the bag using the buttons below the quantity input field.
+ * At the bottom of the page, the sub-total, delivery cost and total to pay is displayed.
+ * If the users bag/basket is less than €30, the user is displayed message informing them how much needs to be spend to get free delivery.
+ * Two buttons appear on the page with the 'Continue shopping' button sending the user back to a page displaying all products and a 'Secure Checkout' button that adds brigns the user to the checkout page
+
+
+
 
 ## Technology Used
 

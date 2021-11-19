@@ -110,6 +110,20 @@
  * Email capabilities to verify email account registration and order confirmations
  * A contact page
 
+## Information Architecture
+
+### Data Storage
+
+![](readme-images-docs/information-architecture/category.JPG)
+![](readme-images-docs/information-architecture/subcategory.JPG)
+![](readme-images-docs/information-architecture/product.JPG)
+>>
+![](readme-images-docs/information-architecture/order.JPG)
+![](readme-images-docs/information-architecture/orderlineitem.JPG)
+![](readme-images-docs/information-architecture/userprofile.JPG)
+>>
+![](readme-images-docs/information-architecture/blog.JPG)
+
 
 
 

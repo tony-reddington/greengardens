@@ -54,6 +54,26 @@
  #### Imagery
  - The main image on the website is of foliage and tells in itself what the website sells. The product images were scraped from the Johnstown Garden Centre website.
 
+#### Wireframes
+
+* [Home wireframe](readme-images-docs/home-wireframe.pdf)
+
+* [Login wireframe](readme-images-docs/login-wireframe.pdf)
+
+* [Register wireframe](readme-images-docs/register-wireframe.pdf)
+
+* [Profile wireframe](readme-images-docs/profile-wireframe.pdf)
+
+* [Products wireframe](readme-images-docs/products-wireframe.pdf)
+
+* [Product info wireframe](readme-images-docs/product-info-wireframe.pdf)
+
+* [Bag waureframe](readme-images-docs/bag-wireframe.pdf)
+
+* [Checkout wireframe](readme-images-docs/checkout-wireframe.pdf)
+
+* [Blog wireframe](readme-images-docs/blog-wireframe.pdf)
+
 ### Existing Features
    * The website is responsive across all devices.
    * A navbar with Home, Bulbs & Seeds, Garden Care, Plants & Flowers, Pots & Containers dropdown into a mega menu features across all pages listing products by sub-category and collapses to a hamburger button for smaller screen sizes medium and below.

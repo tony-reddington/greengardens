@@ -197,7 +197,6 @@
 8. View a blog tips and tricks.
     * The blog is easily accessible from the navbar.
 
-
 ### User Stories
 
 #### As a user, I want - 
@@ -245,6 +244,23 @@
     * Users are displayed with a Sweetify message and a checkout success page upon completing an order.
 7. to provide a blog with gardening tips and tricks.
     * The blog is easily accessible within the navbar.
+
+### Testing
+    * All code was run to flake 8 and all issues resolves
+    * All pages were tested extensively across multiple devices by friends and family that raised issues such as button text alignment, update button not working, delete button crashing the site. All issues were founds and resolved.
+    * [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) - All CSS test validated and passed
+    * [JSHint](https://jshint.com/) - Javascript test validated and passed
+    * [W3C Markup validator](https://validator.w3.org/) - HTML test validated and passed
+
+### Bugs 
+    * Problem - The sqlite database was out of sync and wouldn't allow migrations
+    * Resolution - The database was deleted and environment reloaded allowing for all migrations to be run again.
+
+    * Problem - Fixtures wouldn't load 
+    * Resolution - There were small errors in the created fixtures but all were found and corrected.
+
+### Unresolved Issues
+The mega menu on smaller screen pushes down the text and causes issues for some iphone users.
 
 ## Deployment
 

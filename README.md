@@ -49,6 +49,9 @@
 
     ![](readme-images-docs/color-scheme.jpg)
 
+#### Typography
+ - The font used across the website is 'Monserrat' because of it's simple and legible with 'Sans Serif' as the fall back font. The font 'Are You Serious' was used for the Green Gardens name in the header.
+
 ## Technology Used
 
 ### Languages used

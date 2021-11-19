@@ -67,15 +67,19 @@
    ![Home page responsive image](readme-images-docs/home-responsive-image.png)
  * #### Login page
    * The Login page uses allauth to verify that the user exists by adding the users name/email and password
+   ![Login page responsive image](readme-images-docs/login-responsive-image.png)
  * #### Profile page
    * The profile page allows users to store their personal details for speedy checkout or update if required.
    * The stored personal information carries to the checkout page where all they're left to do is enter their name.
  * #### Register page
    * The Register page uses allauth and requires that users enter their email and password twice for verification and also enter a username.
+   ![Register page responsive image](readme-images-docs/register-responsive-image.png)
  * #### Products page
    * The products page display each product in cards displaying the product name, image, price with category and sub-category tags.
    * The category/sub-category tags bring the user to all the products the the same either category or sub-category depending on the users need.
-   * Clicking on the product image brings the user to the product-info page
+   * Clicking on the product image brings the user to the product-info page.
+   >>
+   ![Products page responsive image](readme-images-docs/products-responsive-image.png)
  * #### Product-info page
    * The product-info page displays a larger product image with name, price, category/subcategory tags and information about the selected product.
    * An input field with the default value of 1 can be updated depending on the users requirement.
@@ -83,6 +87,8 @@
    * Once the user adds an item, a sweetify message pops up informing the user that their chosen product has been added to the basket.
    * The product quantity multiplied by the price adds to the current value of the basket and displays below the basket icon in the header.
    * The page is fully responsive and the layout changes on smaller screens.
+   >>
+   ![Product info responsive image](readme-images-docs/product-info-responsive-image.png)
  * #### Bag/basket page
    * The bag/basket page displays each product image, name, price, quantity within an input depending on the users selection and a subtotal which is based on the quantity multiplied by the price.
    * The user has the ability to update or delete each product in the bag using the buttons below the quantity input field.
@@ -103,6 +109,9 @@
    * The checkout success page displays a Sweetify popup confirming that the users order has been successful and this is re-iterated on the page by thanking the user for the order.
    * Text also appears informing the user that their order will be delivered within 5 x business days.
    * A 'continue shopping' button brings the user back to the home page.
+ * #### Error 404 and 500 pages
+   * Error 404 and 500 oages were created for Django to use should these errors occur.
+   * On the pages, text displays what has occurred and provides users with a button to return to the homepage.
 
 ### Features for future implimentation
  * Email capabilities to verify email account registration and order confirmations
@@ -121,10 +130,6 @@
 ![](readme-images-docs/information-architecture/userprofile.JPG)
 >>
 ![](readme-images-docs/information-architecture/blog.JPG)
-
-
-
-
 
 ## Technology Used
 
@@ -155,7 +160,15 @@
     - Favicon.io was used to create the website favicon.
 10. [Bootstrap Menu](https://bootstrap-menu.com/detail-megamenu.html)
     - Bootstrap Menu was used to help create a mega menu within the header.
-11. [Gitpod](https://gitpod.io/)
-    - Gitpod was used to write the website code.
-12. [GitHub](https://github.com/)
-    - GitHub was used to host the code and website contents.
+11. [Stripe](https://stripe.com/en-ie/)
+    - Stripe was used as the payment processing platform.
+12. [Django](https://www.djangoproject.com/)
+    - Django framework was used to develop the the website.
+13. [Sweetalerts](https://sweetalert2.github.io/)
+    - Sweet alerts were used to as confirmation messaging for users.
+14. [AWS](https://aws.amazon.com/s3/)
+    - AWS was used to host the static and media files for Heroku.
+15. [Heroku](https://www.heroku.com/)
+    - Heroku was used to host the website.
+15. [Postgres](https://www.postgresql.org/)
+    - Postgres was used as the heroku database.

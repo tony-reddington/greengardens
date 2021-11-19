@@ -342,5 +342,21 @@ python3 manage.py createsuperuser
 ```
 6. Once all datat is migrated and loaded, select the deploy tab.
 7. Now scroll down to Github within Heroku and connect to you repo in Github.
-8. Select automatic deployment and then click 'open app' in the top right of the page. 
+8. Select automatic deployment and then click 'open app' in the top right of the page.
 
+## Credits
+
+### Code
+* Bootstrap was used across the entire website for styling and formatting.
+* I used the Boutique Ado project a lot to guide me through this project to completion.
+* W3 Schools & Stack overflow were used to help find tips and solutions.
+
+### Content
+* All code was was written by the developer, the blog post was extracted from the Irish Time, authored by Diurmuid Gavin. All the product data was scraped from Johnstown Garden Centre.
+
+### Media
+The main image on the homepage was taken from IStockPhoto with special credit to Martin Wahlborg3. All images for the products were scraped from Johnstown Garden centre so a lot of credit to them too.
+
+### Acknowledgements
+* My mentor Richard Wells for his guidance, patience & super support.
+* My Husband, Family and friends for testing the website across multiple devices.

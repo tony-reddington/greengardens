@@ -289,3 +289,58 @@ os.environ["STRIPE_PUBLIC_KEY"] = "[Your Stripe Key]"
 os.environ["STRIPE_SECRET_KEY"] = "[Your Stripe Secret Key]"
 os.environ["DATABASE_URL"] = "[Your DB URL]"
 ```
+### Database setup
+1. In order to set up your database you must enter the command line below into your terminal -
+```bash
+python3 manage.py migrate
+```
+2. You now need to create a super user in order to access the admin panel by entering the command line below -
+```bash
+python3 manage.py createsuperuser
+```
+3. You should now be able to run the server by using the command line below - 
+```bash
+python3 manage.py runserver
+```
+4. You will now receive a link to your locally hosted site.
+5. You should now close the terminal with ctrl+c and enter the following command -
+```bash
+python3 manage.py loaddata products/fixtures/categories.json
+python3 manage.py loaddata products/fixtures/subcategories.json
+python3 manage.py loaddata products/fixtures/products.json
+```
+### Deploying to Heroku
+
+In order to to run this application from an online environment you must deploy the code to Heroku so please ensure that the local deployment steps are followed.
+
+1. Proceed to [Heroku](https://www.heroku.com/) and set up an account using your chosen name then in the resources section you'll see add ons and select the free option then type - 
+```bash
+heroku Postgres
+```
+2. Click the settings tab and scroll to 'reveal config vars' and then copy the Database_URL and poste it into your settings.py file.
+3. You then need to enter the following into the config var - 
+|          Key          |     Value    |
+|:---------------------:|:------------:|
+| AWS_ACCESS_KEY_ID     | [your value] |
+| AWS_SECRET_ACCESS_KEY | [your value] |
+| SECRET_KEY            | [your value] |
+| STRIPE_PUBLIC_KEY     | [your value] |
+| STRIPE_SECRET_KEY     | [your value] |
+| USE_AWS               | TRUE         |
+| DATABASE_URL          | [Your Value] |
+
+4. You must now migrate your local database to the cloud database using makemigrations followed by migrate as per below
+```bash
+pythone manage.py makemigrations
+```
+```bash
+python manage.py migrate
+```
+5. Now create a super user by entering the below command - 
+```bash
+python3 manage.py createsuperuser
+```
+6. Once all datat is migrated and loaded, select the deploy tab.
+7. Now scroll down to Github within Heroku and connect to you repo in Github.
+8. Select automatic deployment and then click 'open app' in the top right of the page. 
+

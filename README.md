@@ -1,9 +1,6 @@
 # Green Gardens
-<div style="height:40rem; width:auto;">
-<img src='readme-images-docs/responsive-image.png'></img>
-</div>
 
-##
+
 ## The goal of this e-commerce website is to sell garden products to users and provide a blog displaying users with tips and tricks uploaded by the owner. The user will have the ability to login/create an account profile and save their personal information for future purchases and faster checkout.
 
 ### User Experience (UX)
@@ -67,6 +64,7 @@
 >>
  * #### Home page
    * A background image takes up the screen below the banner with inspirational text.
+   ![Home page responsive image](readme-images-docs/home-responsive-image.png)
  * #### Login page
    * The Login page uses allauth to verify that the user exists by adding the users name/email and password
  * #### Profile page

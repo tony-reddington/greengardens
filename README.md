@@ -116,6 +116,9 @@
 ### Features for future implimentation
  * Email capabilities to verify email account registration and order confirmations
  * A contact page
+ * Product sorting
+ * Users can add product reviews
+ * Users can add blog posts
 
 ## Information Architecture
 
@@ -172,3 +175,5 @@
     - Heroku was used to host the website.
 15. [Postgres](https://www.postgresql.org/)
     - Postgres was used as the heroku database.
+
+## Deployment

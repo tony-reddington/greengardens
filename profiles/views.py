@@ -5,6 +5,7 @@ from .forms import ProfileForm
 
 import sweetify
 
+
 def profile(request):
     """ View to display the users profile """
     profile = get_object_or_404(UserProfile, user=request.user)
@@ -14,8 +15,8 @@ def profile(request):
         if form.is_valid():
             form.save()
             sweetify.success(request, 'Updated',
-                     text="Your address has been updated",
-                     icon='success')
+                             text="Your address has been updated",
+                             icon='success')
 
     form = ProfileForm(instance=profile)
     template = 'profiles/profile.html'

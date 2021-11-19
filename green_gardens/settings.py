@@ -74,9 +74,10 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates'),
-                os.path.join(BASE_DIR, 'templates', 'allauth'),
-                ],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'templates'),
+            os.path.join(BASE_DIR, 'templates', 'allauth'),
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -103,7 +104,7 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 SITE_ID = 1
-# temporary for allauth to log confirmation emails to the console 
+# temporary for allauth to log confirmation emails to the console
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # tells allsuth that the site will allow username or email address
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
@@ -117,9 +118,8 @@ ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
 ACCOUNT_USERNAME_MIN_LENGTH = 6
 # url where the user will login to their account
 LOGIN_URL = '/accounts/login/'
-#user will be redirected here after successful registration of account
+# user will be redirected here after successful registration of account
 LOGIN_REDIRECT_URL = '/'
-
 
 
 WSGI_APPLICATION = 'green_gardens.wsgi.application'

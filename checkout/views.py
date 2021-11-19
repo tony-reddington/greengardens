@@ -43,13 +43,15 @@ def checkout(request):
                     )
                     order_line_item.save()
                 except Product.DoesNotExist:
-                    sweetify.error(request, title='Sorry',
-                                   text='One of the items in your basket was not found',
-                                   icon='error')
+                    sweetify.error(
+                        request, title='Sorry',
+                        text='One of the items in your basket was not found',
+                        icon='error')
                     order.delete()
                     return redirect(reverse('view_bag'))
             request.session['save_info'] = 'save-info' in request.POST
-            return redirect(reverse('checkout_success', args=[order.order_number]))
+            return redirect(reverse('checkout_success',
+                            args=[order.order_number]))
         else:
             sweetify.error(request, title='Sorry',
                            text='There was error while submitting your form',

@@ -81,14 +81,30 @@
  * The product-info page displays a larger product image with name, price, category/subcategory tags and information about the selected product.
  * An input field with the default value of 1 can be updated depending on the users requirement.
  * Two buttons appear on the page with the 'Continue shopping' button sending the user back to a page displaying all products and an 'Add to basket' button that adds the selected quantity of product to the basket.
+ * Once the user adds an item, a sweetify message pops up informing the user that their chosen product has been added to the basket.
  * The product quantity multiplied by the price adds to the current value of the basket and displays below the basket icon in the header.
  * The page is fully responsive and the layout changes on smaller screens.
  * #### Bag/basket page
  * The bag/basket page displays each product image, name, price, quantity within an input depending on the users selection and a subtotal which is based on the quantity multiplied by the price.
  * The user has the ability to update or delete each product in the bag using the buttons below the quantity input field.
+ * If either the update or delete button is clicked, the user receives a confirmation Sweetify popup that their chosen action was successful.
  * At the bottom of the page, the sub-total, delivery cost and total to pay is displayed.
  * If the users bag/basket is less than €30, the user is displayed message informing them how much needs to be spend to get free delivery.
- * Two buttons appear on the page with the 'Continue shopping' button sending the user back to a page displaying all products and a 'Secure Checkout' button that adds brigns the user to the checkout page
+ * Two buttons appear on the page with the 'Continue shopping' button sending the user back to a page displaying all products and a 'Secure Checkout' button that adds brings the user to the checkout page.
+ * #### Checkout page
+ * The checkout page calls for the user to fill in the form
+ * The form asks for the users full name. email, phone number, Address line 1 & 2, City or Town, County or State, Postcode or Zipcode.
+ * All forms are text inputs but the country field is an option box that requires the user to select their country.
+ * Text beneath the form informs the informs the user that in order to save their personal information they should create a new account or login.
+ * A stripe payment input appears where the user must enter their card details.
+ * If the card details are entered incorrectly for whatever reason a message displays below the card input field.
+ * Text appears below the below the card input field as default informing the user how much their card will be charged.
+ * Two buttons appear on the checkout page with the 'Back to bag' button sending the user back to their bag page displaying their chosen products and a 'Complete order' button that sends the payment request to Stripe to charge the users card and the user is then directed to the checkout-success page.
+ * #### Checkout Success page
+ * The checkout success page displays a Sweetify popup confirming that the users order has been successful and this is re-iterated on the page by thanking the user for the order.
+ * Text also appears informing the user that their order will be delivered within 5 x business days.
+ * A 'continue shopping button brings the user back to the home page.
+
 
 
 

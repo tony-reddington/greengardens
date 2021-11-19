@@ -55,6 +55,20 @@
  #### Imagery
  - The main image on the website is of foliage and tells in itself what the website sells. The product images were scraped from the Johnstown Garden Centre website.
 
+### Existing Features
+ * The website is responsive across all devices.
+ * A navbar with Home, Bulbs & Seeds, Garden Care, Plants & Flowers, Pots & Containers dropdown into a mega menu features across all pages listing products by sub-category and collapses to a hamburger button for smaller screen sizes medium and below.
+ * The blog nav item brings the user directly to the blog page.
+ * A search bar appears in the header across all screen sizes making it simple for users to navigate.
+ * The Green Gardens logo also features along the navigation that's visible on every page and when clicked, brings the user back to the home page.
+ * An account button gives users the ability to register or login.
+ * The basket icon links to the bag/basket page with text beneath calculating the sum as each time an item is added to the bag.
+ * A banner displays to users that delivery is free on orders over €30 across all pages.
+ * #### Home page
+   * The Home page is made up of a brand logo, navigation bar, search bar, account button and basket displaying the sum of the items added. 
+   * A delivery display banner appears displaying the minimum spend for free delivery
+   * A background image takes up the screen below the banner with inspirational text.
+
 ## Technology Used
 
 ### Languages used

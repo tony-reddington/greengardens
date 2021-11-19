@@ -272,7 +272,6 @@ input[name='q']::placeholder {
 }
 
 .allauth-form-content-inner p {
-    margin-top: 1,5rem;
     color: #393D3F;
     font-family: 'Montserrat', sans-serif;
     text-align: center;

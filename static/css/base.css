@@ -253,6 +253,7 @@ input[name='q']::placeholder {
     .delete-button, .update-quantity-button {
         width: 7rem;
         height: 2.5rem;
+        text-align: center;
     }
 }
 

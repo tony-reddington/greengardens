@@ -175,5 +175,75 @@
     - Heroku was used to host the website.
 15. [Postgres](https://www.postgresql.org/)
     - Postgres was used as the heroku database.
+## Testing
+
+#### The user goals will be to:
+1. Easily navigate through the website.
+    * The website is easily navigated by either using the navbar or the search bar along with buttons placed throughout the site directing users.
+2. Access the website using multiple devices.
+    * The website is fully responsive across all devices.
+3. Register and create an account profile to store personal information for future login and faster checkout.
+    * It's very straight forward to create an account as per login/register images in the features section.
+4. Buy gardening products.
+    * Plenty of gardening products are available to buy and the payments are handled by Stripe.
+5. Update shopping basket.
+    * The shopping basket is easily updatable in the bag/basket and a popup Sweetify message appears to confirm once successful.
+6. Delete products from shopping basket.
+    * It's very straight forward to delete products from the bag/basket and a popup Sweetify message appears to confirm once successful.
+7. Checkout and receive confirmation that the order has been placed
+    * The user is directed to the checkout success page where a Sweetify pop up is display and default text displayed on the page confirming order was successful.
+8. View a blog tips and tricks.
+    * The blog is easily accessible from the navbar.
+
+
+### User Stories
+
+#### As a user, I want - 
+1. the navigation bar clearly visible, displaying products by category and sub category so I can easily navigate the website.
+    * The navigation bar is clearly visible as per homepage image in the existing features section.
+2. the website responsive across devices so I can swap and change devices.
+    * The entire website is fully responsive across all devices no matter the size.
+3. the page laid out neatly so that I can find information effortlessly with a search bar allowing me to search for product items by name or product detail.
+    * The search bar is displayed across all pages making it very easy to search for products.
+4. to create an account profile that will store my personal information for speedy transactions.
+    * As per image below, the user is called to update their details for speedy checkout.
+    >>
+     ![](readme-images-docs/profile.jpg)
+5. a page displaying all products by sub category.
+    * Products are available to view by either category or sub-category.
+    >>
+     ![](readme-images-docs/subcategory.JPG)
+6. the ability to update and remove items from my shopping basket.
+    * The quantity of product in the users bag can be updated or deleted.
+    >>
+     ![](readme-images-docs/update-delete.JPG)
+7. receive confirmation that my order has been placed.
+    * Once order is completed and successful, the user receives a pop up sweetify success message plus this is reiterated in text on the page as per below.
+    >>
+     ![](readme-images-docs/success.JPG)
+8. view tips and tricks on a blog page.
+    * The blog page is easily accessibly on the navbar and shares tips and tricks.
+    >>
+     ![](readme-images-docs/blog.JPG)
+
+### Site owner goals
+
+#### As the site owner, I want - 
+1. to provide a simple navigation display making it easy for users to navigate through the website with search bar for users to search items by name or product detail.
+    * The navbar breaks down into categories and sub-catagories along with the search bar featuring on all pages makes it very easy for the user to navigate the site.
+2. the website responsive across all major devices.
+    * The website is fully responsive across all screen sizes.
+3. to display all products by category and sub categories contained in an expanded navigation bar.
+    * Both are display within a dropdown megamenu.
+4. to give functionality for users to register and create an account profile to store their personal information for speedy transactions.
+    * This is easy accessible through the account button within the header featuring on all pages.
+5. to allow users to update and remove items from their shopping bag.
+    * This is available within the bag/basket.
+6. to give users confirmation that their orders have been placed.
+    * Users are displayed with a Sweetify message and a checkout success page upon completing an order.
+7. to provide a blog with gardening tips and tricks.
+    * The blog is easily accessible within the navbar.
+
+
 
 ## Deployment

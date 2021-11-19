@@ -1,6 +1,10 @@
 # Green Gardens
+<div style="height:40rem; width:auto;">
+<img src='readme-images-docs/responsive-image.png'></img>
+</div>
 
-## The goal of this e-commerce website is to sell garden products to users and a blog providing users with tips and tricks uploaded by the owner. The user will have the ability to login/create an account profile and save their personal information for future purchases and faster checkout.
+##
+## The goal of this e-commerce website is to sell garden products to users and provide a blog displaying users with tips and tricks uploaded by the owner. The user will have the ability to login/create an account profile and save their personal information for future purchases and faster checkout.
 
 ### User Experience (UX)
 
@@ -60,10 +64,10 @@
 6.  [Befunky photo editor](https://www.befunky.com/)
     - Befunky photo editor was used to resize images.
 7.  [Bootstrap](https://getbootstrap.com/)
-    - Bootstrap was used for the recipe cards and to make the website more responsive across different device sizes.
+    - Bootstrap was used across the full website to style and make the website responsive across different device sizes.
 8.  [Coolers](https://coolors.co/)
     - Coolers was used to help generate a colour palette for the entire site.
-9. [Favicon](https://favicon.io/)
+9.  [Favicon](https://favicon.io/)
     - Favicon.io was used to create the website favicon.
 10. [Bootstrap Menu](https://bootstrap-menu.com/detail-megamenu.html)
     - Bootstrap Menu was used to help create a mega menu within the header.

@@ -42,6 +42,13 @@
 * to give users confirmation that their orders have been placed.
 * to provide a blog with gardening tips and tricks.
 
+### Design
+
+#### Colour Scheme
+ - The Green color used across the website fits perfectly as the website is selling gardening products and is universally associated with nature. The Yellow was chosen symbolises happiness, warmth and sunshine and brightens up the page as well as making certain elements in the website stand out. The off Black and basic Black were then used for text and borders.
+
+    ![](readme-images-docs/color-scheme.jpg)
+
 ## Technology Used
 
 ### Languages used

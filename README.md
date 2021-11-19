@@ -234,7 +234,7 @@
 2. the website responsive across all major devices.
     * The website is fully responsive across all screen sizes.
 3. to display all products by category and sub categories contained in an expanded navigation bar.
-    * Both are display within a dropdown megamenu.
+    * Both are display within a dropdown mega menu.
 4. to give functionality for users to register and create an account profile to store their personal information for speedy transactions.
     * This is easy accessible through the account button within the header featuring on all pages.
 5. to allow users to update and remove items from their shopping bag.
@@ -329,7 +329,7 @@ heroku Postgres
 | USE_AWS               | TRUE         |
 | DATABASE_URL          | [Your Value] |
 
-4. You must now migrate your local database to the cloud database using makemigrations followed by migrate as per below
+4. You must now migrate your local database to the cloud database using make migrations followed by migrate as per below
 ```bash
 pythone manage.py makemigrations
 ```
@@ -340,7 +340,7 @@ python manage.py migrate
 ```bash
 python3 manage.py createsuperuser
 ```
-6. Once all datat is migrated and loaded, select the deploy tab.
+6. Once all data is migrated and loaded, select the deploy tab.
 7. Now scroll down to Github within Heroku and connect to you repo in Github.
 8. Select automatic deployment and then click 'open app' in the top right of the page.
 

@@ -7,7 +7,7 @@ class Category(models.Model):
         verbose_name_plural = 'Categories'
 
     name = models.CharField(max_length=254)
-    friendly_name = models.CharField(max_length=254, null=True, blank=True)
+    friendly_name = models.CharField(max_length=254, blank=True)
 
     def __str__(self):
         return self.name
@@ -22,7 +22,7 @@ class Subcategory(models.Model):
         verbose_name_plural = 'Subcategories'
 
     name = models.CharField(max_length=254)
-    friendly_name = models.CharField(max_length=254, null=True, blank=True)
+    friendly_name = models.CharField(max_length=254, blank=True)
     category = models.ForeignKey(
         'Category', null=True, blank=True, on_delete=models.SET_NULL)
 
@@ -38,8 +38,8 @@ class Product(models.Model):
         'Category', null=True, blank=True, on_delete=models.SET_NULL)
     sub = models.ForeignKey(
         'Subcategory', null=True, blank=True, on_delete=models.SET_NULL)
-    sku = models.CharField(max_length=254, null=True, blank=True)
-    name = models.CharField(max_length=254, null=False, blank=False)
+    sku = models.CharField(max_length=254, blank=True)
+    name = models.CharField(max_length=254, blank=False)
     details = models.TextField()
     price = models.DecimalField(max_digits=6, decimal_places=2)
     image = models.ImageField(null=True, blank=True)

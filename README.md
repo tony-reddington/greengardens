@@ -244,6 +244,48 @@
 7. to provide a blog with gardening tips and tricks.
     * The blog is easily accessible within the navbar.
 
-
-
 ## Deployment
+
+Below shows how to deploy the Green Garden site locally using VsCode integrated development environment, deploying it to Heroku and then using Amazon S3 to host the static and media files. This will then allow the site to deploy automatically.
+
+### Deployment Requirements
+
+- [VScode](https://code.visualstudio.com/) IDE Local development tool
+- [python](https://www.python.org/downloads/) This is for Python v3.8
+- PIP package installer
+- [Stripe](https://stripe.com/gb) Payment processing platform
+
+### Deploying Locally
+
+1. Clone a copy of the repo by clicking "code" at the top of the Github page and then select 'Download Zip'. Once this is downloaded, extract the files or if you have git installed you can run the command below in your terminal.
+   ```bash
+   git clone https://github.com/tony-reddington/greengardens.git
+   ```
+2. Open VScode, the the working folder. You need to work within a virtual environment in order to allow all packages to stay within the project. To do this enter the command below into your terminal.
+```bash
+pip3 install pipenv
+```
+3. From within your root directory you should create a new folder called .venv
+4. Activate the virtual environment by entering the command line below.
+```bash
+[folderinstalled]\scripts\activate\activate.bat
+```
+or for a Mac or Linux computer use the command line -
+```bash
+source .venv/bin/activate
+```
+5. You now need to proceed and install the modules required by using the below -
+```bash
+pipenv install -r requirements.txt
+```
+6. You now need to create a folder within the root dir called env.py and in this file you must enter the following -
+```bash
+import os
+
+os.environ["SECRET_KEY"] = "[Your Secret Key]"
+os.environ["DEV"] = "1"
+os.environ["HOSTNAME"] = "0.0.0.0"
+os.environ["STRIPE_PUBLIC_KEY"] = "[Your Stripe Key]"
+os.environ["STRIPE_SECRET_KEY"] = "[Your Stripe Secret Key]"
+os.environ["DATABASE_URL"] = "[Your DB URL]"
+```
